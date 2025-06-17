@@ -35,4 +35,4 @@
 bazel-out/
 bazel-bin/
 bazel-qt_bazel_prebuilts/
-bazel-testlogs
+bazel-testlogs/
