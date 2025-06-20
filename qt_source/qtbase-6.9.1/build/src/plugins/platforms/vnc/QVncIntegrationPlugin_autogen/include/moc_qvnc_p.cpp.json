@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QVncServer",
+            "lineNumber": 351,
+            "object": true,
+            "qualifiedClassName": "QVncServer",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "newConnection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "init",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvnc_p.h",
+    "outputRevision": 69
+}

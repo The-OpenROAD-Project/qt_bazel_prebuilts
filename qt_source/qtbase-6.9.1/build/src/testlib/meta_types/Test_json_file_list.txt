@@ -1,0 +1,3 @@
+/tmp/qtbase-6.9.1/build/src/testlib/Test_autogen/include/../EWIEGA46WW/moc_qtesteventloop.cpp.json
+/tmp/qtbase-6.9.1/build/src/testlib/Test_autogen/include/moc_qabstractitemmodeltester.cpp.json
+/tmp/qtbase-6.9.1/build/src/testlib/Test_autogen/include/moc_qtestlog_p.cpp.json

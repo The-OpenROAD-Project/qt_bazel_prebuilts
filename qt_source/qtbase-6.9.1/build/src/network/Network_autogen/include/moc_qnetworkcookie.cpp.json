@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkCookie",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "SameSite",
+                    "values": [
+                        "Default",
+                        "None",
+                        "Lax",
+                        "Strict"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 22,
+            "qualifiedClassName": "QNetworkCookie"
+        }
+    ],
+    "inputFile": "qnetworkcookie.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,6 @@
+    *15QEglFSKmsDevice*;                                # qeglfskmsdevice_p.h:24
+    *18QEglFSKmsEventHost*;                             # qeglfskmseventreader_p.h:28
+    *26QEglFSKmsEventReaderThread*;                     # qeglfskmseventreader_p.h:45
+    *20QEglFSKmsEventReader*;                           # qeglfskmseventreader_p.h:57
+    *20QEglFSKmsIntegration*;                           # qeglfskmsintegration_p.h:32
+    *15QEglFSKmsScreen*;                                # qeglfskmsscreen_p.h:32

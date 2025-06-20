@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QLinuxFbDrmScreen",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "QLinuxFbDrmScreen",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFbScreen"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlinuxfbdrmscreen.h",
+    "outputRevision": 69
+}

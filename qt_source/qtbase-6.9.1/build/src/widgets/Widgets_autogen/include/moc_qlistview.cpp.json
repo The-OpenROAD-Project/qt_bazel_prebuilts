@@ -1,0 +1,278 @@
+{
+    "classes": [
+        {
+            "className": "QListView",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Movement",
+                    "values": [
+                        "Static",
+                        "Free",
+                        "Snap"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Flow",
+                    "values": [
+                        "LeftToRight",
+                        "TopToBottom"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ResizeMode",
+                    "values": [
+                        "Fixed",
+                        "Adjust"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "LayoutMode",
+                    "values": [
+                        "SinglePass",
+                        "Batched"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewMode",
+                    "values": [
+                        "ListMode",
+                        "IconMode"
+                    ]
+                }
+            ],
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "movement",
+                    "read": "movement",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Movement",
+                    "user": false,
+                    "write": "setMovement"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "flow",
+                    "read": "flow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Flow",
+                    "user": false,
+                    "write": "setFlow"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "isWrapping",
+                    "read": "isWrapping",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWrapping"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "resizeMode",
+                    "read": "resizeMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ResizeMode",
+                    "user": false,
+                    "write": "setResizeMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "layoutMode",
+                    "read": "layoutMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LayoutMode",
+                    "user": false,
+                    "write": "setLayoutMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "spacing",
+                    "read": "spacing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpacing"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "gridSize",
+                    "read": "gridSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setGridSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "viewMode",
+                    "read": "viewMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewMode",
+                    "user": false,
+                    "write": "setViewMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "modelColumn",
+                    "read": "modelColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setModelColumn"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "uniformItemSizes",
+                    "read": "uniformItemSizes",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUniformItemSizes"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "batchSize",
+                    "read": "batchSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBatchSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "wordWrap",
+                    "read": "wordWrap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWordWrap"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "selectionRectVisible",
+                    "read": "isSelectionRectVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSelectionRectVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "itemAlignment",
+                    "read": "itemAlignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "write": "setItemAlignment"
+                }
+            ],
+            "qualifiedClassName": "QListView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "indexes",
+                            "type": "QModelIndexList"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "indexesMoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlistview.h",
+    "outputRevision": 69
+}

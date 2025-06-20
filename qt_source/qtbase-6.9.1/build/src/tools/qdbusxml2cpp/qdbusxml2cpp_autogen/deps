@@ -1,0 +1,4 @@
+qdbusxml2cpp_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/qdbusxml2cpp/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/qdbusxml2cpp/qdbusxml2cpp.cpp \
+	/usr/bin/cmake

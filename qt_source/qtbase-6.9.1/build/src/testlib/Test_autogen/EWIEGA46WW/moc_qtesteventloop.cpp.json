@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QTestEventLoop",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QTestEventLoop",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "exitLoop",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtesteventloop.h",
+    "outputRevision": 69
+}

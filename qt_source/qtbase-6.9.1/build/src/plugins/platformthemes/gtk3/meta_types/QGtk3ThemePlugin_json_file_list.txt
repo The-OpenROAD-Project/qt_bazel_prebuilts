@@ -1,0 +1,6 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/../EWIEGA46WW/moc_qgtk3interface_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/../EWIEGA46WW/moc_qgtk3json_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/../EWIEGA46WW/moc_qgtk3storage_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/moc_qgtk3dialoghelpers.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include/moc_qgtk3portalinterface_p.cpp.json

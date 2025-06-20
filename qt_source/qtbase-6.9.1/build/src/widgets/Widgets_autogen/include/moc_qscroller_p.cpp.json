@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QScrollerPrivate",
+            "lineNumber": 44,
+            "object": true,
+            "qualifiedClassName": "QScrollerPrivate",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "targetDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qscroller_p.h",
+    "outputRevision": 69
+}

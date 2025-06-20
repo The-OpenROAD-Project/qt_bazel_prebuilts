@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractTextDocumentLayout",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QAbstractTextDocumentLayout",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "isCloned": true,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "block",
+                            "type": "QTextBlock"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "updateBlock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newSize",
+                            "type": "QSizeF"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "documentSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newPages",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "pageCountChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "_q_dynamicPageCountSlot",
+                    "returnType": "int"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "_q_dynamicDocumentSizeSlot",
+                    "returnType": "QSizeF"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstracttextdocumentlayout.h",
+    "outputRevision": 69
+}

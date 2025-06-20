@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "className": "QSharedMemory",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AccessMode",
+                    "values": [
+                        "ReadOnly",
+                        "ReadWrite"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SharedMemoryError",
+                    "values": [
+                        "NoError",
+                        "PermissionDenied",
+                        "InvalidSize",
+                        "KeyError",
+                        "AlreadyExists",
+                        "NotFound",
+                        "LockError",
+                        "OutOfResources",
+                        "UnknownError"
+                    ]
+                }
+            ],
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QSharedMemory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsharedmemory.h",
+    "outputRevision": 69
+}

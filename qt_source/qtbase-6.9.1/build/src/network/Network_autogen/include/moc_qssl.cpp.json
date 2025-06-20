@@ -1,0 +1,170 @@
+{
+    "classes": [
+        {
+            "className": "QSsl",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "KeyType",
+                    "values": [
+                        "PrivateKey",
+                        "PublicKey"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "EncodingFormat",
+                    "values": [
+                        "Pem",
+                        "Der"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "KeyAlgorithm",
+                    "values": [
+                        "Opaque",
+                        "Rsa",
+                        "Dsa",
+                        "Ec",
+                        "Dh"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AlternativeNameEntryType",
+                    "values": [
+                        "EmailEntry",
+                        "DnsEntry",
+                        "IpAddressEntry"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SslProtocol",
+                    "values": [
+                        "TlsV1_0",
+                        "TlsV1_1",
+                        "TlsV1_2",
+                        "AnyProtocol",
+                        "SecureProtocols",
+                        "TlsV1_0OrLater",
+                        "TlsV1_1OrLater",
+                        "TlsV1_2OrLater",
+                        "DtlsV1_0",
+                        "DtlsV1_0OrLater",
+                        "DtlsV1_2",
+                        "DtlsV1_2OrLater",
+                        "TlsV1_3",
+                        "TlsV1_3OrLater",
+                        "UnknownProtocol"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SslOption",
+                    "values": [
+                        "SslOptionDisableEmptyFragments",
+                        "SslOptionDisableSessionTickets",
+                        "SslOptionDisableCompression",
+                        "SslOptionDisableServerNameIndication",
+                        "SslOptionDisableLegacyRenegotiation",
+                        "SslOptionDisableSessionSharing",
+                        "SslOptionDisableSessionPersistence",
+                        "SslOptionDisableServerCipherPreference"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "AlertLevel",
+                    "values": [
+                        "Warning",
+                        "Fatal",
+                        "Unknown"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "AlertType",
+                    "values": [
+                        "CloseNotify",
+                        "UnexpectedMessage",
+                        "BadRecordMac",
+                        "RecordOverflow",
+                        "DecompressionFailure",
+                        "HandshakeFailure",
+                        "NoCertificate",
+                        "BadCertificate",
+                        "UnsupportedCertificate",
+                        "CertificateRevoked",
+                        "CertificateExpired",
+                        "CertificateUnknown",
+                        "IllegalParameter",
+                        "UnknownCa",
+                        "AccessDenied",
+                        "DecodeError",
+                        "DecryptError",
+                        "ExportRestriction",
+                        "ProtocolVersion",
+                        "InsufficientSecurity",
+                        "InternalError",
+                        "InappropriateFallback",
+                        "UserCancelled",
+                        "NoRenegotiation",
+                        "MissingExtension",
+                        "UnsupportedExtension",
+                        "CertificateUnobtainable",
+                        "UnrecognizedName",
+                        "BadCertificateStatusResponse",
+                        "BadCertificateHashValue",
+                        "UnknownPskIdentity",
+                        "CertificateRequired",
+                        "NoApplicationProtocol",
+                        "UnknownAlertMessage"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "ImplementedClass",
+                    "values": [
+                        "Key",
+                        "Certificate",
+                        "Socket",
+                        "DiffieHellman",
+                        "EllipticCurve",
+                        "Dtls",
+                        "DtlsCookie"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "SupportedFeature",
+                    "values": [
+                        "CertificateVerification",
+                        "ClientSideAlpn",
+                        "ServerSideAlpn",
+                        "Ocsp",
+                        "Psk",
+                        "SessionTicket",
+                        "Alerts"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "namespace": true,
+            "qualifiedClassName": "QSsl"
+        }
+    ],
+    "inputFile": "qssl.h",
+    "outputRevision": 69
+}

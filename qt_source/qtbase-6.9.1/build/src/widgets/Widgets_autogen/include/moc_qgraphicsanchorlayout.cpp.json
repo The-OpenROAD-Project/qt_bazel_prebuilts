@@ -1,0 +1,49 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsAnchor",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "spacing",
+                    "read": "spacing",
+                    "required": false,
+                    "reset": "unsetSpacing",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setSpacing"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "sizePolicy",
+                    "read": "sizePolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizePolicy::Policy",
+                    "user": false,
+                    "write": "setSizePolicy"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsAnchor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsanchorlayout.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qpdf/">
+    <file alias="sRGB2014.icc">../../../../../src/3rdparty/icc/sRGB2014.icc</file>
+  </qresource>
+</RCC>
+

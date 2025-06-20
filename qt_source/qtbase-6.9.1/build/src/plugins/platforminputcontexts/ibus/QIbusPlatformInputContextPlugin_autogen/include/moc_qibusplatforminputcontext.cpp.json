@@ -1,0 +1,202 @@
+{
+    "classes": [
+        {
+            "className": "QIBusPlatformInputContext",
+            "lineNumber": 53,
+            "object": true,
+            "qualifiedClassName": "QIBusPlatformInputContext",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "commitText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QDBusVariant"
+                        },
+                        {
+                            "name": "cursor_pos",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updatePreeditText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QDBusVariant"
+                        },
+                        {
+                            "name": "cursor_pos",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "mode",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "updatePreeditTextWithMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keyval",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "keycode",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "state",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "forwardKeyEvent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "cursorRectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "offset",
+                            "type": "int"
+                        },
+                        {
+                            "name": "n_chars",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "deleteSurroundingText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "surroundingTextRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "hidePreeditText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "showPreeditText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "call",
+                            "type": "QDBusPendingCallWatcher*"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "filterEventFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "str",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "socketChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "str",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "busRegistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "str",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "busUnregistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "connectToBus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "engine_name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "globalEngineChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformInputContext"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qibusplatforminputcontext.h",
+    "outputRevision": 69
+}

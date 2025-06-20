@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "className": "QButtonGroup",
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "exclusive",
+                    "read": "exclusive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setExclusive"
+                }
+            ],
+            "qualifiedClassName": "QButtonGroup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractButton*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "buttonClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractButton*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "buttonPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractButton*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "buttonReleased",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractButton*"
+                        },
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "buttonToggled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "idClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "idPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "idReleased",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "idToggled",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qbuttongroup.h",
+    "outputRevision": 69
+}

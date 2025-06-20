@@ -1,0 +1,89 @@
+{
+    "classes": [
+        {
+            "className": "QThreadPool",
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "expiryTimeout",
+                    "read": "expiryTimeout",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setExpiryTimeout"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "maxThreadCount",
+                    "read": "maxThreadCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxThreadCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "activeThreadCount",
+                    "read": "activeThreadCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "stackSize",
+                    "read": "stackSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "uint",
+                    "user": false,
+                    "write": "setStackSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "threadPriority",
+                    "read": "threadPriority",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QThread::Priority",
+                    "user": false,
+                    "write": "setThreadPriority"
+                }
+            ],
+            "qualifiedClassName": "QThreadPool",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qthreadpool.h",
+    "outputRevision": 69
+}

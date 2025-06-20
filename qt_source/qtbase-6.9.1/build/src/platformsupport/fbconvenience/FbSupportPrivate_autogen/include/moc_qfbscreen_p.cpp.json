@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "className": "QFbScreen",
+            "lineNumber": 29,
+            "object": true,
+            "qualifiedClassName": "QFbScreen",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setDirty",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setPhysicalSize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setGeometry",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QPlatformScreen"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfbscreen_p.h",
+    "outputRevision": 69
+}

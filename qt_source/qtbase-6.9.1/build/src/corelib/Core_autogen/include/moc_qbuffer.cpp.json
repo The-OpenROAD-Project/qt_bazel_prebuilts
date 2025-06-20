@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QBuffer",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QBuffer",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "_q_emitSignals",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qbuffer.h",
+    "outputRevision": 69
+}

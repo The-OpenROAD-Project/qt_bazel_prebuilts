@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "QXcbWindow",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QXcbWindow",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "updateSyncRequestCounter",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QXcbObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QXcbWindowEventListener"
+                },
+                {
+                    "access": "public",
+                    "name": "QPlatformWindow"
+                },
+                {
+                    "access": "public",
+                    "name": "QNativeInterface::Private::QXcbWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbwindow.h",
+    "outputRevision": 69
+}

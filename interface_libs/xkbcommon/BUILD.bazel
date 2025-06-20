@@ -1,0 +1,23 @@
+cc_import(
+    name = "xkbcommon_ifso",
+    interface_library = "libxkbcommon.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xkbcommon_x11_ifso",
+    interface_library = "libxkbcommon-x11.ifso",
+    system_provided = True,
+)
+
+cc_library(
+    name = "xkbcommon",
+    hdrs = glob(["xkbcommon/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//qt_source:__subpackages__"],
+    deps = [
+        ":xkbcommon_ifso",
+        ":xkbcommon_x11_ifso",
+    ],
+)

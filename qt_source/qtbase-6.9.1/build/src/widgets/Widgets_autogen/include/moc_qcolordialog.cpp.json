@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "className": "QColorDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ColorDialogOption",
+                    "values": [
+                        "ShowAlphaChannel",
+                        "NoButtons",
+                        "DontUseNativeDialog",
+                        "NoEyeDropperButton"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "currentColor",
+                    "notify": "currentColorChanged",
+                    "read": "currentColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QColor",
+                    "user": false,
+                    "write": "setCurrentColor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ColorDialogOptions",
+                    "user": false,
+                    "write": "setOptions"
+                }
+            ],
+            "qualifiedClassName": "QColorDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "currentColorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "colorSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolordialog.h",
+    "outputRevision": 69
+}

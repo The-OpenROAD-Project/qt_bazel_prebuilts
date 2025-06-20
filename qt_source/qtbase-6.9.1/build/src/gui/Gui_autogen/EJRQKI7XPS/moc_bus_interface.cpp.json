@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "OrgA11yBusInterface",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "OrgA11yBusInterface",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "GetAddress",
+                    "returnType": "QDBusPendingReply<QString>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        },
+        {
+            "className": "OrgA11yStatusInterface",
+            "lineNumber": 52,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "IsEnabled",
+                    "read": "isEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "ScreenReaderEnabled",
+                    "read": "screenReaderEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setScreenReaderEnabled"
+                }
+            ],
+            "qualifiedClassName": "OrgA11yStatusInterface",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "bus_interface.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,112 @@
+{
+    "classes": [
+        {
+            "className": "QMdiSubWindow",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "keyboardSingleStep",
+                    "read": "keyboardSingleStep",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setKeyboardSingleStep"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "keyboardPageStep",
+                    "read": "keyboardPageStep",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setKeyboardPageStep"
+                }
+            ],
+            "qualifiedClassName": "QMdiSubWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "oldState",
+                            "type": "Qt::WindowStates"
+                        },
+                        {
+                            "name": "newState",
+                            "type": "Qt::WindowStates"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "windowStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "aboutToActivate",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "showSystemMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "showShaded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "name": "_q_updateStaysOnTopHint",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "_q_enterInteractiveMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QWidget*"
+                        },
+                        {
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "_q_processFocusChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmdisubwindow.h",
+    "outputRevision": 69
+}

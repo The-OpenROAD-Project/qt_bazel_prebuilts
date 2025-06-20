@@ -1,0 +1,38 @@
+NonQt {
+local:
+    _ZT[VTIS]S*;_ZT[VTIS]NS*;
+    _ZT[VTIS]PS*;_ZT[VTIS]PNS*;
+    _ZT[VTIS]PKS*;_ZT[VTIS]PKNS*;
+    _ZS*; _ZNS*; _Z[RO]S*; _ZN[RO]S*;
+    _Z[VK]S*; _ZN[VK]S*; _Z[VK][RO]S*; _ZN[VK][RO]S*;
+    _ZVKS*; _ZNVKS*; _ZVK[RO]S*; _ZNVK[RO]S*;
+    _ZG[VR]S*; _ZG[VR]NS*; _ZG[VR][RO]S*; _ZG[VR]N[RO]S*;
+    _ZG[VR][VK]S*; _ZG[VR]N[VK]S*; _ZG[VR][VK][RO]S*; _ZG[VR]N[VK][RO]S*;
+    _ZG[VR]VKS*; _ZG[VR]NVKS*; _ZG[VR]VK[RO]S*; _ZG[VR]NVK[RO]S*;
+    _ZGTtS*; _ZGTtNS*; _ZGTt[RO]S*; _ZGTtN[RO]S*;
+    _ZGTt[VK]S*; _ZGTtN[VK]S*; _ZGTt[VK][RO]S*; _ZGTtN[VK][RO]S*;
+    _ZGTtVKS*; _ZGTtNVKS*; _ZGTtVK[RO]S*; _ZGTtNVK[RO]S*;
+};
+Qt_6_PRIVATE_API { qt_private_api_tag*;
+    *27QAbstractPrintDialogPrivate*;                    # dialogs/qabstractprintdialog_p.h:32
+    *23QPageSetupDialogPrivate*;                        # dialogs/qpagesetupdialog_p.h:33
+    *16QPageSetupWidget*;                               # dialogs/qpagesetupdialog_unix_p.h:35
+    *17QAlphaPaintEngine*;                              # kernel/qpaintengine_alpha_p.h:28
+    *24QAlphaPaintEnginePrivate*;                       # kernel/qpaintengine_alpha_p.h:55
+    *19QPreviewPaintEngine*;                            # kernel/qpaintengine_preview_p.h:29
+    *20QPlatformPrintDevice*;                           # kernel/qplatformprintdevice.h:35
+    *23QPlatformPrinterSupport*;                        # kernel/qplatformprintersupport.h:33
+    *29QPlatformPrinterSupportPlugin*;                  # kernel/qplatformprintplugin.h:29
+    *12InputSlotMap*;                                   # kernel/qprint_p.h:123
+    *12OutputBinMap*;                                   # kernel/qprint_p.h:129
+    *12QPrintDevice*;                                   # kernel/qprintdevice_p.h:33
+    *15QPdfPrintEngine*;                                # kernel/qprintengine_pdf_p.h:44
+    *22QPdfPrintEnginePrivate*;                         # kernel/qprintengine_pdf_p.h:75
+    *15QPrinterPrivate*;                                # kernel/qprinter_p.h:37
+    *19QPrinterInfoPrivate*;                            # kernel/qprinterinfo_p.h:26
+};
+Qt_6 {
+    *;
+    _ZN*18QSharedDataPointerI*D?Ev;
+    _ZN*28QExplicitlySharedDataPointerI*D?Ev;
+};

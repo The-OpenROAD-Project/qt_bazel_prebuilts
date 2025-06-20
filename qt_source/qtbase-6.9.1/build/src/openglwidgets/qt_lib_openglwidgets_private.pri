@@ -1,0 +1,11 @@
+QT.openglwidgets_private.VERSION = 6.9.1
+QT.openglwidgets_private.name = QtOpenGLWidgets
+QT.openglwidgets_private.module =
+QT.openglwidgets_private.libs = $$QT_MODULE_LIB_BASE
+QT.openglwidgets_private.includes = 
+QT.openglwidgets_private.frameworks = 
+QT.openglwidgets_private.depends = openglwidgets
+QT.openglwidgets_private.uses = 
+QT.openglwidgets_private.module_config = v2 internal_module
+QT.openglwidgets_private.enabled_features = 
+QT.openglwidgets_private.disabled_features = 

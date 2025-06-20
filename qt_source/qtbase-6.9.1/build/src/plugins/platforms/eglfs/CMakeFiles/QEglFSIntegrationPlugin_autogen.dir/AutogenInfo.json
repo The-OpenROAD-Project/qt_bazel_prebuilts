@@ -1,0 +1,162 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake",
+		"/tmp/qtbase-6.9.1/cmake/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake",
+		"/tmp/qtbase-6.9.1/cmake/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakePushCheckState.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/tmp/qtbase-6.9.1/cmake/platforms/FindPlatformGraphics.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FeatureSummary.cmake",
+		"/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in",
+		"/tmp/qtbase-6.9.1/src/corelib/Qt6CoreConfigureFileTemplate.in",
+		"/tmp/qtbase-6.9.1/cmake/QtPluginConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QEglFSIntegrationPlugin_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QEglFSIntegrationPlugin_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DEVICEDISCOVERY_SUPPORT_LIB",
+		"QT_EGLFSDEVICEINTEGRATION_LIB",
+		"QT_EGL_NO_X11",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_FB_SUPPORT_LIB",
+		"QT_GUI_LIB",
+		"QT_INPUT_SUPPORT_LIB",
+		"QT_LEAN_HEADERS=1",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_OPENGL_LIB",
+		"QT_PLUGIN",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs",
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/tmp/qtbase-6.9.1/build/include/QtEglFSDeviceIntegration",
+		"/tmp/qtbase-6.9.1/build/include/QtEglFSDeviceIntegration/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtEglFSDeviceIntegration/6.9.1/QtEglFSDeviceIntegration",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/devicediscovery",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport/6.9.1/QtDeviceDiscoverySupport",
+		"/tmp/qtbase-6.9.1/build/include/QtFbSupport",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/fbconvenience",
+		"/tmp/qtbase-6.9.1/build/include/QtFbSupport/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtFbSupport/6.9.1/QtFbSupport",
+		"/tmp/qtbase-6.9.1/build/src/gui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1/QtGui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/input",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport/6.9.1/QtInputSupport",
+		"/tmp/qtbase-6.9.1/build/src/opengl",
+		"/tmp/qtbase-6.9.1/build/include/QtOpenGL/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtOpenGL/6.9.1/QtOpenGL",
+		"/tmp/qtbase-6.9.1/build/include/QtOpenGL",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/.qt/rcc/qrc_cursor.cpp",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/EglFSDeviceIntegrationPrivate_autogen/mocs_compilation.cpp",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/qteglfsdeviceintegration-config.h",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/qteglfsdeviceintegration-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/CMakeFiles/QEglFSIntegrationPlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/CMakeFiles/QEglFSIntegrationPlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/qeglfsmain.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

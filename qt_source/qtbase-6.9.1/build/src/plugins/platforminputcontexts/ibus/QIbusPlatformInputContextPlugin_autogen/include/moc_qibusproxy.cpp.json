@@ -1,0 +1,118 @@
+{
+    "classes": [
+        {
+            "className": "QIBusProxy",
+            "lineNumber": 29,
+            "object": true,
+            "qualifiedClassName": "QIBusProxy",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "engine_name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "GlobalEngineChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "CreateInputContext",
+                    "returnType": "QDBusPendingReply<QDBusObjectPath>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "restart",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "Exit",
+                    "returnType": "QDBusPendingReply<>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "Ping",
+                    "returnType": "QDBusPendingReply<QDBusVariant>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "components",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "RegisterComponent",
+                    "returnType": "QDBusPendingReply<>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "method",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "GetProperty",
+                    "returnType": "QDBusPendingCall"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "GlobalEngine",
+                    "returnType": "QDBusPendingCall"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "getGlobalEngine",
+                    "returnType": "QIBusEngineDesc"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "engine_name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "globalEngineChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qibusproxy.h",
+    "outputRevision": 69
+}

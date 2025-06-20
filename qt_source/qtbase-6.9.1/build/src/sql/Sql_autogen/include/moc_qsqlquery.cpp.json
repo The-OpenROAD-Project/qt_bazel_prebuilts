@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "className": "QSqlQuery",
+            "gadget": true,
+            "lineNumber": 23,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "forwardOnly",
+                    "read": "isForwardOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setForwardOnly"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "positionalBindingEnabled",
+                    "read": "isPositionalBindingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setPositionalBindingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "numericalPrecisionPolicy",
+                    "read": "numericalPrecisionPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSql::NumericalPrecisionPolicy",
+                    "user": false,
+                    "write": "setNumericalPrecisionPolicy"
+                }
+            ],
+            "qualifiedClassName": "QSqlQuery"
+        }
+    ],
+    "inputFile": "qsqlquery.h",
+    "outputRevision": 69
+}

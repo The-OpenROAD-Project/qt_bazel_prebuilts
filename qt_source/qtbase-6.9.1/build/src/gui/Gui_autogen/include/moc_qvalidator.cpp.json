@@ -1,0 +1,300 @@
+{
+    "classes": [
+        {
+            "className": "QValidator",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "State",
+                    "values": [
+                        "Invalid",
+                        "Intermediate",
+                        "Acceptable"
+                    ]
+                }
+            ],
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QValidator",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "changed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QIntValidator",
+            "lineNumber": 55,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "bottom",
+                    "notify": "bottomChanged",
+                    "read": "bottom",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBottom"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "top",
+                    "notify": "topChanged",
+                    "read": "top",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setTop"
+                }
+            ],
+            "qualifiedClassName": "QIntValidator",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bottom",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "bottomChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "top",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "topChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QValidator"
+                }
+            ]
+        },
+        {
+            "className": "QDoubleValidator",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Notation",
+                    "values": [
+                        "StandardNotation",
+                        "ScientificNotation"
+                    ]
+                }
+            ],
+            "lineNumber": 88,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "bottom",
+                    "notify": "bottomChanged",
+                    "read": "bottom",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setBottom"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "top",
+                    "notify": "topChanged",
+                    "read": "top",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setTop"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "decimals",
+                    "notify": "decimalsChanged",
+                    "read": "decimals",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDecimals"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "notation",
+                    "notify": "notationChanged",
+                    "read": "notation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Notation",
+                    "user": false,
+                    "write": "setNotation"
+                }
+            ],
+            "qualifiedClassName": "QDoubleValidator",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bottom",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "bottomChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "top",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "topChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "decimals",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "decimalsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "notation",
+                            "type": "QDoubleValidator::Notation"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "notationChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QValidator"
+                }
+            ]
+        },
+        {
+            "className": "QRegularExpressionValidator",
+            "lineNumber": 140,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "regularExpression",
+                    "notify": "regularExpressionChanged",
+                    "read": "regularExpression",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRegularExpression",
+                    "user": false,
+                    "write": "setRegularExpression"
+                }
+            ],
+            "qualifiedClassName": "QRegularExpressionValidator",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "re",
+                            "type": "QRegularExpression"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "regularExpressionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "re",
+                            "type": "QRegularExpression"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setRegularExpression",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QValidator"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvalidator.h",
+    "outputRevision": 69
+}

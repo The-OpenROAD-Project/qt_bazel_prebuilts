@@ -1,0 +1,100 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformSharedGraphicsCache",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QPlatformSharedGraphicsCache",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cacheId",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "itemIds",
+                            "type": "QList<quint32>"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "itemsMissing",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cacheId",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "bufferId",
+                            "type": "void*"
+                        },
+                        {
+                            "name": "itemIds",
+                            "type": "QList<quint32>"
+                        },
+                        {
+                            "name": "positionsInBuffer",
+                            "type": "QList<QPoint>"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "itemsAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cacheId",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "itemIds",
+                            "type": "QList<quint32>"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "itemsInvalidated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cacheId",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "bufferId",
+                            "type": "void*"
+                        },
+                        {
+                            "name": "itemIds",
+                            "type": "QList<quint32>"
+                        },
+                        {
+                            "name": "positionsInBuffer",
+                            "type": "QList<QPoint>"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "itemsUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformsharedgraphicscache.h",
+    "outputRevision": 69
+}

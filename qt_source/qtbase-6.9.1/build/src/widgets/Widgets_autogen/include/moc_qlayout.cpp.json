@@ -1,0 +1,82 @@
+{
+    "classes": [
+        {
+            "className": "QLayout",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SizeConstraint",
+                    "values": [
+                        "SetDefaultConstraint",
+                        "SetNoConstraint",
+                        "SetMinimumSize",
+                        "SetFixedSize",
+                        "SetMaximumSize",
+                        "SetMinAndMaxSize"
+                    ]
+                }
+            ],
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "spacing",
+                    "read": "spacing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpacing"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "contentsMargins",
+                    "read": "contentsMargins",
+                    "required": false,
+                    "reset": "unsetContentsMargins",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QMargins",
+                    "user": false,
+                    "write": "setContentsMargins"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "sizeConstraint",
+                    "read": "sizeConstraint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeConstraint",
+                    "user": false,
+                    "write": "setSizeConstraint"
+                }
+            ],
+            "qualifiedClassName": "QLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QLayoutItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlayout.h",
+    "outputRevision": 69
+}

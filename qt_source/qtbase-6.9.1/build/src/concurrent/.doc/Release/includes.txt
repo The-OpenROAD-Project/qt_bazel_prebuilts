@@ -1,0 +1,12 @@
+-I/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen/include
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/include/QtConcurrent
+-I/tmp/qtbase-6.9.1/src/concurrent
+-I/tmp/qtbase-6.9.1/build/src/concurrent
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/include/QtCore
+-I/tmp/qtbase-6.9.1/mkspecs/linux-g++
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/src/corelib
+-I/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1
+-I/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore

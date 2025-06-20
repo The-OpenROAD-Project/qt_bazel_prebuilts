@@ -1,0 +1,1108 @@
+{
+    "classes": [
+        {
+            "className": "QWidget",
+            "lineNumber": 98,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rectangle",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 27,
+                    "name": "grab",
+                    "returnType": "QPixmap"
+                },
+                {
+                    "access": "public",
+                    "index": 28,
+                    "isCloned": true,
+                    "name": "grab",
+                    "returnType": "QPixmap"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "modal",
+                    "read": "isModal",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "windowModality",
+                    "read": "windowModality",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::WindowModality",
+                    "user": false,
+                    "write": "setWindowModality"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "enabled",
+                    "read": "isEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "geometry",
+                    "read": "geometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false,
+                    "write": "setGeometry"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "frameGeometry",
+                    "read": "frameGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "normalGeometry",
+                    "read": "normalGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "x",
+                    "read": "x",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "y",
+                    "read": "y",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 8,
+                    "name": "pos",
+                    "read": "pos",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QPoint",
+                    "user": false,
+                    "write": "move"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "frameSize",
+                    "read": "frameSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 10,
+                    "name": "size",
+                    "read": "size",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "resize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "width",
+                    "read": "width",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "height",
+                    "read": "height",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "rect",
+                    "read": "rect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "childrenRect",
+                    "read": "childrenRect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "childrenRegion",
+                    "read": "childrenRegion",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRegion",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "name": "sizePolicy",
+                    "read": "sizePolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizePolicy",
+                    "user": false,
+                    "write": "setSizePolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 17,
+                    "name": "minimumSize",
+                    "read": "minimumSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setMinimumSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 18,
+                    "name": "maximumSize",
+                    "read": "maximumSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setMaximumSize"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 19,
+                    "name": "minimumWidth",
+                    "read": "minimumWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 20,
+                    "name": "minimumHeight",
+                    "read": "minimumHeight",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 21,
+                    "name": "maximumWidth",
+                    "read": "maximumWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 22,
+                    "name": "maximumHeight",
+                    "read": "maximumHeight",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 23,
+                    "name": "sizeIncrement",
+                    "read": "sizeIncrement",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setSizeIncrement"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 24,
+                    "name": "baseSize",
+                    "read": "baseSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setBaseSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 25,
+                    "name": "palette",
+                    "read": "palette",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPalette",
+                    "user": false,
+                    "write": "setPalette"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 26,
+                    "name": "font",
+                    "read": "font",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "write": "setFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 27,
+                    "name": "cursor",
+                    "read": "cursor",
+                    "required": false,
+                    "reset": "unsetCursor",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QCursor",
+                    "user": false,
+                    "write": "setCursor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 28,
+                    "name": "mouseTracking",
+                    "read": "hasMouseTracking",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setMouseTracking"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 29,
+                    "name": "tabletTracking",
+                    "read": "hasTabletTracking",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setTabletTracking"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 30,
+                    "name": "isActiveWindow",
+                    "read": "isActiveWindow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 31,
+                    "name": "focusPolicy",
+                    "read": "focusPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::FocusPolicy",
+                    "user": false,
+                    "write": "setFocusPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 32,
+                    "name": "focus",
+                    "read": "hasFocus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 33,
+                    "name": "contextMenuPolicy",
+                    "read": "contextMenuPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ContextMenuPolicy",
+                    "user": false,
+                    "write": "setContextMenuPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 34,
+                    "name": "updatesEnabled",
+                    "read": "updatesEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUpdatesEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 35,
+                    "name": "visible",
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 36,
+                    "name": "minimized",
+                    "read": "isMinimized",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 37,
+                    "name": "maximized",
+                    "read": "isMaximized",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 38,
+                    "name": "fullScreen",
+                    "read": "isFullScreen",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 39,
+                    "name": "sizeHint",
+                    "read": "sizeHint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 40,
+                    "name": "minimumSizeHint",
+                    "read": "minimumSizeHint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 41,
+                    "name": "acceptDrops",
+                    "read": "acceptDrops",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAcceptDrops"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 42,
+                    "name": "windowTitle",
+                    "notify": "windowTitleChanged",
+                    "read": "windowTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWindowTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 43,
+                    "name": "windowIcon",
+                    "notify": "windowIconChanged",
+                    "read": "windowIcon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "write": "setWindowIcon"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 44,
+                    "name": "windowIconText",
+                    "notify": "windowIconTextChanged",
+                    "read": "windowIconText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWindowIconText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 45,
+                    "name": "windowOpacity",
+                    "read": "windowOpacity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setWindowOpacity"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 46,
+                    "name": "windowModified",
+                    "read": "isWindowModified",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWindowModified"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 47,
+                    "name": "toolTip",
+                    "read": "toolTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setToolTip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 48,
+                    "name": "toolTipDuration",
+                    "read": "toolTipDuration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setToolTipDuration"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 49,
+                    "name": "statusTip",
+                    "read": "statusTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setStatusTip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 50,
+                    "name": "whatsThis",
+                    "read": "whatsThis",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWhatsThis"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 51,
+                    "name": "accessibleName",
+                    "read": "accessibleName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setAccessibleName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 52,
+                    "name": "accessibleDescription",
+                    "read": "accessibleDescription",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setAccessibleDescription"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 53,
+                    "name": "accessibleIdentifier",
+                    "read": "accessibleIdentifier",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setAccessibleIdentifier"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 54,
+                    "name": "layoutDirection",
+                    "read": "layoutDirection",
+                    "required": false,
+                    "reset": "unsetLayoutDirection",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::LayoutDirection",
+                    "user": false,
+                    "write": "setLayoutDirection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 55,
+                    "name": "autoFillBackground",
+                    "read": "autoFillBackground",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoFillBackground"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 56,
+                    "name": "styleSheet",
+                    "read": "styleSheet",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setStyleSheet"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 57,
+                    "name": "locale",
+                    "read": "locale",
+                    "required": false,
+                    "reset": "unsetLocale",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QLocale",
+                    "user": false,
+                    "write": "setLocale"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 58,
+                    "name": "windowFilePath",
+                    "read": "windowFilePath",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWindowFilePath"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 59,
+                    "name": "inputMethodHints",
+                    "read": "inputMethodHints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::InputMethodHints",
+                    "user": false,
+                    "write": "setInputMethodHints"
+                }
+            ],
+            "qualifiedClassName": "QWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "windowTitleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "icon",
+                            "type": "QIcon"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "windowIconChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "windowIconTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "QPoint"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "customContextMenuRequested",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setDisabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setWindowModified",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "setWindowTitle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "styleSheet",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setStyleSheet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "setFocus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "repaint",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hidden",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "setHidden",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "show",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "hide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "showMinimized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 17,
+                    "name": "showMaximized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "name": "showFullScreen",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 19,
+                    "name": "showNormal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 20,
+                    "name": "close",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 21,
+                    "name": "raise",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 22,
+                    "name": "lower",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "Qt::InputMethodQuery"
+                        }
+                    ],
+                    "index": 23,
+                    "name": "updateMicroFocus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 24,
+                    "isCloned": true,
+                    "name": "updateMicroFocus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 25,
+                    "name": "_q_showIfNotHidden",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 26,
+                    "name": "_q_closestWindowHandle",
+                    "returnType": "QWindow*"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QPaintDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidget.h",
+    "outputRevision": 69
+}

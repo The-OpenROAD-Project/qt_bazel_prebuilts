@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "className": "QHighDpiScaling",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "DpiAdjustmentPolicy",
+                    "values": [
+                        "Unset",
+                        "Enabled",
+                        "Disabled",
+                        "UpOnly"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 38,
+            "qualifiedClassName": "QHighDpiScaling"
+        }
+    ],
+    "inputFile": "qhighdpiscaling_p.h",
+    "outputRevision": 69
+}

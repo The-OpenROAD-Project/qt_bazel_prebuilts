@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "QVncClient",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QVncClient",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "readClient",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "discardClient",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "checkUpdate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "scheduleUpdate",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvncclient.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTextList",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "QTextList",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextBlockGroup"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextlist.h",
+    "outputRevision": 69
+}

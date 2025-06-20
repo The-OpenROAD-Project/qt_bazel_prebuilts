@@ -1,0 +1,76 @@
+{
+    "classes": [
+        {
+            "className": "QAtSpiDBusConnection",
+            "lineNumber": 33,
+            "object": true,
+            "qualifiedClassName": "QAtSpiDBusConnection",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "enabledChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "getAddressFromXCB",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "checkEnabledState",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "serviceUnregistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "connectA11yBus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "dbusError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "dbusconnection_p.h",
+    "outputRevision": 69
+}

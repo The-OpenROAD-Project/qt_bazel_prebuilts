@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "QSpiApplicationAdaptor",
+            "lineNumber": 34,
+            "object": true,
+            "qualifiedClassName": "QSpiApplicationAdaptor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QObject*"
+                        },
+                        {
+                            "name": "active",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "windowActivated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "notifyKeyboardListenerCallback",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "notifyKeyboardListenerError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qspiapplicationadaptor_p.h",
+    "outputRevision": 69
+}

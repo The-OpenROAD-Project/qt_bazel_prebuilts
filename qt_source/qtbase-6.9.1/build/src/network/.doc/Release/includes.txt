@@ -1,0 +1,17 @@
+-I/tmp/qtbase-6.9.1/build/src/network/Network_autogen/include
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/include/QtNetwork
+-I/tmp/qtbase-6.9.1/src/network
+-I/tmp/qtbase-6.9.1/build/src/network
+-I/tmp/qtbase-6.9.1/src/network/kernel
+-I/tmp/qtbase-6.9.1/build/include/QtNetwork/6.9.1
+-I/tmp/qtbase-6.9.1/build/include/QtNetwork/6.9.1/QtNetwork
+-I/tmp/qtbase-6.9.1/src/network/../3rdparty/libpsl
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/include/QtCore
+-I/tmp/qtbase-6.9.1/mkspecs/linux-g++
+-I/tmp/qtbase-6.9.1/build/include
+-I/tmp/qtbase-6.9.1/build/src/corelib
+-I/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1
+-I/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore
+-I/usr/include

@@ -1,0 +1,6 @@
+    *32QEglFSKmsGbmCursorDeviceListener*;               # qeglfskmsgbmcursor_p.h:30
+    *18QEglFSKmsGbmCursor*;                             # qeglfskmsgbmcursor_p.h:45
+    *18QEglFSKmsGbmDevice*;                             # qeglfskmsgbmdevice_p.h:30
+    *23QEglFSKmsGbmIntegration*;                        # qeglfskmsgbmintegration_p.h:28
+    *18QEglFSKmsGbmScreen*;                             # qeglfskmsgbmscreen_p.h:30
+    *18QEglFSKmsGbmWindow*;                             # qeglfskmsgbmwindow_p.h:26

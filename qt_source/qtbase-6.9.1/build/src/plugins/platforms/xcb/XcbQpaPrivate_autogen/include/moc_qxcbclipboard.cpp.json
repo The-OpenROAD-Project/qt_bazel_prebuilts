@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbClipboardTransaction",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QXcbClipboardTransaction",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbclipboard.h",
+    "outputRevision": 69
+}

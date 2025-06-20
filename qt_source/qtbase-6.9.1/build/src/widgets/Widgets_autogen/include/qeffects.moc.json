@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QAlphaWidget",
+            "lineNumber": 38,
+            "object": true,
+            "qualifiedClassName": "QAlphaWidget",
+            "slots": [
+                {
+                    "access": "protected",
+                    "index": 0,
+                    "name": "render",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                },
+                {
+                    "access": "private",
+                    "name": "QEffects"
+                }
+            ]
+        },
+        {
+            "className": "QRollEffect",
+            "lineNumber": 316,
+            "object": true,
+            "qualifiedClassName": "QRollEffect",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "scroll",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                },
+                {
+                    "access": "private",
+                    "name": "QEffects"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeffects.cpp",
+    "outputRevision": 69
+}

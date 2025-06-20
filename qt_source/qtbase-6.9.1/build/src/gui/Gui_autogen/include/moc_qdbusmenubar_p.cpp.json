@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QDBusMenuBar",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QDBusMenuBar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenuBar"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusmenubar_p.h",
+    "outputRevision": 69
+}

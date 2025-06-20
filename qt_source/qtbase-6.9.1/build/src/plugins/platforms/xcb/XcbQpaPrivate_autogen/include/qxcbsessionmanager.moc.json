@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QSmSocketReceiver",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QSmSocketReceiver",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "socketActivated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbsessionmanager.cpp",
+    "outputRevision": 69
+}

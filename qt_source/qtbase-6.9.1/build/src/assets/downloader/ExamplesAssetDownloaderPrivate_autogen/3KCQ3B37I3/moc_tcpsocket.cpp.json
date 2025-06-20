@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "TcpSocket",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "Tasking::TcpSocket",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "DoneResult"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "done",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tcpsocket.h",
+    "outputRevision": 69
+}

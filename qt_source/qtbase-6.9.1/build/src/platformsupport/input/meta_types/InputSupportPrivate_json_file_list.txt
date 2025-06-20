@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/include/moc_qevdevmousehandler_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/include/moc_qevdevtouchhandler_p.cpp.json

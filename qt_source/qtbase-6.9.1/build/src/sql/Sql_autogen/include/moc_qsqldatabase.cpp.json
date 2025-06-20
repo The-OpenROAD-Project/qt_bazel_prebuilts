@@ -1,0 +1,28 @@
+{
+    "classes": [
+        {
+            "className": "QSqlDatabase",
+            "gadget": true,
+            "lineNumber": 37,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "numericalPrecisionPolicy",
+                    "read": "numericalPrecisionPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSql::NumericalPrecisionPolicy",
+                    "user": false,
+                    "write": "setNumericalPrecisionPolicy"
+                }
+            ],
+            "qualifiedClassName": "QSqlDatabase"
+        }
+    ],
+    "inputFile": "qsqldatabase.h",
+    "outputRevision": 69
+}

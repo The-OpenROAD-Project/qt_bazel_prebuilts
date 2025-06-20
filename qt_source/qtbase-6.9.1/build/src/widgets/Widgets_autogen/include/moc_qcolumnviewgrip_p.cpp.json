@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QColumnViewGrip",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QColumnViewGrip",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "offset",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "gripMoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolumnviewgrip_p.h",
+    "outputRevision": 69
+}

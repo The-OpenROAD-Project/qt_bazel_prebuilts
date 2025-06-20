@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QEglFSKmsGbmIntegrationPlugin",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "QEglFSKmsGbmIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEglFSDeviceIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeglfskmsgbmmain.cpp",
+    "outputRevision": 69
+}

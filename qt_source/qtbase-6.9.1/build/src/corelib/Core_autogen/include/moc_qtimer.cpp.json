@@ -1,0 +1,126 @@
+{
+    "classes": [
+        {
+            "className": "QTimer",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableSingleShot",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "singleShot",
+                    "read": "isSingleShot",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSingleShot"
+                },
+                {
+                    "bindable": "bindableInterval",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "interval",
+                    "read": "interval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setInterval"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "remainingTime",
+                    "read": "remainingTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "bindable": "bindableTimerType",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "timerType",
+                    "read": "timerType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TimerType",
+                    "user": false,
+                    "write": "setTimerType"
+                },
+                {
+                    "bindable": "bindableActive",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "active",
+                    "read": "isActive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QTimer",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "timeout",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msec",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "stop",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtimer.h",
+    "outputRevision": 69
+}

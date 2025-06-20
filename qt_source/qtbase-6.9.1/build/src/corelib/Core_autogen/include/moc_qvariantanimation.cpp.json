@@ -1,0 +1,106 @@
+{
+    "classes": [
+        {
+            "className": "QVariantAnimation",
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "startValue",
+                    "read": "startValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false,
+                    "write": "setStartValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "endValue",
+                    "read": "endValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false,
+                    "write": "setEndValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentValue",
+                    "notify": "valueChanged",
+                    "read": "currentValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false
+                },
+                {
+                    "bindable": "bindableDuration",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "duration",
+                    "read": "duration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDuration"
+                },
+                {
+                    "bindable": "bindableEasingCurve",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "easingCurve",
+                    "read": "easingCurve",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QEasingCurve",
+                    "user": false,
+                    "write": "setEasingCurve"
+                }
+            ],
+            "qualifiedClassName": "QVariantAnimation",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "valueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvariantanimation.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/plugins/generic/tuiotouch/QTuioTouchPlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/generic/tuiotouch/QTuioTouchPlugin_autogen/include/moc_qtuiohandler_p.cpp.json

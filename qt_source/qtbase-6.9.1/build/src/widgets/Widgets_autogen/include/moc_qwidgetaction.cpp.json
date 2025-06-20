@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetAction",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QWidgetAction",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAction"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetaction.h",
+    "outputRevision": 69
+}

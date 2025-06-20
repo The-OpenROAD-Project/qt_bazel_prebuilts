@@ -1,0 +1,90 @@
+{
+    "classes": [
+        {
+            "className": "QNonContiguousByteDevice",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "total",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "readProgress",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceByteArrayImpl",
+            "lineNumber": 67,
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceByteArrayImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceRingBufferImpl",
+            "lineNumber": 87,
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceRingBufferImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceIoDeviceImpl",
+            "lineNumber": 105,
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceIoDeviceImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        },
+        {
+            "className": "QByteDeviceWrappingIoDevice",
+            "lineNumber": 130,
+            "object": true,
+            "qualifiedClassName": "QByteDeviceWrappingIoDevice",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnoncontiguousbytedevice_p.h",
+    "outputRevision": 69
+}

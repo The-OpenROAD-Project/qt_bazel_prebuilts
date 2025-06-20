@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QComposeInputContext",
+            "lineNumber": 19,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "context",
+                            "type": "xkb_context*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setXkbContext",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QComposeInputContext",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformInputContext"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcomposeplatforminputcontext.h",
+    "outputRevision": 69
+}

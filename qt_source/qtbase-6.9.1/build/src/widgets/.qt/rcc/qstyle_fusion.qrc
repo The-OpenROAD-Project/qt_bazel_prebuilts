@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="/qt-project.org/styles/fusionstyle">
+    <file alias="images/fusion_closedock-10.png">../../../../../src/widgets/styles/images/fusion_closedock-10.png</file>
+    <file alias="images/fusion_closedock-16.png">../../../../../src/widgets/styles/images/fusion_closedock-16.png</file>
+    <file alias="images/fusion_closedock-20.png">../../../../../src/widgets/styles/images/fusion_closedock-20.png</file>
+    <file alias="images/fusion_closedock-32.png">../../../../../src/widgets/styles/images/fusion_closedock-32.png</file>
+    <file alias="images/fusion_closedock-48.png">../../../../../src/widgets/styles/images/fusion_closedock-48.png</file>
+    <file alias="images/fusion_closedock-64.png">../../../../../src/widgets/styles/images/fusion_closedock-64.png</file>
+    <file alias="images/fusion_normalizedockup_10.png">../../../../../src/widgets/styles/images/fusion_normalizedockup_10.png</file>
+    <file alias="images/fusion_normalizedockup-16.png">../../../../../src/widgets/styles/images/fusion_normalizedockup-16.png</file>
+    <file alias="images/fusion_normalizedockup_20.png">../../../../../src/widgets/styles/images/fusion_normalizedockup_20.png</file>
+    <file alias="images/fusion_normalizedockup-32.png">../../../../../src/widgets/styles/images/fusion_normalizedockup-32.png</file>
+    <file alias="images/fusion_normalizedockup_48.png">../../../../../src/widgets/styles/images/fusion_normalizedockup_48.png</file>
+    <file alias="images/fusion_normalizedockup_64.png">../../../../../src/widgets/styles/images/fusion_normalizedockup_64.png</file>
+    <file alias="images/fusion_titlebar-min-10.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-10.png</file>
+    <file alias="images/fusion_titlebar-min-16.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-16.png</file>
+    <file alias="images/fusion_titlebar-min-20.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-20.png</file>
+    <file alias="images/fusion_titlebar-min-32.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-32.png</file>
+    <file alias="images/fusion_titlebar-min-48.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-48.png</file>
+    <file alias="images/fusion_titlebar-min-64.png">../../../../../src/widgets/styles/images/fusion_titlebar-min-64.png</file>
+  </qresource>
+</RCC>
+

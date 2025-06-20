@@ -1,0 +1,111 @@
+{
+    "classes": [
+        {
+            "className": "QKeySequence",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "StandardKey",
+                    "values": [
+                        "UnknownKey",
+                        "HelpContents",
+                        "WhatsThis",
+                        "Open",
+                        "Close",
+                        "Save",
+                        "New",
+                        "Delete",
+                        "Cut",
+                        "Copy",
+                        "Paste",
+                        "Undo",
+                        "Redo",
+                        "Back",
+                        "Forward",
+                        "Refresh",
+                        "ZoomIn",
+                        "ZoomOut",
+                        "Print",
+                        "AddTab",
+                        "NextChild",
+                        "PreviousChild",
+                        "Find",
+                        "FindNext",
+                        "FindPrevious",
+                        "Replace",
+                        "SelectAll",
+                        "Bold",
+                        "Italic",
+                        "Underline",
+                        "MoveToNextChar",
+                        "MoveToPreviousChar",
+                        "MoveToNextWord",
+                        "MoveToPreviousWord",
+                        "MoveToNextLine",
+                        "MoveToPreviousLine",
+                        "MoveToNextPage",
+                        "MoveToPreviousPage",
+                        "MoveToStartOfLine",
+                        "MoveToEndOfLine",
+                        "MoveToStartOfBlock",
+                        "MoveToEndOfBlock",
+                        "MoveToStartOfDocument",
+                        "MoveToEndOfDocument",
+                        "SelectNextChar",
+                        "SelectPreviousChar",
+                        "SelectNextWord",
+                        "SelectPreviousWord",
+                        "SelectNextLine",
+                        "SelectPreviousLine",
+                        "SelectNextPage",
+                        "SelectPreviousPage",
+                        "SelectStartOfLine",
+                        "SelectEndOfLine",
+                        "SelectStartOfBlock",
+                        "SelectEndOfBlock",
+                        "SelectStartOfDocument",
+                        "SelectEndOfDocument",
+                        "DeleteStartOfWord",
+                        "DeleteEndOfWord",
+                        "DeleteEndOfLine",
+                        "InsertParagraphSeparator",
+                        "InsertLineSeparator",
+                        "SaveAs",
+                        "Preferences",
+                        "Quit",
+                        "FullScreen",
+                        "Deselect",
+                        "DeleteCompleteLine",
+                        "Backspace",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SequenceFormat",
+                    "values": [
+                        "NativeText",
+                        "PortableText"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SequenceMatch",
+                    "values": [
+                        "NoMatch",
+                        "PartialMatch",
+                        "ExactMatch"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 34,
+            "qualifiedClassName": "QKeySequence"
+        }
+    ],
+    "inputFile": "qkeysequence.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,534 @@
+{
+    "classes": [
+        {
+            "className": "QStyleHints",
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "cursorFlashTime",
+                    "notify": "cursorFlashTimeChanged",
+                    "read": "cursorFlashTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "fontSmoothingGamma",
+                    "read": "fontSmoothingGamma",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "name": "keyboardAutoRepeatRate",
+                    "read": "keyboardAutoRepeatRate",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 3,
+                    "name": "keyboardAutoRepeatRateF",
+                    "read": "keyboardAutoRepeatRateF",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 4,
+                    "name": "keyboardInputInterval",
+                    "notify": "keyboardInputIntervalChanged",
+                    "read": "keyboardInputInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 5,
+                    "name": "mouseDoubleClickInterval",
+                    "notify": "mouseDoubleClickIntervalChanged",
+                    "read": "mouseDoubleClickInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 6,
+                    "name": "mousePressAndHoldInterval",
+                    "notify": "mousePressAndHoldIntervalChanged",
+                    "read": "mousePressAndHoldInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 7,
+                    "name": "passwordMaskCharacter",
+                    "read": "passwordMaskCharacter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QChar",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 8,
+                    "name": "passwordMaskDelay",
+                    "read": "passwordMaskDelay",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 9,
+                    "name": "setFocusOnTouchRelease",
+                    "read": "setFocusOnTouchRelease",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 10,
+                    "name": "showIsFullScreen",
+                    "read": "showIsFullScreen",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 11,
+                    "name": "showIsMaximized",
+                    "read": "showIsMaximized",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 12,
+                    "name": "showShortcutsInContextMenus",
+                    "notify": "showShortcutsInContextMenusChanged",
+                    "read": "showShortcutsInContextMenus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setShowShortcutsInContextMenus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 13,
+                    "name": "contextMenuTrigger",
+                    "notify": "contextMenuTriggerChanged",
+                    "read": "contextMenuTrigger",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ContextMenuTrigger",
+                    "user": false,
+                    "write": "setContextMenuTrigger"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 14,
+                    "name": "startDragDistance",
+                    "notify": "startDragDistanceChanged",
+                    "read": "startDragDistance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 15,
+                    "name": "startDragTime",
+                    "notify": "startDragTimeChanged",
+                    "read": "startDragTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 16,
+                    "name": "startDragVelocity",
+                    "read": "startDragVelocity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 17,
+                    "name": "useRtlExtensions",
+                    "read": "useRtlExtensions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 18,
+                    "name": "tabFocusBehavior",
+                    "notify": "tabFocusBehaviorChanged",
+                    "read": "tabFocusBehavior",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TabFocusBehavior",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 19,
+                    "name": "singleClickActivation",
+                    "read": "singleClickActivation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 20,
+                    "name": "useHoverEffects",
+                    "notify": "useHoverEffectsChanged",
+                    "read": "useHoverEffects",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUseHoverEffects"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 21,
+                    "name": "wheelScrollLines",
+                    "notify": "wheelScrollLinesChanged",
+                    "read": "wheelScrollLines",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 22,
+                    "name": "mouseQuickSelectionThreshold",
+                    "notify": "mouseQuickSelectionThresholdChanged",
+                    "read": "mouseQuickSelectionThreshold",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMouseQuickSelectionThreshold"
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 23,
+                    "name": "mouseDoubleClickDistance",
+                    "read": "mouseDoubleClickDistance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": true,
+                    "index": 24,
+                    "name": "touchDoubleTapDistance",
+                    "read": "touchDoubleTapDistance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 25,
+                    "name": "colorScheme",
+                    "notify": "colorSchemeChanged",
+                    "read": "colorScheme",
+                    "required": false,
+                    "reset": "unsetColorScheme",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ColorScheme",
+                    "user": false,
+                    "write": "setColorScheme"
+                }
+            ],
+            "qualifiedClassName": "QStyleHints",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cursorFlashTime",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "cursorFlashTimeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "keyboardInputInterval",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "keyboardInputIntervalChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mouseDoubleClickInterval",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "mouseDoubleClickIntervalChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mousePressAndHoldInterval",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "mousePressAndHoldIntervalChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "startDragDistance",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "startDragDistanceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "startDragTime",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "startDragTimeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tabFocusBehavior",
+                            "type": "Qt::TabFocusBehavior"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "tabFocusBehaviorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "useHoverEffects",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "useHoverEffectsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "showShortcutsInContextMenusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "contextMenuTrigger",
+                            "type": "Qt::ContextMenuTrigger"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "contextMenuTriggerChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "scrollLines",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "wheelScrollLinesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "threshold",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "mouseQuickSelectionThresholdChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "colorScheme",
+                            "type": "Qt::ColorScheme"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "colorSchemeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstylehints.h",
+    "outputRevision": 69
+}

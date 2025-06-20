@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QPropertyAnimation",
+            "lineNumber": 14,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindablePropertyName",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "propertyName",
+                    "read": "propertyName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QByteArray",
+                    "user": false,
+                    "write": "setPropertyName"
+                },
+                {
+                    "bindable": "bindableTargetObject",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "targetObject",
+                    "read": "targetObject",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QObject*",
+                    "user": false,
+                    "write": "setTargetObject"
+                }
+            ],
+            "qualifiedClassName": "QPropertyAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QVariantAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpropertyanimation.h",
+    "outputRevision": 69
+}

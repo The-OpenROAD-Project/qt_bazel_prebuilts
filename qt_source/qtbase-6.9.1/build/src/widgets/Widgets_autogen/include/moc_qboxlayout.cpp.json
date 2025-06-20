@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "QBoxLayout",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QBoxLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        },
+        {
+            "className": "QHBoxLayout",
+            "lineNumber": 77,
+            "object": true,
+            "qualifiedClassName": "QHBoxLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QBoxLayout"
+                }
+            ]
+        },
+        {
+            "className": "QVBoxLayout",
+            "lineNumber": 90,
+            "object": true,
+            "qualifiedClassName": "QVBoxLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QBoxLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qboxlayout.h",
+    "outputRevision": 69
+}

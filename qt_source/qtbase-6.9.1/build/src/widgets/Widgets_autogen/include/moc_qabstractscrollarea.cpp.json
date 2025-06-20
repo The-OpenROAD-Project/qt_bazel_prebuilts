@@ -1,0 +1,104 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractScrollArea",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SizeAdjustPolicy",
+                    "values": [
+                        "AdjustIgnored",
+                        "AdjustToContentsOnFirstShow",
+                        "AdjustToContents"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "verticalScrollBarPolicy",
+                    "read": "verticalScrollBarPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScrollBarPolicy",
+                    "user": false,
+                    "write": "setVerticalScrollBarPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "horizontalScrollBarPolicy",
+                    "read": "horizontalScrollBarPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScrollBarPolicy",
+                    "user": false,
+                    "write": "setHorizontalScrollBarPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "sizeAdjustPolicy",
+                    "read": "sizeAdjustPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeAdjustPolicy",
+                    "user": false,
+                    "write": "setSizeAdjustPolicy"
+                }
+            ],
+            "qualifiedClassName": "QAbstractScrollArea",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "_q_hslide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "_q_vslide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "_q_showOrHideScrollBars",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractscrollarea.h",
+    "outputRevision": 69
+}

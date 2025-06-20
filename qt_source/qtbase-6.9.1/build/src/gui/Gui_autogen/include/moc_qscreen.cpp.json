@@ -1,0 +1,474 @@
+{
+    "classes": [
+        {
+            "className": "QScreen",
+            "lineNumber": 31,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "name",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "manufacturer",
+                    "read": "manufacturer",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "model",
+                    "read": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "serialNumber",
+                    "read": "serialNumber",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "depth",
+                    "read": "depth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "size",
+                    "notify": "geometryChanged",
+                    "read": "size",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "availableSize",
+                    "notify": "availableGeometryChanged",
+                    "read": "availableSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "virtualSize",
+                    "notify": "virtualGeometryChanged",
+                    "read": "virtualSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "availableVirtualSize",
+                    "notify": "virtualGeometryChanged",
+                    "read": "availableVirtualSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "geometry",
+                    "notify": "geometryChanged",
+                    "read": "geometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "availableGeometry",
+                    "notify": "availableGeometryChanged",
+                    "read": "availableGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "virtualGeometry",
+                    "notify": "virtualGeometryChanged",
+                    "read": "virtualGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "availableVirtualGeometry",
+                    "notify": "virtualGeometryChanged",
+                    "read": "availableVirtualGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "physicalSize",
+                    "notify": "physicalSizeChanged",
+                    "read": "physicalSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "physicalDotsPerInchX",
+                    "notify": "physicalDotsPerInchChanged",
+                    "read": "physicalDotsPerInchX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "physicalDotsPerInchY",
+                    "notify": "physicalDotsPerInchChanged",
+                    "read": "physicalDotsPerInchY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "name": "physicalDotsPerInch",
+                    "notify": "physicalDotsPerInchChanged",
+                    "read": "physicalDotsPerInch",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 17,
+                    "name": "logicalDotsPerInchX",
+                    "notify": "logicalDotsPerInchChanged",
+                    "read": "logicalDotsPerInchX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 18,
+                    "name": "logicalDotsPerInchY",
+                    "notify": "logicalDotsPerInchChanged",
+                    "read": "logicalDotsPerInchY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 19,
+                    "name": "logicalDotsPerInch",
+                    "notify": "logicalDotsPerInchChanged",
+                    "read": "logicalDotsPerInch",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 20,
+                    "name": "devicePixelRatio",
+                    "notify": "physicalDotsPerInchChanged",
+                    "read": "devicePixelRatio",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 21,
+                    "name": "primaryOrientation",
+                    "notify": "primaryOrientationChanged",
+                    "read": "primaryOrientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScreenOrientation",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 22,
+                    "name": "orientation",
+                    "notify": "orientationChanged",
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScreenOrientation",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 23,
+                    "name": "nativeOrientation",
+                    "read": "nativeOrientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScreenOrientation",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 24,
+                    "name": "refreshRate",
+                    "notify": "refreshRateChanged",
+                    "read": "refreshRate",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "geometry",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "geometryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "geometry",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "availableGeometryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "QSizeF"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "physicalSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dpi",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "physicalDotsPerInchChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dpi",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "logicalDotsPerInchChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "virtualGeometryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::ScreenOrientation"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "primaryOrientationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::ScreenOrientation"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "orientationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "refreshRate",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "refreshRateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qscreen.h",
+    "outputRevision": 69
+}

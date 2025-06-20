@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformThemePlugin",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QPlatformThemePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformthemeplugin.h",
+    "outputRevision": 69
+}

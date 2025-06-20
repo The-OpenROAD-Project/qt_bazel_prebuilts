@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "QCommandLinkButton",
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "description",
+                    "read": "description",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDescription"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 1,
+                    "name": "flat",
+                    "read": "isFlat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setFlat"
+                }
+            ],
+            "qualifiedClassName": "QCommandLinkButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPushButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcommandlinkbutton.h",
+    "outputRevision": 69
+}

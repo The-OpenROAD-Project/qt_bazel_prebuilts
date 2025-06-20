@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QEvdevTabletPlugin",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "QEvdevTabletPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGenericPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

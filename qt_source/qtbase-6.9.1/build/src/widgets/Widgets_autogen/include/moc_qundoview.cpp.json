@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "QUndoView",
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "emptyLabel",
+                    "read": "emptyLabel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setEmptyLabel"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "cleanIcon",
+                    "read": "cleanIcon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "write": "setCleanIcon"
+                }
+            ],
+            "qualifiedClassName": "QUndoView",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setStack",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "group",
+                            "type": "QUndoGroup*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setGroup",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QListView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qundoview.h",
+    "outputRevision": 69
+}

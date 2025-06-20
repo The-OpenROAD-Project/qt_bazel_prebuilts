@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QAccessibleCache",
+            "lineNumber": 30,
+            "object": true,
+            "qualifiedClassName": "QAccessibleCache",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "obj",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qaccessiblecache_p.h",
+    "outputRevision": 69
+}

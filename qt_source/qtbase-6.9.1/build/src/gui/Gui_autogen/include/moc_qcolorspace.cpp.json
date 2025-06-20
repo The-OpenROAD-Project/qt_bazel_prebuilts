@@ -1,0 +1,79 @@
+{
+    "classes": [
+        {
+            "className": "QColorSpace",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "NamedColorSpace",
+                    "values": [
+                        "SRgb",
+                        "SRgbLinear",
+                        "AdobeRgb",
+                        "DisplayP3",
+                        "ProPhotoRgb",
+                        "Bt2020",
+                        "Bt2100Pq",
+                        "Bt2100Hlg"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Primaries",
+                    "values": [
+                        "Custom",
+                        "SRgb",
+                        "AdobeRgb",
+                        "DciP3D65",
+                        "ProPhotoRgb",
+                        "Bt2020"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TransferFunction",
+                    "values": [
+                        "Custom",
+                        "Linear",
+                        "Gamma",
+                        "SRgb",
+                        "ProPhotoRgb",
+                        "Bt2020",
+                        "St2084",
+                        "Hlg"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TransformModel",
+                    "type": "uint8_t",
+                    "values": [
+                        "ThreeComponentMatrix",
+                        "ElementListProcessing"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "ColorModel",
+                    "type": "uint8_t",
+                    "values": [
+                        "Undefined",
+                        "Rgb",
+                        "Gray",
+                        "Cmyk"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 20,
+            "qualifiedClassName": "QColorSpace"
+        }
+    ],
+    "inputFile": "qcolorspace.h",
+    "outputRevision": 69
+}

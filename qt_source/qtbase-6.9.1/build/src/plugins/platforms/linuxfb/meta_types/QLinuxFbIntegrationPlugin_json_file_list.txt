@@ -1,0 +1,3 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/linuxfb/QLinuxFbIntegrationPlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/linuxfb/QLinuxFbIntegrationPlugin_autogen/include/moc_qlinuxfbdrmscreen.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/linuxfb/QLinuxFbIntegrationPlugin_autogen/include/moc_qlinuxfbscreen.cpp.json

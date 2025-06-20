@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "className": "QWaylandWindow",
+            "lineNumber": 110,
+            "object": true,
+            "qualifiedClassName": "QNativeInterface::Private::QWaylandWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "surfaceCreated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "surfaceDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "surfaceRoleCreated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "surfaceRoleDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "token",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "xdgActivationTokenCreated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformwindow_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QSqlDriverPlugin",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QSqlDriverPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsqldriverplugin.h",
+    "outputRevision": 69
+}

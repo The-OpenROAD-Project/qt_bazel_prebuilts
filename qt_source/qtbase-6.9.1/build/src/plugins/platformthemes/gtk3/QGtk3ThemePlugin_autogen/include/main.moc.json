@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3ThemePlugin",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "QGtk3ThemePlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformThemePlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

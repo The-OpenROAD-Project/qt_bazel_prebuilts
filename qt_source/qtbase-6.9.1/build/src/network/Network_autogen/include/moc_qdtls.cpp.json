@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QDtlsClientVerifier",
+            "lineNumber": 43,
+            "object": true,
+            "qualifiedClassName": "QDtlsClientVerifier",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QDtls",
+            "lineNumber": 82,
+            "object": true,
+            "qualifiedClassName": "QDtls",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "pskRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "handshakeTimeout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdtls.h",
+    "outputRevision": 69
+}

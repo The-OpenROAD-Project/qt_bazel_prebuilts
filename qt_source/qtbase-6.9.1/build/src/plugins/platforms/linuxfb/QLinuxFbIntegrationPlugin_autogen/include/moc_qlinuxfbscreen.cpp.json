@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QLinuxFbScreen",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "QLinuxFbScreen",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFbScreen"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlinuxfbscreen.h",
+    "outputRevision": 69
+}

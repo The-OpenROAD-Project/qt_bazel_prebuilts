@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "QInputDeviceManager",
+            "lineNumber": 25,
+            "object": true,
+            "qualifiedClassName": "QInputDeviceManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "QInputDeviceManager::DeviceType"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "deviceListChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "QPoint"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "cursorPositionChangeRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputdevicemanager_p.h",
+    "outputRevision": 69
+}

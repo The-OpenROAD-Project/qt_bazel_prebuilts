@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QStandardPaths",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "StandardLocation",
+                    "values": [
+                        "DesktopLocation",
+                        "DocumentsLocation",
+                        "FontsLocation",
+                        "ApplicationsLocation",
+                        "MusicLocation",
+                        "MoviesLocation",
+                        "PicturesLocation",
+                        "TempLocation",
+                        "HomeLocation",
+                        "AppLocalDataLocation",
+                        "CacheLocation",
+                        "GenericDataLocation",
+                        "RuntimeLocation",
+                        "ConfigLocation",
+                        "DownloadLocation",
+                        "GenericCacheLocation",
+                        "GenericConfigLocation",
+                        "AppDataLocation",
+                        "AppConfigLocation",
+                        "PublicShareLocation",
+                        "TemplatesLocation",
+                        "StateLocation",
+                        "GenericStateLocation"
+                    ]
+                },
+                {
+                    "alias": "LocateOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "LocateOptions",
+                    "values": [
+                        "LocateFile",
+                        "LocateDirectory"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 15,
+            "qualifiedClassName": "QStandardPaths"
+        }
+    ],
+    "inputFile": "qstandardpaths.h",
+    "outputRevision": 69
+}

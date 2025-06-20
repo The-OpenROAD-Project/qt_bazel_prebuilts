@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsProxyWidget",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QGraphicsProxyWidget",
+            "slots": [
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "type": "const QWidget*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newProxyWidget",
+                    "returnType": "QGraphicsProxyWidget*"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "_q_removeWidgetSlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsproxywidget.h",
+    "outputRevision": 69
+}

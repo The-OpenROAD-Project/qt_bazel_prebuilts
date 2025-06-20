@@ -1,0 +1,713 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractItemView",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SelectionMode",
+                    "values": [
+                        "NoSelection",
+                        "SingleSelection",
+                        "MultiSelection",
+                        "ExtendedSelection",
+                        "ContiguousSelection"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SelectionBehavior",
+                    "values": [
+                        "SelectItems",
+                        "SelectRows",
+                        "SelectColumns"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ScrollHint",
+                    "values": [
+                        "EnsureVisible",
+                        "PositionAtTop",
+                        "PositionAtBottom",
+                        "PositionAtCenter"
+                    ]
+                },
+                {
+                    "alias": "EditTrigger",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "EditTriggers",
+                    "values": [
+                        "NoEditTriggers",
+                        "CurrentChanged",
+                        "DoubleClicked",
+                        "SelectedClicked",
+                        "EditKeyPressed",
+                        "AnyKeyPressed",
+                        "AllEditTriggers"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ScrollMode",
+                    "values": [
+                        "ScrollPerItem",
+                        "ScrollPerPixel"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DragDropMode",
+                    "values": [
+                        "NoDragDrop",
+                        "DragOnly",
+                        "DropOnly",
+                        "DragDrop",
+                        "InternalMove"
+                    ]
+                }
+            ],
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "autoScroll",
+                    "read": "hasAutoScroll",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoScroll"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "autoScrollMargin",
+                    "read": "autoScrollMargin",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setAutoScrollMargin"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "editTriggers",
+                    "read": "editTriggers",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "EditTriggers",
+                    "user": false,
+                    "write": "setEditTriggers"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "tabKeyNavigation",
+                    "read": "tabKeyNavigation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setTabKeyNavigation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "showDropIndicator",
+                    "read": "showDropIndicator",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDropIndicatorShown"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "dragEnabled",
+                    "read": "dragEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDragEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "dragDropOverwriteMode",
+                    "read": "dragDropOverwriteMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDragDropOverwriteMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "dragDropMode",
+                    "read": "dragDropMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DragDropMode",
+                    "user": false,
+                    "write": "setDragDropMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "defaultDropAction",
+                    "read": "defaultDropAction",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::DropAction",
+                    "user": false,
+                    "write": "setDefaultDropAction"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "alternatingRowColors",
+                    "read": "alternatingRowColors",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAlternatingRowColors"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "selectionMode",
+                    "read": "selectionMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SelectionMode",
+                    "user": false,
+                    "write": "setSelectionMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "selectionBehavior",
+                    "read": "selectionBehavior",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SelectionBehavior",
+                    "user": false,
+                    "write": "setSelectionBehavior"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "iconSize",
+                    "notify": "iconSizeChanged",
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "textElideMode",
+                    "read": "textElideMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextElideMode",
+                    "user": false,
+                    "write": "setTextElideMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "verticalScrollMode",
+                    "read": "verticalScrollMode",
+                    "required": false,
+                    "reset": "resetVerticalScrollMode",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ScrollMode",
+                    "user": false,
+                    "write": "setVerticalScrollMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "horizontalScrollMode",
+                    "read": "horizontalScrollMode",
+                    "required": false,
+                    "reset": "resetHorizontalScrollMode",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ScrollMode",
+                    "user": false,
+                    "write": "setHorizontalScrollMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "name": "updateThreshold",
+                    "read": "updateThreshold",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setUpdateThreshold"
+                }
+            ],
+            "qualifiedClassName": "QAbstractItemView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "pressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "doubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "entered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "viewportEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "iconSizeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "reset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setRootIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "doItemsLayout",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "selectAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "edit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "clearSelection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "scrollToTop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "scrollToBottom",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "update",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "roles",
+                            "type": "QList<int>"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "dataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 18,
+                    "isCloned": true,
+                    "name": "dataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "start",
+                            "type": "int"
+                        },
+                        {
+                            "name": "end",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "rowsInserted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "start",
+                            "type": "int"
+                        },
+                        {
+                            "name": "end",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 20,
+                    "name": "rowsAboutToBeRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "selected",
+                            "type": "QItemSelection"
+                        },
+                        {
+                            "name": "deselected",
+                            "type": "QItemSelection"
+                        }
+                    ],
+                    "index": 21,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 22,
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 23,
+                    "name": "updateEditorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 24,
+                    "name": "updateEditorGeometries",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 25,
+                    "name": "updateGeometries",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 26,
+                    "name": "verticalScrollbarAction",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "action",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 27,
+                    "name": "horizontalScrollbarAction",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 28,
+                    "name": "verticalScrollbarValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 29,
+                    "name": "horizontalScrollbarValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QWidget*"
+                        },
+                        {
+                            "name": "hint",
+                            "type": "QAbstractItemDelegate::EndEditHint"
+                        }
+                    ],
+                    "index": 30,
+                    "name": "closeEditor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "index": 31,
+                    "name": "commitData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "editor",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 32,
+                    "name": "editorDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractScrollArea"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractitemview.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "QSslError",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SslError",
+                    "values": [
+                        "NoError",
+                        "UnableToGetIssuerCertificate",
+                        "UnableToDecryptCertificateSignature",
+                        "UnableToDecodeIssuerPublicKey",
+                        "CertificateSignatureFailed",
+                        "CertificateNotYetValid",
+                        "CertificateExpired",
+                        "InvalidNotBeforeField",
+                        "InvalidNotAfterField",
+                        "SelfSignedCertificate",
+                        "SelfSignedCertificateInChain",
+                        "UnableToGetLocalIssuerCertificate",
+                        "UnableToVerifyFirstCertificate",
+                        "CertificateRevoked",
+                        "InvalidCaCertificate",
+                        "PathLengthExceeded",
+                        "InvalidPurpose",
+                        "CertificateUntrusted",
+                        "CertificateRejected",
+                        "SubjectIssuerMismatch",
+                        "AuthorityIssuerSerialNumberMismatch",
+                        "NoPeerCertificate",
+                        "HostNameMismatch",
+                        "NoSslSupport",
+                        "CertificateBlacklisted",
+                        "CertificateStatusUnknown",
+                        "OcspNoResponseFound",
+                        "OcspMalformedRequest",
+                        "OcspMalformedResponse",
+                        "OcspInternalError",
+                        "OcspTryLater",
+                        "OcspSigRequred",
+                        "OcspUnauthorized",
+                        "OcspResponseCannotBeTrusted",
+                        "OcspResponseCertIdUnknown",
+                        "OcspResponseExpired",
+                        "OcspStatusUnknown",
+                        "UnspecifiedError"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 25,
+            "qualifiedClassName": "QSslError"
+        }
+    ],
+    "inputFile": "qsslerror.h",
+    "outputRevision": 69
+}

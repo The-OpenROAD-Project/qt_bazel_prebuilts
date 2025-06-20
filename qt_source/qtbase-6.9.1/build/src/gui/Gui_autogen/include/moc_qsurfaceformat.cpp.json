@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "className": "QSurfaceFormat",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "FormatOption",
+                    "values": [
+                        "StereoBuffers",
+                        "DebugContext",
+                        "DeprecatedFunctions",
+                        "ResetNotification",
+                        "ProtectedContent"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SwapBehavior",
+                    "values": [
+                        "DefaultSwapBehavior",
+                        "SingleBuffer",
+                        "DoubleBuffer",
+                        "TripleBuffer"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "RenderableType",
+                    "values": [
+                        "DefaultRenderableType",
+                        "OpenGL",
+                        "OpenGLES",
+                        "OpenVG"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "OpenGLContextProfile",
+                    "values": [
+                        "NoProfile",
+                        "CoreProfile",
+                        "CompatibilityProfile"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ColorSpace",
+                    "values": [
+                        "DefaultColorSpace",
+                        "sRGBColorSpace"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 15,
+            "qualifiedClassName": "QSurfaceFormat"
+        }
+    ],
+    "inputFile": "qsurfaceformat.h",
+    "outputRevision": 69
+}

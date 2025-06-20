@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTreeModel",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "QTreeModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtreewidget_p.h",
+    "outputRevision": 69
+}

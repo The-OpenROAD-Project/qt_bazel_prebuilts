@@ -1,0 +1,69 @@
+{
+    "classes": [
+        {
+            "className": "QPrintPropertiesDialog",
+            "lineNumber": 95,
+            "object": true,
+            "qualifiedClassName": "QPrintPropertiesDialog",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "reject",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "accept",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        },
+        {
+            "className": "QUnixPrintWidget",
+            "lineNumber": 140,
+            "object": true,
+            "qualifiedClassName": "QUnixPrintWidget",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "_q_printerChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "_q_btnBrowseClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "_q_btnPropertiesClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprintdialog_unix.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbEventQueue",
+            "lineNumber": 32,
+            "object": true,
+            "qualifiedClassName": "QXcbEventQueue",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbeventqueue.h",
+    "outputRevision": 69
+}

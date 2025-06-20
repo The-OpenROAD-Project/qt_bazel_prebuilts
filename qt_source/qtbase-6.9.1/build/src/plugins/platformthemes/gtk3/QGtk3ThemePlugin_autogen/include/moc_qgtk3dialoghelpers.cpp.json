@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3ColorDialogHelper",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QGtk3ColorDialogHelper",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformColorDialogHelper"
+                }
+            ]
+        },
+        {
+            "className": "QGtk3FileDialogHelper",
+            "lineNumber": 45,
+            "object": true,
+            "qualifiedClassName": "QGtk3FileDialogHelper",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformFileDialogHelper"
+                }
+            ]
+        },
+        {
+            "className": "QGtk3FontDialogHelper",
+            "lineNumber": 84,
+            "object": true,
+            "qualifiedClassName": "QGtk3FontDialogHelper",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformFontDialogHelper"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgtk3dialoghelpers.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPageSetupDialog",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QPageSetupDialog",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpagesetupdialog.h",
+    "outputRevision": 69
+}

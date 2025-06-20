@@ -1,0 +1,71 @@
+{
+    "classes": [
+        {
+            "className": "QBooleanComboBox",
+            "lineNumber": 37,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": true,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "QBooleanComboBox",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QComboBox"
+                }
+            ]
+        },
+        {
+            "className": "QUIntSpinBox",
+            "lineNumber": 53,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "notify": "uintValueChanged",
+                    "read": "uintValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "uint",
+                    "user": true,
+                    "write": "setUIntValue"
+                }
+            ],
+            "qualifiedClassName": "QUIntSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "uintValueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSpinBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qitemeditorfactory.cpp",
+    "outputRevision": 69
+}

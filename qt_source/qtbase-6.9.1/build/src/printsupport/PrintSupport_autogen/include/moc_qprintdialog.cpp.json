@@ -1,0 +1,73 @@
+{
+    "classes": [
+        {
+            "className": "QPrintDialog",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PrintDialogOptions",
+                    "user": false,
+                    "write": "setOptions"
+                }
+            ],
+            "qualifiedClassName": "QPrintDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "printer",
+                            "type": "QPrinter*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "accepted",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "_q_togglePageSetCombo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "_q_collapseOrExpandDialog",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "_q_checkFields",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractPrintDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprintdialog.h",
+    "outputRevision": 69
+}

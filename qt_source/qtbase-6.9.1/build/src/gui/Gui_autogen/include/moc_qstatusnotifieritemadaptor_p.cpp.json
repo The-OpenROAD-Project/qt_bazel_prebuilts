@@ -1,0 +1,340 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "D-Bus Interface",
+                    "value": "org.kde.StatusNotifierItem"
+                },
+                {
+                    "name": "D-Bus Introspection",
+                    "value": "  <interface name=\\\"org.kde.StatusNotifierItem\\\">\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"Category\\\"/>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"Id\\\"/>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"Title\\\"/>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"Status\\\"/>\\n    <property access=\\\"read\\\" type=\\\"i\\\" name=\\\"WindowId\\\"/>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"IconThemePath\\\"/>\\n    <property access=\\\"read\\\" type=\\\"o\\\" name=\\\"Menu\\\"/>\\n    <property access=\\\"read\\\" type=\\\"b\\\" name=\\\"ItemIsMenu\\\"/>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"IconName\\\"/>\\n    <property access=\\\"read\\\" type=\\\"a(iiay)\\\" name=\\\"IconPixmap\\\">\\n      <annotation value=\\\"QXdgDBusImageVector\\\" name=\\\"org.qtproject.QtDBus.QtTypeName\\\"/>\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"OverlayIconName\\\"/>\\n    <property access=\\\"read\\\" type=\\\"a(iiay)\\\" name=\\\"OverlayIconPixmap\\\">\\n      <annotation value=\\\"QXdgDBusImageVector\\\" name=\\\"org.qtproject.QtDBus.QtTypeName\\\"/>\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"AttentionIconName\\\"/>\\n    <property access=\\\"read\\\" type=\\\"a(iiay)\\\" name=\\\"AttentionIconPixmap\\\">\\n      <annotation value=\\\"QXdgDBusImageVector\\\" name=\\\"org.qtproject.QtDBus.QtTypeName\\\"/>\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"AttentionMovieName\\\"/>\\n    <property access=\\\"read\\\" type=\\\"(sa(iiay)ss)\\\" name=\\\"ToolTip\\\">\\n      <annotation value=\\\"QXdgDBusToolTipStruct\\\" name=\\\"org.qtproject.QtDBus.QtTypeName\\\"/>\\n    </property>\\n    <method name=\\\"ProvideXdgActivationToken\\\">\\n        <arg name=\\\"token\\\" type=\\\"s\\\" direction=\\\"in\\\"/>\\n    </method>\\n    <method name=\\\"ContextMenu\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"x\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"y\\\"/>\\n    </method>\\n    <method name=\\\"Activate\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"x\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"y\\\"/>\\n    </method>\\n    <method name=\\\"SecondaryActivate\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"x\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"y\\\"/>\\n    </method>\\n    <method name=\\\"Scroll\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"delta\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"s\\\" name=\\\"orientation\\\"/>\\n    </method>\\n    <signal name=\\\"NewTitle\\\"/>\\n    <signal name=\\\"NewIcon\\\"/>\\n    <signal name=\\\"NewAttentionIcon\\\"/>\\n    <signal name=\\\"NewOverlayIcon\\\"/>\\n    <signal name=\\\"NewMenu\\\"/>\\n    <signal name=\\\"NewToolTip\\\"/>\\n    <signal name=\\\"NewStatus\\\">\\n      <arg type=\\\"s\\\" name=\\\"status\\\"/>\\n    </signal>\\n  </interface>\\n"
+                }
+            ],
+            "className": "QStatusNotifierItemAdaptor",
+            "lineNumber": 46,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "AttentionIconName",
+                    "read": "attentionIconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "AttentionIconPixmap",
+                    "read": "attentionIconPixmap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QXdgDBusImageVector",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "AttentionMovieName",
+                    "read": "attentionMovieName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "Category",
+                    "read": "category",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "IconName",
+                    "read": "iconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "IconPixmap",
+                    "read": "iconPixmap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QXdgDBusImageVector",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "Id",
+                    "read": "id",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "ItemIsMenu",
+                    "read": "itemIsMenu",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "Menu",
+                    "read": "menu",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDBusObjectPath",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "OverlayIconName",
+                    "read": "overlayIconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "OverlayIconPixmap",
+                    "read": "overlayIconPixmap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QXdgDBusImageVector",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "Status",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "Title",
+                    "read": "title",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "ToolTip",
+                    "read": "toolTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QXdgDBusToolTipStruct",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QStatusNotifierItemAdaptor",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "NewAttentionIcon",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "NewIcon",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "NewOverlayIcon",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "NewMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "status",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "NewStatus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "NewTitle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "NewToolTip",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "Activate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "ContextMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "token",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "ProvideXdgActivationToken",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "delta",
+                            "type": "int"
+                        },
+                        {
+                            "name": "orientation",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "Scroll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "SecondaryActivate",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractAdaptor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstatusnotifieritemadaptor_p.h",
+    "outputRevision": 69
+}

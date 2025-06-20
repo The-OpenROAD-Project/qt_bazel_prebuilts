@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QMinimalEglIntegrationPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "QMinimalEglIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

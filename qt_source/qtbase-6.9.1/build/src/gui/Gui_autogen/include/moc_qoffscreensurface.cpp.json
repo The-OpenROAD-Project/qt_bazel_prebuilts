@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QOffscreenSurface",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QOffscreenSurface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "screenChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "screenDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QSurface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qoffscreensurface.h",
+    "outputRevision": 69
+}

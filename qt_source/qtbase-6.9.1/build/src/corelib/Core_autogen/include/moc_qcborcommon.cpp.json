@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "QCborError",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Code",
+                    "type": "int",
+                    "values": [
+                        "UnknownError",
+                        "AdvancePastEnd",
+                        "InputOutputError",
+                        "GarbageAtEnd",
+                        "EndOfFile",
+                        "UnexpectedBreak",
+                        "UnknownType",
+                        "IllegalType",
+                        "IllegalNumber",
+                        "IllegalSimpleType",
+                        "InvalidUtf8String",
+                        "DataTooLarge",
+                        "NestingTooDeep",
+                        "UnsupportedType",
+                        "NoError"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 63,
+            "qualifiedClassName": "QCborError"
+        }
+    ],
+    "inputFile": "qcborcommon.h",
+    "outputRevision": 69
+}

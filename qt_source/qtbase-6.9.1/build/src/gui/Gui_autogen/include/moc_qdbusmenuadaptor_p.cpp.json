@@ -1,0 +1,241 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "D-Bus Interface",
+                    "value": "com.canonical.dbusmenu"
+                },
+                {
+                    "name": "D-Bus Introspection",
+                    "value": "  <interface name=\\\"com.canonical.dbusmenu\\\">\\n    <property access=\\\"read\\\" type=\\\"u\\\" name=\\\"Version\\\">\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"TextDirection\\\">\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"s\\\" name=\\\"Status\\\">\\n    </property>\\n    <property access=\\\"read\\\" type=\\\"as\\\" name=\\\"IconThemePath\\\">\\n    </property>\\n    <method name=\\\"GetLayout\\\">\\n      <annotation value=\\\"QDBusMenuLayoutItem\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out1\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"parentId\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"recursionDepth\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"as\\\" name=\\\"propertyNames\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"u\\\" name=\\\"revision\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"(ia{sv}av)\\\" name=\\\"layout\\\"/>\\n    </method>\\n    <method name=\\\"GetGroupProperties\\\">\\n      <annotation value=\\\"QList&lt;int&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n      <annotation value=\\\"QDBusMenuItemList\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"ai\\\" name=\\\"ids\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"as\\\" name=\\\"propertyNames\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"a(ia{sv})\\\" name=\\\"properties\\\"/>\\n    </method>\\n    <method name=\\\"GetProperty\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"id\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"s\\\" name=\\\"name\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"v\\\" name=\\\"value\\\"/>\\n    </method>\\n    <method name=\\\"Event\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"id\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"s\\\" name=\\\"eventId\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"v\\\" name=\\\"data\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"u\\\" name=\\\"timestamp\\\"/>\\n    </method>\\n    <method name=\\\"EventGroup\\\">\\n      <annotation value=\\\"QList&lt;QDBusMenuEvent&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n      <annotation value=\\\"QList&lt;int&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"a(isvu)\\\" name=\\\"events\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"ai\\\" name=\\\"idErrors\\\"/>\\n    </method>\\n    <method name=\\\"AboutToShow\\\">\\n      <arg direction=\\\"in\\\" type=\\\"i\\\" name=\\\"id\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"b\\\" name=\\\"needUpdate\\\"/>\\n    </method>\\n    <method name=\\\"AboutToShowGroup\\\">\\n      <annotation value=\\\"QList&lt;int&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n      <annotation value=\\\"QList&lt;int&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n      <annotation value=\\\"QList&lt;int&gt;\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out1\\\"/>\\n      <arg direction=\\\"in\\\" type=\\\"ai\\\" name=\\\"ids\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"ai\\\" name=\\\"updatesNeeded\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"ai\\\" name=\\\"idErrors\\\"/>\\n    </method>\\n    <signal name=\\\"ItemsPropertiesUpdated\\\">\\n      <annotation value=\\\"QDBusMenuItemList\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n      <annotation value=\\\"QDBusMenuItemKeysList\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In1\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"a(ia{sv})\\\" name=\\\"updatedProps\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"a(ias)\\\" name=\\\"removedProps\\\"/>\\n    </signal>\\n    <signal name=\\\"LayoutUpdated\\\">\\n      <arg direction=\\\"out\\\" type=\\\"u\\\" name=\\\"revision\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"i\\\" name=\\\"parent\\\"/>\\n    </signal>\\n    <signal name=\\\"ItemActivationRequested\\\">\\n      <arg direction=\\\"out\\\" type=\\\"i\\\" name=\\\"id\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"u\\\" name=\\\"timestamp\\\"/>\\n    </signal>\\n  </interface>\\n"
+                }
+            ],
+            "className": "QDBusMenuAdaptor",
+            "lineNumber": 39,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "Status",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "TextDirection",
+                    "read": "textDirection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "Version",
+                    "read": "version",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "uint",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QDBusMenuAdaptor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "timestamp",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "ItemActivationRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "updatedProps",
+                            "type": "QDBusMenuItemList"
+                        },
+                        {
+                            "name": "removedProps",
+                            "type": "QDBusMenuItemKeysList"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "ItemsPropertiesUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "revision",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "parent",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "LayoutUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "AboutToShow",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ids",
+                            "type": "QList<int>"
+                        },
+                        {
+                            "name": "idErrors",
+                            "type": "QList<int>&"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "AboutToShowGroup",
+                    "returnType": "QList<int>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "eventId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "data",
+                            "type": "QDBusVariant"
+                        },
+                        {
+                            "name": "timestamp",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "Event",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "events",
+                            "type": "QDBusMenuEventList"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "EventGroup",
+                    "returnType": "QList<int>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ids",
+                            "type": "QList<int>"
+                        },
+                        {
+                            "name": "propertyNames",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "GetGroupProperties",
+                    "returnType": "QDBusMenuItemList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "parentId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "recursionDepth",
+                            "type": "int"
+                        },
+                        {
+                            "name": "propertyNames",
+                            "type": "QStringList"
+                        },
+                        {
+                            "name": "layout",
+                            "type": "QDBusMenuLayoutItem&"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "GetLayout",
+                    "returnType": "uint"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "GetProperty",
+                    "returnType": "QDBusVariant"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractAdaptor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusmenuadaptor_p.h",
+    "outputRevision": 69
+}

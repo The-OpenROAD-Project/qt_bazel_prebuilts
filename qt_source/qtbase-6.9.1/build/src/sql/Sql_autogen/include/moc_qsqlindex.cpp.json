@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "QSqlIndex",
+            "gadget": true,
+            "lineNumber": 17,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "name",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "cursorName",
+                    "read": "cursorName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setCursorName"
+                }
+            ],
+            "qualifiedClassName": "QSqlIndex",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlRecord"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsqlindex.h",
+    "outputRevision": 69
+}

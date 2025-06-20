@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QAnimationGroup",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "QAnimationGroup",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qanimationgroup.h",
+    "outputRevision": 69
+}

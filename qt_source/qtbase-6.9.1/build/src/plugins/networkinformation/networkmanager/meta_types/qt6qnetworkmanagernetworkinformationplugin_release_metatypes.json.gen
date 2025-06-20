@@ -1,0 +1,127 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QNetworkManagerNetworkInformationBackend",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "QNetworkManagerNetworkInformationBackend",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QNetworkInformationBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qnetworkmanagernetworkinformationbackend.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QNetworkManagerInterfaceBase",
+                "lineNumber": 46,
+                "object": true,
+                "qualifiedClassName": "QNetworkManagerInterfaceBase",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QDBusAbstractInterface"
+                    }
+                ]
+            },
+            {
+                "className": "QNetworkManagerInterface",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "name": "NMState",
+                        "values": [
+                            "NM_STATE_UNKNOWN",
+                            "NM_STATE_ASLEEP",
+                            "NM_STATE_DISCONNECTED",
+                            "NM_STATE_DISCONNECTING",
+                            "NM_STATE_CONNECTING",
+                            "NM_STATE_CONNECTED_LOCAL",
+                            "NM_STATE_CONNECTED_SITE",
+                            "NM_STATE_CONNECTED_GLOBAL"
+                        ]
+                    },
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "name": "NMConnectivityState",
+                        "values": [
+                            "NM_CONNECTIVITY_UNKNOWN",
+                            "NM_CONNECTIVITY_NONE",
+                            "NM_CONNECTIVITY_PORTAL",
+                            "NM_CONNECTIVITY_LIMITED",
+                            "NM_CONNECTIVITY_FULL"
+                        ]
+                    }
+                ],
+                "lineNumber": 59,
+                "object": true,
+                "qualifiedClassName": "QNetworkManagerInterface",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "interfaceName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "map",
+                                "type": "QMap<QString,QVariant>"
+                            },
+                            {
+                                "name": "invalidatedProperties",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "setProperties",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QNetworkManagerInterfaceBase"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qnetworkmanagerservice.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QNetworkManagerNetworkInformationBackendFactory",
+                "interfaces": [
+                    [
+                        {
+                            "className": "QNetworkInformationBackendFactory",
+                            "id": "\"org.qt-project.Qt.NetworkInformationBackendFactory\""
+                        }
+                    ]
+                ],
+                "lineNumber": 110,
+                "object": true,
+                "qualifiedClassName": "QNetworkManagerNetworkInformationBackendFactory",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QNetworkInformationBackendFactory"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qnetworkmanagernetworkinformationbackend.cpp",
+        "outputRevision": 69
+    }
+]

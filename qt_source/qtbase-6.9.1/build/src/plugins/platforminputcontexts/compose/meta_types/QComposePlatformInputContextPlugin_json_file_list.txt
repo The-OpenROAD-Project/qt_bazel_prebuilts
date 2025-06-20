@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/compose/QComposePlatformInputContextPlugin_autogen/include/moc_qcomposeplatforminputcontext.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/compose/QComposePlatformInputContextPlugin_autogen/include/qcomposeplatforminputcontextmain.moc.json

@@ -1,0 +1,170 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "RegisterEnumClassesUnscoped",
+                    "value": "false"
+                }
+            ],
+            "className": "QNetworkInformation",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Reachability",
+                    "values": [
+                        "Unknown",
+                        "Disconnected",
+                        "Local",
+                        "Site",
+                        "Online"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TransportMedium",
+                    "values": [
+                        "Unknown",
+                        "Ethernet",
+                        "Cellular",
+                        "WiFi",
+                        "Bluetooth"
+                    ]
+                },
+                {
+                    "alias": "Feature",
+                    "isClass": true,
+                    "isFlag": true,
+                    "name": "Features",
+                    "values": [
+                        "Reachability",
+                        "CaptivePortal",
+                        "TransportMedium",
+                        "Metered"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "reachability",
+                    "notify": "reachabilityChanged",
+                    "read": "reachability",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Reachability",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "isBehindCaptivePortal",
+                    "notify": "isBehindCaptivePortalChanged",
+                    "read": "isBehindCaptivePortal",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "transportMedium",
+                    "notify": "transportMediumChanged",
+                    "read": "transportMedium",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TransportMedium",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "isMetered",
+                    "notify": "isMeteredChanged",
+                    "read": "isMetered",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QNetworkInformation",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newReachability",
+                            "type": "QNetworkInformation::Reachability"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "reachabilityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "isBehindCaptivePortalChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QNetworkInformation::TransportMedium"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "transportMediumChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "isMetered",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "isMeteredChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkinformation.h",
+    "outputRevision": 69
+}

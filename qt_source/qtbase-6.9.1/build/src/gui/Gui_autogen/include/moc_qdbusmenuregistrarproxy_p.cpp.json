@@ -1,0 +1,76 @@
+{
+    "classes": [
+        {
+            "className": "QDBusMenuRegistrarInterface",
+            "lineNumber": 40,
+            "object": true,
+            "qualifiedClassName": "QDBusMenuRegistrarInterface",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "windowId",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "GetMenuForWindow",
+                    "returnType": "QDBusPendingReply<QString,QDBusObjectPath>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "windowId",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "menuObjectPath",
+                            "type": "QDBusObjectPath&"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "GetMenuForWindow",
+                    "returnType": "QDBusReply<QString>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "windowId",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "menuObjectPath",
+                            "type": "QDBusObjectPath"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "RegisterWindow",
+                    "returnType": "QDBusPendingReply<>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "windowId",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "UnregisterWindow",
+                    "returnType": "QDBusPendingReply<>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusmenuregistrarproxy_p.h",
+    "outputRevision": 69
+}

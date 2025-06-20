@@ -1,0 +1,84 @@
+{
+    "classes": [
+        {
+            "className": "QGenericUnixThemeDBusListener",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Provider",
+                    "values": [
+                        "Kde",
+                        "Gtk",
+                        "Gnome"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Setting",
+                    "values": [
+                        "Theme",
+                        "ApplicationStyle",
+                        "ColorScheme"
+                    ]
+                }
+            ],
+            "lineNumber": 132,
+            "object": true,
+            "qualifiedClassName": "QGenericUnixThemeDBusListener",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "provider",
+                            "type": "QGenericUnixThemeDBusListener::Provider"
+                        },
+                        {
+                            "name": "setting",
+                            "type": "QGenericUnixThemeDBusListener::Setting"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "settingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "location",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "key",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "onSettingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgenericunixthemes.cpp",
+    "outputRevision": 69
+}

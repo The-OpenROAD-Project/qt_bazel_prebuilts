@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkConnectionMonitor",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QNetworkConnectionMonitor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "isOnline",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "reachabilityChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetconmonitor_p.h",
+    "outputRevision": 69
+}

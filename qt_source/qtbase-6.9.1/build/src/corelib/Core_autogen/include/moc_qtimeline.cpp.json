@@ -1,0 +1,203 @@
+{
+    "classes": [
+        {
+            "className": "QTimeLine",
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableDuration",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "duration",
+                    "read": "duration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDuration"
+                },
+                {
+                    "bindable": "bindableUpdateInterval",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "updateInterval",
+                    "read": "updateInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setUpdateInterval"
+                },
+                {
+                    "bindable": "bindableCurrentTime",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentTime",
+                    "read": "currentTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentTime"
+                },
+                {
+                    "bindable": "bindableDirection",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "direction",
+                    "read": "direction",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Direction",
+                    "user": false,
+                    "write": "setDirection"
+                },
+                {
+                    "bindable": "bindableLoopCount",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "loopCount",
+                    "read": "loopCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setLoopCount"
+                },
+                {
+                    "bindable": "bindableEasingCurve",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "easingCurve",
+                    "read": "easingCurve",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QEasingCurve",
+                    "user": false,
+                    "write": "setEasingCurve"
+                }
+            ],
+            "qualifiedClassName": "QTimeLine",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "qreal"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "valueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "frameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newState",
+                            "type": "QTimeLine::State"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "resume",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "paused",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "setPaused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msec",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setCurrentTime",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "toggleDirection",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtimeline.h",
+    "outputRevision": 69
+}

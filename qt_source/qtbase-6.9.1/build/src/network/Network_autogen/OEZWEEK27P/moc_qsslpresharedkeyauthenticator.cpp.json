@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "className": "QSslPreSharedKeyAuthenticator",
+            "gadget": true,
+            "lineNumber": 17,
+            "qualifiedClassName": "QSslPreSharedKeyAuthenticator"
+        }
+    ],
+    "inputFile": "qsslpresharedkeyauthenticator.h",
+    "outputRevision": 69
+}

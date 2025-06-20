@@ -1,0 +1,1 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/QXcbIntegrationPlugin_autogen/include/qxcbmain.moc.json

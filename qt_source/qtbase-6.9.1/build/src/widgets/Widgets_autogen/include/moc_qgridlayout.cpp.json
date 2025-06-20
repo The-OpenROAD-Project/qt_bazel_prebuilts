@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QGridLayout",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QGridLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgridlayout.h",
+    "outputRevision": 69
+}

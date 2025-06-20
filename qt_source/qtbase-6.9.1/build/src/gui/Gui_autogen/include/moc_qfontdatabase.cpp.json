@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "QFontDatabase",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "WritingSystem",
+                    "values": [
+                        "Any",
+                        "Latin",
+                        "Greek",
+                        "Cyrillic",
+                        "Armenian",
+                        "Hebrew",
+                        "Arabic",
+                        "Syriac",
+                        "Thaana",
+                        "Devanagari",
+                        "Bengali",
+                        "Gurmukhi",
+                        "Gujarati",
+                        "Oriya",
+                        "Tamil",
+                        "Telugu",
+                        "Kannada",
+                        "Malayalam",
+                        "Sinhala",
+                        "Thai",
+                        "Lao",
+                        "Tibetan",
+                        "Myanmar",
+                        "Georgian",
+                        "Khmer",
+                        "SimplifiedChinese",
+                        "TraditionalChinese",
+                        "Japanese",
+                        "Korean",
+                        "Vietnamese",
+                        "Symbol",
+                        "Other",
+                        "Ogham",
+                        "Runic",
+                        "Nko",
+                        "WritingSystemsCount"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SystemFont",
+                    "values": [
+                        "GeneralFont",
+                        "FixedFont",
+                        "TitleFont",
+                        "SmallestReadableFont"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 18,
+            "qualifiedClassName": "QFontDatabase"
+        }
+    ],
+    "inputFile": "qfontdatabase.h",
+    "outputRevision": 69
+}

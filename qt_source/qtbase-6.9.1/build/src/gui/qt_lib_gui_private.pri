@@ -1,0 +1,11 @@
+QT.gui_private.VERSION = 6.9.1
+QT.gui_private.name = QtGui
+QT.gui_private.module =
+QT.gui_private.libs = $$QT_MODULE_LIB_BASE
+QT.gui_private.includes = $$QT_MODULE_INCLUDE_BASE/QtGui/6.9.1 $$QT_MODULE_INCLUDE_BASE/QtGui/6.9.1/QtGui
+QT.gui_private.frameworks = 
+QT.gui_private.depends = core_private gui
+QT.gui_private.uses = xkbcommon
+QT.gui_private.module_config = v2 internal_module
+QT.gui_private.enabled_features = accessibility-atspi-bridge emojisegmenter evdev freetype system-freetype fontconfig harfbuzz system-harfbuzz kms drm_atomic linuxfb vnc vkgen vkkhrdisplay egl_x11 eglfs eglfs_egldevice eglfs_gbm eglfs_x11 gif ico jpeg system-jpeg png system-png imageio-text-loading tuiotouch xcb-glx xcb-egl-plugin xcb-xlib xcb-sm xkbcommon xkbcommon-x11 xlib multiprocess raster-64bit raster-fp qtgui-threadpool
+QT.gui_private.disabled_features = directfb directwrite directwrite3 directwritecolrv1 direct2d direct2d1_1 vxworksevdev qqnx_imf integrityfb libinput integrityhid libinput-axis-api libinput-hires-wheel-support vsp2 mtdev eglfs_brcm eglfs_vsp2 eglfs_mali eglfs_viv eglfs_rcar eglfs_viv_wl eglfs_openwfd tslib xcb-native-painting xrender system-xcb-xinput graphicsframecapture

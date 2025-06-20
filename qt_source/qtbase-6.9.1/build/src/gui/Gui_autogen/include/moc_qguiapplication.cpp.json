@@ -1,0 +1,297 @@
+{
+    "classes": [
+        {
+            "className": "QGuiApplication",
+            "lineNumber": 36,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "windowIcon",
+                    "read": "windowIcon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "write": "setWindowIcon"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "applicationDisplayName",
+                    "notify": "applicationDisplayNameChanged",
+                    "read": "applicationDisplayName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setApplicationDisplayName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "desktopFileName",
+                    "read": "desktopFileName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDesktopFileName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "layoutDirection",
+                    "notify": "layoutDirectionChanged",
+                    "read": "layoutDirection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::LayoutDirection",
+                    "user": false,
+                    "write": "setLayoutDirection"
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "platformName",
+                    "read": "platformName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "quitOnLastWindowClosed",
+                    "read": "quitOnLastWindowClosed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setQuitOnLastWindowClosed"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "primaryScreen",
+                    "notify": "primaryScreenChanged",
+                    "read": "primaryScreen",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QScreen*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QGuiApplication",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "fontDatabaseChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "screenAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "screenRemoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "primaryScreenChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "lastWindowClosed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "focusObject",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "focusObjectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "focusWindow",
+                            "type": "QWindow*"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "focusWindowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "Qt::ApplicationState"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "applicationStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "direction",
+                            "type": "Qt::LayoutDirection"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "layoutDirectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sessionManager",
+                            "type": "QSessionManager&"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "commitDataRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sessionManager",
+                            "type": "QSessionManager&"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "saveStateRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "applicationDisplayNameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pal",
+                            "type": "QPalette"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "paletteChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "font",
+                            "type": "QFont"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "fontChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "number",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "setBadgeNumber",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "object",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "_q_updateFocusObject",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QCoreApplication"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qguiapplication.h",
+    "outputRevision": 69
+}

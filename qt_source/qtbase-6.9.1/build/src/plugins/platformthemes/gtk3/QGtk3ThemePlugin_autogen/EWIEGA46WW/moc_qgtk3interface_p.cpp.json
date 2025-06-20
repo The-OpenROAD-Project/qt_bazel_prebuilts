@@ -1,0 +1,63 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3Interface",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "QGtkWidget",
+                    "values": [
+                        "gtk_menu_bar",
+                        "gtk_menu",
+                        "gtk_button",
+                        "gtk_button_box",
+                        "gtk_check_button",
+                        "gtk_radio_button",
+                        "gtk_frame",
+                        "gtk_statusbar",
+                        "gtk_entry",
+                        "gtk_popup",
+                        "gtk_notebook",
+                        "gtk_toolbar",
+                        "gtk_tree_view",
+                        "gtk_combo_box",
+                        "gtk_combo_box_text",
+                        "gtk_progress_bar",
+                        "gtk_fixed",
+                        "gtk_separator_menu_item",
+                        "gtk_Default",
+                        "gtk_offscreen_window"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "QGtkColorSource",
+                    "values": [
+                        "Foreground",
+                        "Background",
+                        "Text",
+                        "Base",
+                        "Border"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "QGtkColorDefault",
+                    "values": [
+                        "Foreground",
+                        "Background",
+                        "Border"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 53,
+            "qualifiedClassName": "QGtk3Interface"
+        }
+    ],
+    "inputFile": "qgtk3interface_p.h",
+    "outputRevision": 69
+}

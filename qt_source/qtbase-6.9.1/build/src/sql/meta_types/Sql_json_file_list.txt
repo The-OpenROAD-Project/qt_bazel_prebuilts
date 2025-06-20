@@ -1,0 +1,9 @@
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqldatabase.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqldriver.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqldriverplugin.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqlfield.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqlindex.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqlquery.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqlquerymodel.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqlrelationaltablemodel.cpp.json
+/tmp/qtbase-6.9.1/build/src/sql/Sql_autogen/include/moc_qsqltablemodel.cpp.json

@@ -1,0 +1,222 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/FindGTK3.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindX11.cmake",
+		"/usr/share/cmake-3.22/Modules/FindFreetype.cmake",
+		"/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindFontconfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckFunctionExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/tmp/qtbase-6.9.1/cmake/QtPluginConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QGtk3ThemePlugin_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3dialoghelpers.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3dialoghelpers.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3interface_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3interface_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3json_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3json_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3portalinterface_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3portalinterface_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3storage_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3storage_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3theme.h",
+			"Mu",
+			"EWIEGA46WW/moc_qgtk3theme.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GDK_VERSION_MIN_REQUIRED=GDK_VERSION_3_6",
+		"QGtk3ThemePlugin_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_GUI_LIB",
+		"QT_LEAN_HEADERS=1",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_PLUGIN",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3",
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/tmp/qtbase-6.9.1/build/include/QtGui",
+		"/tmp/qtbase-6.9.1/build/src/gui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1/QtGui",
+		"/tmp/qtbase-6.9.1/build/include/QtDBus",
+		"/usr/include/gtk-3.0",
+		"/usr/include/at-spi2-atk/2.0",
+		"/usr/include/at-spi-2.0",
+		"/usr/include/dbus-1.0",
+		"/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+		"/usr/include/gio-unix-2.0",
+		"/usr/include/cairo",
+		"/usr/include/pango-1.0",
+		"/usr/include/harfbuzz",
+		"/usr/include/fribidi",
+		"/usr/include/atk-1.0",
+		"/usr/include/pixman-1",
+		"/usr/include/uuid",
+		"/usr/include/freetype2",
+		"/usr/include/gdk-pixbuf-2.0",
+		"/usr/include/libpng16",
+		"/usr/include/libmount",
+		"/usr/include/blkid",
+		"/usr/include/glib-2.0",
+		"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/QGtk3ThemePlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/CMakeFiles/QGtk3ThemePlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/gtk3/CMakeFiles/QGtk3ThemePlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3dialoghelpers.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3interface.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3json.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3portalinterface.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3storage.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platformthemes/gtk3/qgtk3theme.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

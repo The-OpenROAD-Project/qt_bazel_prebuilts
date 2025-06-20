@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "LineEdit",
+            "lineNumber": 83,
+            "object": true,
+            "qualifiedClassName": "LineEdit",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "handleReturnPressed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLineEdit"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprintpreviewdialog.cpp",
+    "outputRevision": 69
+}

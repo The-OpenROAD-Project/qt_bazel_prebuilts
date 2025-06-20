@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "className": "QAuthenticator",
+            "gadget": true,
+            "lineNumber": 17,
+            "qualifiedClassName": "QAuthenticator"
+        }
+    ],
+    "inputFile": "qauthenticator.h",
+    "outputRevision": 69
+}

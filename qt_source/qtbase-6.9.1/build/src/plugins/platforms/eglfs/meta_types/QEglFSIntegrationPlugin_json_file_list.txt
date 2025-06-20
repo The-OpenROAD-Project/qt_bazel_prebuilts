@@ -1,0 +1,1 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/QEglFSIntegrationPlugin_autogen/include/qeglfsmain.moc.json

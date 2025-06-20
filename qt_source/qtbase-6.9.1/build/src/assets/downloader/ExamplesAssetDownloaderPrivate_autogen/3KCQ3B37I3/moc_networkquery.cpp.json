@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "NetworkQuery",
+            "lineNumber": 39,
+            "object": true,
+            "qualifiedClassName": "Tasking::NetworkQuery",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytesReceived",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "bytesTotal",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "downloadProgress",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "DoneResult"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "done",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "networkquery.h",
+    "outputRevision": 69
+}

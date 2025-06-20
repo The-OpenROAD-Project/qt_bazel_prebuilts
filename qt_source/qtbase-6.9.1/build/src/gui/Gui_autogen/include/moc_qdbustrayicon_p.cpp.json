@@ -1,0 +1,270 @@
+{
+    "classes": [
+        {
+            "className": "QDBusTrayIcon",
+            "lineNumber": 36,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "category",
+                    "notify": "categoryChanged",
+                    "read": "category",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "status",
+                    "notify": "statusChanged",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "tooltip",
+                    "notify": "tooltipChanged",
+                    "read": "tooltip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "iconName",
+                    "notify": "iconChanged",
+                    "read": "iconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "icon",
+                    "notify": "iconChanged",
+                    "read": "icon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "isRequestingAttention",
+                    "notify": "attention",
+                    "read": "isRequestingAttention",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "attentionTitle",
+                    "notify": "attention",
+                    "read": "attentionTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "attentionMessage",
+                    "notify": "attention",
+                    "read": "attentionMessage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "attentionIconName",
+                    "notify": "attention",
+                    "read": "attentionIconName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "attentionIcon",
+                    "notify": "attention",
+                    "read": "attentionIcon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "menu",
+                    "notify": "menuChanged",
+                    "read": "menu",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDBusPlatformMenu*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QDBusTrayIcon",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "categoryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "arg",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "tooltipChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "iconChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "attention",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "menuChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "attentionTimerExpired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "action",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "actionInvoked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "reason",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "notificationClosed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "watcherServiceRegistered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformSystemTrayIcon"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbustrayicon_p.h",
+    "outputRevision": 69
+}

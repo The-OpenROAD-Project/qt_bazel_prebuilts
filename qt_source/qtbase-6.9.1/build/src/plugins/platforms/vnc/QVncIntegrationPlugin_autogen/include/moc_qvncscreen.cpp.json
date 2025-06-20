@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QVncScreen",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QVncScreen",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFbScreen"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvncscreen.h",
+    "outputRevision": 69
+}

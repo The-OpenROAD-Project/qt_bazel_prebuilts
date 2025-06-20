@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "QDBusAbstractInterface",
+            "lineNumber": 42,
+            "object": true,
+            "qualifiedClassName": "QDBusAbstractInterface",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "_q_serviceOwnerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterfaceBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusabstractinterface.h",
+    "outputRevision": 69
+}

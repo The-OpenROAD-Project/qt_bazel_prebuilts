@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "QSqlDriver",
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "numericalPrecisionPolicy",
+                    "read": "numericalPrecisionPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSql::NumericalPrecisionPolicy",
+                    "user": false,
+                    "write": "setNumericalPrecisionPolicy"
+                }
+            ],
+            "qualifiedClassName": "QSqlDriver",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "source",
+                            "type": "QSqlDriver::NotificationSource"
+                        },
+                        {
+                            "name": "payload",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "notification",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "cancelQuery",
+                    "returnType": "bool"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsqldriver.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QSqlQueryModel",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QSqlQueryModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsqlquerymodel.h",
+    "outputRevision": 69
+}

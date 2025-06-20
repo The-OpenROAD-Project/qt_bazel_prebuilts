@@ -1,0 +1,370 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsView",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewportAnchor",
+                    "values": [
+                        "NoAnchor",
+                        "AnchorViewCenter",
+                        "AnchorUnderMouse"
+                    ]
+                },
+                {
+                    "alias": "CacheModeFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "CacheMode",
+                    "values": [
+                        "CacheNone",
+                        "CacheBackground"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DragMode",
+                    "values": [
+                        "NoDrag",
+                        "ScrollHandDrag",
+                        "RubberBandDrag"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewportUpdateMode",
+                    "values": [
+                        "FullViewportUpdate",
+                        "MinimalViewportUpdate",
+                        "SmartViewportUpdate",
+                        "NoViewportUpdate",
+                        "BoundingRectViewportUpdate"
+                    ]
+                },
+                {
+                    "alias": "OptimizationFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "OptimizationFlags",
+                    "values": [
+                        "DontSavePainterState",
+                        "DontAdjustForAntialiasing",
+                        "IndirectPainting"
+                    ]
+                }
+            ],
+            "lineNumber": 23,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "backgroundBrush",
+                    "read": "backgroundBrush",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "write": "setBackgroundBrush"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "foregroundBrush",
+                    "read": "foregroundBrush",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QBrush",
+                    "user": false,
+                    "write": "setForegroundBrush"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "interactive",
+                    "read": "isInteractive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setInteractive"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "sceneRect",
+                    "read": "sceneRect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "write": "setSceneRect"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "alignment",
+                    "read": "alignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "write": "setAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "renderHints",
+                    "read": "renderHints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPainter::RenderHints",
+                    "user": false,
+                    "write": "setRenderHints"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "dragMode",
+                    "read": "dragMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DragMode",
+                    "user": false,
+                    "write": "setDragMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "cacheMode",
+                    "read": "cacheMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "CacheMode",
+                    "user": false,
+                    "write": "setCacheMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "transformationAnchor",
+                    "read": "transformationAnchor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewportAnchor",
+                    "user": false,
+                    "write": "setTransformationAnchor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "resizeAnchor",
+                    "read": "resizeAnchor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewportAnchor",
+                    "user": false,
+                    "write": "setResizeAnchor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "viewportUpdateMode",
+                    "read": "viewportUpdateMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewportUpdateMode",
+                    "user": false,
+                    "write": "setViewportUpdateMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "rubberBandSelectionMode",
+                    "read": "rubberBandSelectionMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ItemSelectionMode",
+                    "user": false,
+                    "write": "setRubberBandSelectionMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "optimizationFlags",
+                    "read": "optimizationFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "OptimizationFlags",
+                    "user": false,
+                    "write": "setOptimizationFlags"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "viewportRect",
+                            "type": "QRect"
+                        },
+                        {
+                            "name": "fromScenePoint",
+                            "type": "QPointF"
+                        },
+                        {
+                            "name": "toScenePoint",
+                            "type": "QPointF"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "rubberBandChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rects",
+                            "type": "QList<QRectF>"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateScene",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        },
+                        {
+                            "name": "layers",
+                            "type": "QGraphicsScene::SceneLayers"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "invalidateScene",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "name": "invalidateScene",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "isCloned": true,
+                    "name": "invalidateScene",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "updateSceneRect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "widget",
+                            "type": "QWidget*"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setupViewport",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QCursor"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "_q_setViewportCursor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "_q_unsetViewportCursor",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractScrollArea"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsview.h",
+    "outputRevision": 69
+}

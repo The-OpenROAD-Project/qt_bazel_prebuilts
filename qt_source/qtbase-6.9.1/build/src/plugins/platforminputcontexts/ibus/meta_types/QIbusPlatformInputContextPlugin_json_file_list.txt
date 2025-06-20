@@ -1,0 +1,5 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/ibus/QIbusPlatformInputContextPlugin_autogen/include/../EWIEGA46WW/moc_qibusinputcontextproxy.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/ibus/QIbusPlatformInputContextPlugin_autogen/include/../EWIEGA46WW/moc_qibusproxyportal.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/ibus/QIbusPlatformInputContextPlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/ibus/QIbusPlatformInputContextPlugin_autogen/include/moc_qibusplatforminputcontext.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforminputcontexts/ibus/QIbusPlatformInputContextPlugin_autogen/include/moc_qibusproxy.cpp.json

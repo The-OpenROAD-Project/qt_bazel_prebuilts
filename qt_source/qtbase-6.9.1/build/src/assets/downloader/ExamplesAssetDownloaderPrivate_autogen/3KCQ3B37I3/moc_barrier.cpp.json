@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "Barrier",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "Tasking::Barrier",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "success",
+                            "type": "DoneResult"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "done",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "barrier.h",
+    "outputRevision": 69
+}

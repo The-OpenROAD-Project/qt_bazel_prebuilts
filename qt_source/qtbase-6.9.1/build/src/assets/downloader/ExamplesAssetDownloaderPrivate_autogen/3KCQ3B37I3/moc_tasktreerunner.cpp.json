@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "TaskTreeRunner",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "Tasking::TaskTreeRunner",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "taskTree",
+                            "type": "TaskTree*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "aboutToStart",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "DoneWith"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "done",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tasktreerunner.h",
+    "outputRevision": 69
+}

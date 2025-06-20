@@ -1,0 +1,4 @@
+androidtestrunner_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/androidtestrunner/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/androidtestrunner/main.cpp \
+	/usr/bin/cmake

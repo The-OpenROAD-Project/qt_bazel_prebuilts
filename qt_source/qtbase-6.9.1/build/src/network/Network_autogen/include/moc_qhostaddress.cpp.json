@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "className": "QHostAddress",
+            "gadget": true,
+            "lineNumber": 39,
+            "qualifiedClassName": "QHostAddress"
+        }
+    ],
+    "inputFile": "qhostaddress.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractSocketEngine",
+            "lineNumber": 50,
+            "object": true,
+            "qualifiedClassName": "QAbstractSocketEngine",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "readNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "writeNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "closeNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "exceptionNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "connectionNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractsocketengine_p.h",
+    "outputRevision": 69
+}

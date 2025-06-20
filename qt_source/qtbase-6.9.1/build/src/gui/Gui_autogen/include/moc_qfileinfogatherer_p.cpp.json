@@ -1,0 +1,160 @@
+{
+    "classes": [
+        {
+            "className": "QFileInfoGatherer",
+            "lineNumber": 125,
+            "object": true,
+            "qualifiedClassName": "QFileInfoGatherer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "updates",
+                            "type": "QList<std::pair<QString,QFileInfo>>"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "updates",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "listOfFiles",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 1,
+                    "isConst": true,
+                    "name": "newListOfFiles",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "fileName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "resolvedName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "isConst": true,
+                    "name": "nameResolved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "directoryLoaded",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directoryPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "list",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "files",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "fetchExtendedInformation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "updateFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "setResolveSymlinks",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "provider",
+                            "type": "QAbstractFileIconProvider*"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setIconProvider",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 9,
+                    "name": "driveAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 10,
+                    "name": "driveRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfileinfogatherer_p.h",
+    "outputRevision": 69
+}

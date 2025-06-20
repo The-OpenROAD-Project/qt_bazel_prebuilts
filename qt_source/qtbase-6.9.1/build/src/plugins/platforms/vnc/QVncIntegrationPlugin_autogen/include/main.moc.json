@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QVncIntegrationPlugin",
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "QVncIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

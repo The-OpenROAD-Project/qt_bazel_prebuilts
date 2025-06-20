@@ -1,0 +1,20 @@
+EglFsKmsSupportPrivate_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/CMakeFiles/EglFsKmsSupportPrivate.dir/cmake_pch.hxx \
+	/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/CMakeFiles/EglFsKmsSupportPrivate.dir/cmake_pch.hxx.cxx \
+	/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in \
+	/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsdevice.cpp \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsdevice_p.h \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmseventreader.cpp \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmseventreader_p.h \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmshelpers_p.h \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsintegration.cpp \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsintegration_p.h \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsscreen.cpp \
+	/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_support/qeglfskmsscreen_p.h \
+	/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/usr/bin/cmake

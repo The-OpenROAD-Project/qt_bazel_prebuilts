@@ -1,0 +1,508 @@
+{
+    "classes": [
+        {
+            "className": "QHttpThreadDelegate",
+            "lineNumber": 48,
+            "object": true,
+            "qualifiedClassName": "QHttpThreadDelegate",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "request",
+                            "type": "QHttpNetworkRequest"
+                        },
+                        {
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "authenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "encrypted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QList<QSslError>"
+                        },
+                        {
+                            "type": "bool*"
+                        },
+                        {
+                            "type": "QList<QSslError>*"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QSslConfiguration"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "sslConfigurationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "socketStartedConnecting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "requestSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QHttpHeaders"
+                        },
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "bool"
+                        },
+                        {
+                            "type": "QSharedPointer<char>"
+                        },
+                        {
+                            "type": "qint64"
+                        },
+                        {
+                            "type": "qint64"
+                        },
+                        {
+                            "type": "bool"
+                        },
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "downloadMetaData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "qint64"
+                        },
+                        {
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "downloadProgress",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "downloadData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QNetworkReply::NetworkError"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "error",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "downloadFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "httpStatus",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maxRedirectsRemainig",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "redirected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "startRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "abortRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "readBufferSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "size",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "readBufferFreed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "name": "startRequestSynchronously",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 19,
+                    "name": "readyReadSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 20,
+                    "name": "finishedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "QNetworkReply::NetworkError"
+                        },
+                        {
+                            "name": "detail",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 21,
+                    "name": "finishedWithErrorSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "QNetworkReply::NetworkError"
+                        }
+                    ],
+                    "index": 22,
+                    "isCloned": true,
+                    "name": "finishedWithErrorSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 23,
+                    "name": "synchronousFinishedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "QNetworkReply::NetworkError"
+                        },
+                        {
+                            "name": "detail",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 24,
+                    "name": "synchronousFinishedWithErrorSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errorCode",
+                            "type": "QNetworkReply::NetworkError"
+                        }
+                    ],
+                    "index": 25,
+                    "isCloned": true,
+                    "name": "synchronousFinishedWithErrorSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 26,
+                    "name": "headerChangedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 27,
+                    "name": "synchronousHeaderChangedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "done",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "total",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 28,
+                    "name": "dataReadProgressSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "request",
+                            "type": "QHttpNetworkRequest"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 29,
+                    "name": "cacheCredentialsSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 30,
+                    "name": "encryptedSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "index": 31,
+                    "name": "sslErrorsSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 32,
+                    "name": "preSharedKeyAuthenticationRequiredSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "request",
+                            "type": "QHttpNetworkRequest"
+                        },
+                        {
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 33,
+                    "name": "synchronousAuthenticationRequiredSlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 34,
+                    "name": "synchronousProxyAuthenticationRequiredSlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceThreadForwardImpl",
+            "lineNumber": 163,
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceThreadForwardImpl",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "wantData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "processedData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "resetData",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pos",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "dataArray",
+                            "type": "QByteArray"
+                        },
+                        {
+                            "name": "dataAtEnd",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "dataSize",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "haveDataSlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttpthreaddelegate_p.h",
+    "outputRevision": 69
+}

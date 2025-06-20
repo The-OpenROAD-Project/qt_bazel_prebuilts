@@ -1,0 +1,149 @@
+{
+    "classes": [
+        {
+            "className": "TaskInterface",
+            "lineNumber": 101,
+            "object": true,
+            "qualifiedClassName": "Tasking::TaskInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "DoneResult"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "done",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "TaskTree",
+            "lineNumber": 661,
+            "object": true,
+            "qualifiedClassName": "Tasking::TaskTree",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "DoneWith"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "done",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "count",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "asyncCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "progressValueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "Tasking",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "WorkflowPolicy",
+                    "values": [
+                        "StopOnError",
+                        "ContinueOnError",
+                        "StopOnSuccess",
+                        "ContinueOnSuccess",
+                        "StopOnSuccessOrError",
+                        "FinishAllAndSuccess",
+                        "FinishAllAndError"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "SetupResult",
+                    "values": [
+                        "Continue",
+                        "StopWithSuccess",
+                        "StopWithError"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "DoneResult",
+                    "values": [
+                        "Success",
+                        "Error"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "DoneWith",
+                    "values": [
+                        "Success",
+                        "Error",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "CallDoneIf",
+                    "values": [
+                        "SuccessOrError",
+                        "Success",
+                        "Error"
+                    ]
+                }
+            ],
+            "lineNumber": 30,
+            "namespace": true,
+            "qualifiedClassName": "Tasking"
+        }
+    ],
+    "inputFile": "tasktree.h",
+    "outputRevision": 69
+}

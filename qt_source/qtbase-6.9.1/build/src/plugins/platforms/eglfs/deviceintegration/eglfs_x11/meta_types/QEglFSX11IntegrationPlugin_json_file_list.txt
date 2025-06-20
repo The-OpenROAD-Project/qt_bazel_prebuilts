@@ -1,0 +1,1 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/deviceintegration/eglfs_x11/QEglFSX11IntegrationPlugin_autogen/include/qeglfsx11main.moc.json

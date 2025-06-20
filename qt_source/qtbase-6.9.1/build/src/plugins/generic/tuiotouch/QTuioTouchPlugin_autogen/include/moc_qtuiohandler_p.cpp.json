@@ -1,0 +1,122 @@
+{
+    "classes": [
+        {
+            "className": "QTuioHandler",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QTuioHandler",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "processPackets",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "process2DCurSource",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "process2DCurAlive",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "process2DCurSet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "process2DCurFseq",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "process2DObjSource",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "process2DObjAlive",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "process2DObjSet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QOscMessage"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "process2DObjFseq",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtuiohandler_p.h",
+    "outputRevision": 69
+}

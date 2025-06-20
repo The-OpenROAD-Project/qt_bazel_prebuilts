@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QDBusError",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ErrorType",
+                    "values": [
+                        "NoError",
+                        "Other",
+                        "Failed",
+                        "NoMemory",
+                        "ServiceUnknown",
+                        "NoReply",
+                        "BadAddress",
+                        "NotSupported",
+                        "LimitsExceeded",
+                        "AccessDenied",
+                        "NoServer",
+                        "Timeout",
+                        "NoNetwork",
+                        "AddressInUse",
+                        "Disconnected",
+                        "InvalidArgs",
+                        "UnknownMethod",
+                        "TimedOut",
+                        "InvalidSignature",
+                        "UnknownInterface",
+                        "UnknownObject",
+                        "UnknownProperty",
+                        "PropertyReadOnly",
+                        "InternalError",
+                        "InvalidService",
+                        "InvalidObjectPath",
+                        "InvalidInterface",
+                        "InvalidMember",
+                        "LastErrorType"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 20,
+            "qualifiedClassName": "QDBusError"
+        }
+    ],
+    "inputFile": "qdbuserror.h",
+    "outputRevision": 69
+}

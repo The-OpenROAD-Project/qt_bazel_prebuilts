@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "QClipboard",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QClipboard",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "QClipboard::Mode"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "findBufferChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "dataChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qclipboard.h",
+    "outputRevision": 69
+}

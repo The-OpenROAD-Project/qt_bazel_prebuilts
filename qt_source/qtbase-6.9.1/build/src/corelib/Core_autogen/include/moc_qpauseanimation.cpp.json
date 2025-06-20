@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "QPauseAnimation",
+            "lineNumber": 15,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableDuration",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "duration",
+                    "read": "duration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDuration"
+                }
+            ],
+            "qualifiedClassName": "QPauseAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpauseanimation.h",
+    "outputRevision": 69
+}

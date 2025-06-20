@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QFusionStyle",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QFusionStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QCommonStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfusionstyle_p.h",
+    "outputRevision": 69
+}

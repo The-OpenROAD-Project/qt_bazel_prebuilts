@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformIntegrationPlugin",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QPlatformIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformintegrationplugin.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QMimeData",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QMimeData",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmimedata.h",
+    "outputRevision": 69
+}

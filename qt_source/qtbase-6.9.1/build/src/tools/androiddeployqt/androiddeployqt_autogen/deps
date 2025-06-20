@@ -1,0 +1,4 @@
+androiddeployqt_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/androiddeployqt/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/androiddeployqt/main.cpp \
+	/usr/bin/cmake

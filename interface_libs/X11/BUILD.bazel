@@ -1,0 +1,38 @@
+
+cc_import(
+    name = "x11_xcb_ifso",
+    interface_library = "libX11-xcb.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "x11_ifso",
+    interface_library = "libX11.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "x11_sm_ifso",
+    interface_library = "libSM.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "x11_ice_ifso",
+    interface_library = "libICE.ifso",
+    system_provided = True,
+)
+
+cc_library(
+    name = "X11",
+    hdrs = glob(["X11/**/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//qt_source:__subpackages__"],
+    deps = [
+        ":x11_xcb_ifso",
+        ":x11_ifso",
+        ":x11_sm_ifso",
+        ":x11_ice_ifso",
+    ],
+)

@@ -1,0 +1,65 @@
+{
+    "classes": [
+        {
+            "className": "QSettings",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Status",
+                    "values": [
+                        "NoError",
+                        "AccessError",
+                        "FormatError"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Format",
+                    "values": [
+                        "NativeFormat",
+                        "IniFormat",
+                        "InvalidFormat",
+                        "CustomFormat1",
+                        "CustomFormat2",
+                        "CustomFormat3",
+                        "CustomFormat4",
+                        "CustomFormat5",
+                        "CustomFormat6",
+                        "CustomFormat7",
+                        "CustomFormat8",
+                        "CustomFormat9",
+                        "CustomFormat10",
+                        "CustomFormat11",
+                        "CustomFormat12",
+                        "CustomFormat13",
+                        "CustomFormat14",
+                        "CustomFormat15",
+                        "CustomFormat16"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Scope",
+                    "values": [
+                        "UserScope",
+                        "SystemScope"
+                    ]
+                }
+            ],
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QSettings",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsettings.h",
+    "outputRevision": 69
+}

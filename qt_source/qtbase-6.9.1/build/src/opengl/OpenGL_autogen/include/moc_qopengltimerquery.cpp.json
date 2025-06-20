@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLTimerQuery",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QOpenGLTimerQuery",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QOpenGLTimeMonitor",
+            "lineNumber": 46,
+            "object": true,
+            "qualifiedClassName": "QOpenGLTimeMonitor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopengltimerquery.h",
+    "outputRevision": 69
+}

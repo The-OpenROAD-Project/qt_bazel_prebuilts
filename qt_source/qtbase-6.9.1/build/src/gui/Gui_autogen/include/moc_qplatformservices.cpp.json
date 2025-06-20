@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformServiceColorPicker",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QPlatformServiceColorPicker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "colorPicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformservices.h",
+    "outputRevision": 69
+}

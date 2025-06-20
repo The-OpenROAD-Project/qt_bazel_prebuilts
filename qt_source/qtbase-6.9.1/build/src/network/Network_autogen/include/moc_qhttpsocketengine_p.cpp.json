@@ -1,0 +1,86 @@
+{
+    "classes": [
+        {
+            "className": "QHttpSocketEngine",
+            "lineNumber": 36,
+            "object": true,
+            "qualifiedClassName": "QHttpSocketEngine",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "slotSocketConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "slotSocketDisconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "slotSocketReadNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "slotSocketBytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "slotSocketError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "QAbstractSocket::SocketState"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "slotSocketStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "emitPendingReadNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "name": "emitPendingWriteNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "emitPendingConnectionNotification",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSocketEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhttpsocketengine_p.h",
+    "outputRevision": 69
+}

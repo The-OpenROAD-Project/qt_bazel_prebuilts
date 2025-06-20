@@ -1,0 +1,331 @@
+{
+    "classes": [
+        {
+            "className": "QSortFilterProxyModel",
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableFilterRegularExpression",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "filterRegularExpression",
+                    "read": "filterRegularExpression",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRegularExpression",
+                    "user": false,
+                    "write": "setFilterRegularExpression"
+                },
+                {
+                    "bindable": "bindableFilterKeyColumn",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "filterKeyColumn",
+                    "read": "filterKeyColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setFilterKeyColumn"
+                },
+                {
+                    "bindable": "bindableDynamicSortFilter",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "dynamicSortFilter",
+                    "read": "dynamicSortFilter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDynamicSortFilter"
+                },
+                {
+                    "bindable": "bindableFilterCaseSensitivity",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "filterCaseSensitivity",
+                    "notify": "filterCaseSensitivityChanged",
+                    "read": "filterCaseSensitivity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::CaseSensitivity",
+                    "user": false,
+                    "write": "setFilterCaseSensitivity"
+                },
+                {
+                    "bindable": "bindableSortCaseSensitivity",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "sortCaseSensitivity",
+                    "notify": "sortCaseSensitivityChanged",
+                    "read": "sortCaseSensitivity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::CaseSensitivity",
+                    "user": false,
+                    "write": "setSortCaseSensitivity"
+                },
+                {
+                    "bindable": "bindableIsSortLocaleAware",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "isSortLocaleAware",
+                    "notify": "sortLocaleAwareChanged",
+                    "read": "isSortLocaleAware",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSortLocaleAware"
+                },
+                {
+                    "bindable": "bindableSortRole",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "sortRole",
+                    "notify": "sortRoleChanged",
+                    "read": "sortRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSortRole"
+                },
+                {
+                    "bindable": "bindableFilterRole",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "filterRole",
+                    "notify": "filterRoleChanged",
+                    "read": "filterRole",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setFilterRole"
+                },
+                {
+                    "bindable": "bindableRecursiveFilteringEnabled",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "recursiveFilteringEnabled",
+                    "notify": "recursiveFilteringEnabledChanged",
+                    "read": "isRecursiveFilteringEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setRecursiveFilteringEnabled"
+                },
+                {
+                    "bindable": "bindableAutoAcceptChildRows",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "autoAcceptChildRows",
+                    "notify": "autoAcceptChildRowsChanged",
+                    "read": "autoAcceptChildRows",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoAcceptChildRows"
+                }
+            ],
+            "qualifiedClassName": "QSortFilterProxyModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dynamicSortFilter",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "dynamicSortFilterChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filterCaseSensitivity",
+                            "type": "Qt::CaseSensitivity"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "filterCaseSensitivityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sortCaseSensitivity",
+                            "type": "Qt::CaseSensitivity"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "sortCaseSensitivityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sortLocaleAware",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "sortLocaleAwareChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sortRole",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "sortRoleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filterRole",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "filterRoleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "recursiveFilteringEnabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "recursiveFilteringEnabledChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "autoAcceptChildRows",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "autoAcceptChildRowsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pattern",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setFilterRegularExpression",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "regularExpression",
+                            "type": "QRegularExpression"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "setFilterRegularExpression",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pattern",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "setFilterWildcard",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pattern",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "setFilterFixedString",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "invalidate",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsortfilterproxymodel.h",
+    "outputRevision": 69
+}

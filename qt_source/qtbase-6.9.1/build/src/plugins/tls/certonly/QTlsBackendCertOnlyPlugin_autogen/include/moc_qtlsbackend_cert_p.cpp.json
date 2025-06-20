@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QTlsBackendCertOnly",
+            "interfaces": [
+                [
+                    {
+                        "className": "QTlsBackend",
+                        "id": "\"org.qt-project.Qt.QTlsBackend\""
+                    }
+                ]
+            ],
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QTlsBackendCertOnly",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTlsBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtlsbackend_cert_p.h",
+    "outputRevision": 69
+}

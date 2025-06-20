@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/EglFSDeviceIntegrationPrivate_autogen/include/moc_qeglfscursor_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/eglfs/EglFSDeviceIntegrationPrivate_autogen/include/moc_qeglfsdeviceintegration_p.cpp.json

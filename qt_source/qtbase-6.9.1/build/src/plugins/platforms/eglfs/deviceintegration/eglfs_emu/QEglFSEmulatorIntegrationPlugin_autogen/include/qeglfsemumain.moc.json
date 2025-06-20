@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QEglFSEmulatorIntegrationPlugin",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "QEglFSEmulatorIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEglFSDeviceIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeglfsemumain.cpp",
+    "outputRevision": 69
+}

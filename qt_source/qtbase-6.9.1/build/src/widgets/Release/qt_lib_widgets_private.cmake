@@ -1,0 +1,5 @@
+list(APPEND known_libs GTK3)
+set(QMAKE_LIBS_GTK3_RELEASE "/usr/lib/x86_64-linux-gnu/libglib-2.0.so;/usr/lib/x86_64-linux-gnu/libgobject-2.0.so;/usr/lib/x86_64-linux-gnu/libgio-2.0.so;/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so;/usr/lib/x86_64-linux-gnu/libcairo.so;/usr/lib/x86_64-linux-gnu/libcairo-gobject.so;/usr/lib/x86_64-linux-gnu/libatk-1.0.so;/usr/lib/x86_64-linux-gnu/libharfbuzz.so;/usr/lib/x86_64-linux-gnu/libpango-1.0.so;/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so;/usr/lib/x86_64-linux-gnu/libgdk-3.so;/usr/lib/x86_64-linux-gnu/libgtk-3.so")
+set(QMAKE_LIBDIR_GTK3_RELEASE "")
+set(QMAKE_INCDIR_GTK3_RELEASE "/usr/include/gtk-3.0;/usr/include/at-spi2-atk/2.0;/usr/include/at-spi-2.0;/usr/include/dbus-1.0;/usr/lib/x86_64-linux-gnu/dbus-1.0/include;/usr/include/gio-unix-2.0;/usr/include/cairo;/usr/include/pango-1.0;/usr/include/harfbuzz;/usr/include/fribidi;/usr/include/atk-1.0;/usr/include/pixman-1;/usr/include/uuid;/usr/include/freetype2;/usr/include/gdk-pixbuf-2.0;/usr/include/libpng16;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include")
+set(QMAKE_DEFINES_GTK3_RELEASE "")

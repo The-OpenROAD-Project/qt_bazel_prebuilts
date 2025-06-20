@@ -1,0 +1,15 @@
+
+cc_import(
+    name = "fontconfig_ifso",
+    interface_library = "libfontconfig.ifso",
+    system_provided = True,
+)
+
+cc_library(
+    name = "fontconfig",
+    hdrs = glob(["fontconfig/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//qt_source:__subpackages__"],
+    deps = [":fontconfig_ifso"],
+)

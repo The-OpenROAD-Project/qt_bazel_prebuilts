@@ -1,0 +1,7 @@
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../3KCQ3B37I3/moc_barrier.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../3KCQ3B37I3/moc_networkquery.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../3KCQ3B37I3/moc_tasktree.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../3KCQ3B37I3/moc_tasktreerunner.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../3KCQ3B37I3/moc_tcpsocket.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/../EWIEGA46WW/moc_assetdownloader.cpp.json
+/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include/qprocesstask.moc.json

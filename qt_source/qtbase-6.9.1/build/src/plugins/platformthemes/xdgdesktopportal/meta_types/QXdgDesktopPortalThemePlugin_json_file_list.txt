@@ -1,0 +1,3 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/xdgdesktopportal/QXdgDesktopPortalThemePlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/xdgdesktopportal/QXdgDesktopPortalThemePlugin_autogen/include/moc_qxdgdesktopportalfiledialog_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platformthemes/xdgdesktopportal/QXdgDesktopPortalThemePlugin_autogen/include/qxdgdesktopportaltheme.moc.json

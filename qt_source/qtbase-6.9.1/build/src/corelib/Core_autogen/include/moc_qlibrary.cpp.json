@@ -1,0 +1,75 @@
+{
+    "classes": [
+        {
+            "className": "QLibrary",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "LoadHint",
+                    "values": [
+                        "ResolveAllSymbolsHint",
+                        "ExportExternalSymbolsHint",
+                        "LoadArchiveMemberHint",
+                        "PreventUnloadHint",
+                        "DeepBindHint"
+                    ]
+                },
+                {
+                    "alias": "LoadHint",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "LoadHints",
+                    "values": [
+                        "ResolveAllSymbolsHint",
+                        "ExportExternalSymbolsHint",
+                        "LoadArchiveMemberHint",
+                        "PreventUnloadHint",
+                        "DeepBindHint"
+                    ]
+                }
+            ],
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "fileName",
+                    "read": "fileName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFileName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "loadHints",
+                    "read": "loadHints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LoadHints",
+                    "user": false,
+                    "write": "setLoadHints"
+                }
+            ],
+            "qualifiedClassName": "QLibrary",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlibrary.h",
+    "outputRevision": 69
+}

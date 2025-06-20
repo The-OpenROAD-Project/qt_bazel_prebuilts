@@ -1,0 +1,72 @@
+{
+    "classes": [
+        {
+            "className": "QDockWidgetGroupWindow",
+            "lineNumber": 343,
+            "object": true,
+            "qualifiedClassName": "QDockWidgetGroupWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "resized",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QMainWindowLayout",
+            "lineNumber": 483,
+            "object": true,
+            "qualifiedClassName": "QMainWindowLayout",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "updateGapIndicator",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "tabChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "int"
+                        },
+                        {
+                            "name": "to",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "tabMoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLayout"
+                },
+                {
+                    "access": "public",
+                    "name": "QMainWindowLayoutSeparatorHelper<QMainWindowLayout>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmainwindowlayout_p.h",
+    "outputRevision": 69
+}

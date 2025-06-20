@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "XdgDesktopPortalColorPicker",
+            "lineNumber": 316,
+            "object": true,
+            "qualifiedClassName": "XdgDesktopPortalColorPicker",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "map",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "gotColorResponse",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformServiceColorPicker"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdesktopunixservices.cpp",
+    "outputRevision": 69
+}

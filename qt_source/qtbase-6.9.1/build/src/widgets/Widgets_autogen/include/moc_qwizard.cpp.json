@@ -1,0 +1,343 @@
+{
+    "classes": [
+        {
+            "className": "QWizard",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "WizardStyle",
+                    "values": [
+                        "ClassicStyle",
+                        "ModernStyle",
+                        "MacStyle",
+                        "AeroStyle",
+                        "NStyles"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "WizardOption",
+                    "values": [
+                        "IndependentPages",
+                        "IgnoreSubTitles",
+                        "ExtendedWatermarkPixmap",
+                        "NoDefaultButton",
+                        "NoBackButtonOnStartPage",
+                        "NoBackButtonOnLastPage",
+                        "DisabledBackButtonOnLastPage",
+                        "HaveNextButtonOnLastPage",
+                        "HaveFinishButtonOnEarlyPages",
+                        "NoCancelButton",
+                        "CancelButtonOnLeft",
+                        "HaveHelpButton",
+                        "HelpButtonOnRight",
+                        "HaveCustomButton1",
+                        "HaveCustomButton2",
+                        "HaveCustomButton3",
+                        "NoCancelButtonOnLastPage"
+                    ]
+                },
+                {
+                    "alias": "WizardOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "WizardOptions",
+                    "values": [
+                        "IndependentPages",
+                        "IgnoreSubTitles",
+                        "ExtendedWatermarkPixmap",
+                        "NoDefaultButton",
+                        "NoBackButtonOnStartPage",
+                        "NoBackButtonOnLastPage",
+                        "DisabledBackButtonOnLastPage",
+                        "HaveNextButtonOnLastPage",
+                        "HaveFinishButtonOnEarlyPages",
+                        "NoCancelButton",
+                        "CancelButtonOnLeft",
+                        "HaveHelpButton",
+                        "HelpButtonOnRight",
+                        "HaveCustomButton1",
+                        "HaveCustomButton2",
+                        "HaveCustomButton3",
+                        "NoCancelButtonOnLastPage"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "wizardStyle",
+                    "read": "wizardStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "WizardStyle",
+                    "user": false,
+                    "write": "setWizardStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "WizardOptions",
+                    "user": false,
+                    "write": "setOptions"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "titleFormat",
+                    "read": "titleFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextFormat",
+                    "user": false,
+                    "write": "setTitleFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "subTitleFormat",
+                    "read": "subTitleFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextFormat",
+                    "user": false,
+                    "write": "setSubTitleFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "startId",
+                    "read": "startId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setStartId"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "currentId",
+                    "notify": "currentIdChanged",
+                    "read": "currentId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentId"
+                }
+            ],
+            "qualifiedClassName": "QWizard",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "currentIdChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "helpRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "which",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "customButtonClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "pageAdded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "pageRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "back",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "next",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "setCurrentId",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "restart",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 9,
+                    "name": "_q_emitCustomButtonClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 10,
+                    "name": "_q_updateButtonStates",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "_q_handleFieldObjectDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        },
+        {
+            "className": "QWizardPage",
+            "lineNumber": 176,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "title",
+                    "read": "title",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "subTitle",
+                    "read": "subTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSubTitle"
+                }
+            ],
+            "qualifiedClassName": "QWizardPage",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "completeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "_q_maybeEmitCompleteChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "_q_updateCachedCompleteState",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwizard.h",
+    "outputRevision": 69
+}

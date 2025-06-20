@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbBasicConnection",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QXcbBasicConnection",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbconnection_basic.h",
+    "outputRevision": 69
+}
