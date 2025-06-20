@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QLinuxFbIntegrationPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "QLinuxFbIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

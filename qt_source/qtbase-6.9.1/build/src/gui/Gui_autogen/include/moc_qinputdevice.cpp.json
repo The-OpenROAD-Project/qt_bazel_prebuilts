@@ -1,0 +1,170 @@
+{
+    "classes": [
+        {
+            "className": "QInputDevice",
+            "enums": [
+                {
+                    "alias": "DeviceType",
+                    "isClass": true,
+                    "isFlag": true,
+                    "name": "DeviceTypes",
+                    "values": [
+                        "Unknown",
+                        "Mouse",
+                        "TouchScreen",
+                        "TouchPad",
+                        "Puck",
+                        "Stylus",
+                        "Airbrush",
+                        "Keyboard",
+                        "AllDevices"
+                    ]
+                },
+                {
+                    "alias": "Capability",
+                    "isClass": true,
+                    "isFlag": true,
+                    "name": "Capabilities",
+                    "values": [
+                        "None",
+                        "Position",
+                        "Area",
+                        "Pressure",
+                        "Velocity",
+                        "NormalizedPosition",
+                        "MouseEmulation",
+                        "PixelScroll",
+                        "Scroll",
+                        "Hover",
+                        "Rotation",
+                        "XTilt",
+                        "YTilt",
+                        "TangentialPressure",
+                        "ZPosition",
+                        "All"
+                    ]
+                }
+            ],
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "name",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "type",
+                    "read": "type",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DeviceType",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "capabilities",
+                    "notify": "capabilitiesChanged",
+                    "read": "capabilities",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Capabilities",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "systemId",
+                    "read": "systemId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qint64",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "seatName",
+                    "read": "seatName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "availableVirtualGeometry",
+                    "notify": "availableVirtualGeometryChanged",
+                    "read": "availableVirtualGeometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRect",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QInputDevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "area",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "availableVirtualGeometryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "capabilities",
+                            "type": "Capabilities"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "capabilitiesChanged",
+                    "returnType": "void",
+                    "revision": 1545
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputdevice.h",
+    "outputRevision": 69
+}

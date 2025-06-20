@@ -1,0 +1,28 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QTlsBackendOpenSSL",
+                "interfaces": [
+                    [
+                        {
+                            "className": "QTlsBackend",
+                            "id": "\"org.qt-project.Qt.QTlsBackend\""
+                        }
+                    ]
+                ],
+                "lineNumber": 32,
+                "object": true,
+                "qualifiedClassName": "QTlsBackendOpenSSL",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QTlsBackend"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qtlsbackend_openssl_p.h",
+        "outputRevision": 69
+    }
+]

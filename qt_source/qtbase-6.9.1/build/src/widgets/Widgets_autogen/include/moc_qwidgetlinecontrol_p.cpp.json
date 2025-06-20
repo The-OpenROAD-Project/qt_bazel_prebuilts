@@ -1,0 +1,122 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetLineControl",
+            "lineNumber": 51,
+            "object": true,
+            "qualifiedClassName": "QWidgetLineControl",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "displayTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "textEdited",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "resetInputContext",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "updateMicroFocus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "updateNeeded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "inputRejected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 11,
+                    "name": "_q_deleteSelected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInputControl"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetlinecontrol_p.h",
+    "outputRevision": 69
+}

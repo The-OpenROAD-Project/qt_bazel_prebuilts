@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLCompositor",
+            "lineNumber": 45,
+            "object": true,
+            "qualifiedClassName": "QOpenGLCompositor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QOpenGLCompositorWindow*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "topWindowChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "handleRenderAllRequest",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglcompositor_p.h",
+    "outputRevision": 69
+}

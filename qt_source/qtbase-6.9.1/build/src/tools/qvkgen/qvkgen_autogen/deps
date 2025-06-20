@@ -1,0 +1,4 @@
+qvkgen_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/qvkgen/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/qvkgen/qvkgen.cpp \
+	/usr/bin/cmake

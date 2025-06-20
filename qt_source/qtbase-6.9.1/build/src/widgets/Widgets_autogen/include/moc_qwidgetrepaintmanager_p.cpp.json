@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetRepaintManager",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "UpdateTime",
+                    "values": [
+                        "UpdateNow",
+                        "UpdateLater"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "BufferState",
+                    "values": [
+                        "BufferValid",
+                        "BufferInvalid"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 29,
+            "qualifiedClassName": "QWidgetRepaintManager"
+        }
+    ],
+    "inputFile": "qwidgetrepaintmanager_p.h",
+    "outputRevision": 69
+}

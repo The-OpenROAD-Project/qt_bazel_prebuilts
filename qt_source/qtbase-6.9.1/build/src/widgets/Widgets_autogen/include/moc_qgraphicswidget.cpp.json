@@ -1,0 +1,260 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsWidget",
+            "interfaces": [
+                [
+                    {
+                        "className": "QGraphicsItem",
+                        "id": "\"org.qt-project.Qt.QGraphicsItem\""
+                    }
+                ],
+                [
+                    {
+                        "className": "QGraphicsLayoutItem",
+                        "id": "\"org.qt-project.Qt.QGraphicsLayoutItem\""
+                    }
+                ]
+            ],
+            "lineNumber": 31,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "palette",
+                    "read": "palette",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPalette",
+                    "user": false,
+                    "write": "setPalette"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "font",
+                    "read": "font",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "write": "setFont"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "layoutDirection",
+                    "read": "layoutDirection",
+                    "required": false,
+                    "reset": "unsetLayoutDirection",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::LayoutDirection",
+                    "user": false,
+                    "write": "setLayoutDirection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "size",
+                    "notify": "geometryChanged",
+                    "read": "size",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "write": "resize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "minimumSize",
+                    "read": "minimumSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "write": "setMinimumSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "preferredSize",
+                    "read": "preferredSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "write": "setPreferredSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "maximumSize",
+                    "read": "maximumSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizeF",
+                    "user": false,
+                    "write": "setMaximumSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "sizePolicy",
+                    "read": "sizePolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSizePolicy",
+                    "user": false,
+                    "write": "setSizePolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "focusPolicy",
+                    "read": "focusPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::FocusPolicy",
+                    "user": false,
+                    "write": "setFocusPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "windowFlags",
+                    "read": "windowFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::WindowFlags",
+                    "user": false,
+                    "write": "setWindowFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "windowTitle",
+                    "read": "windowTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWindowTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "geometry",
+                    "notify": "geometryChanged",
+                    "read": "geometry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "write": "setGeometry"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "autoFillBackground",
+                    "read": "autoFillBackground",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoFillBackground"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "layout",
+                    "notify": "layoutChanged",
+                    "read": "layout",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QGraphicsLayout*",
+                    "user": false,
+                    "write": "setLayout"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "geometryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "layoutChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "close",
+                    "returnType": "bool"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QGraphicsLayoutItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicswidget.h",
+    "outputRevision": 69
+}

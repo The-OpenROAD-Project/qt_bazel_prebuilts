@@ -1,0 +1,517 @@
+{
+    "classes": [
+        {
+            "className": "QGesture",
+            "lineNumber": 28,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "state",
+                    "read": "state",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::GestureState",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "gestureType",
+                    "read": "gestureType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::GestureType",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "gestureCancelPolicy",
+                    "read": "gestureCancelPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QGesture::GestureCancelPolicy",
+                    "user": false,
+                    "write": "setGestureCancelPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "hotSpot",
+                    "read": "hotSpot",
+                    "required": false,
+                    "reset": "unsetHotSpot",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setHotSpot"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "hasHotSpot",
+                    "read": "hasHotSpot",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QPanGesture",
+            "lineNumber": 72,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "lastOffset",
+                    "read": "lastOffset",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setLastOffset"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "offset",
+                    "read": "offset",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setOffset"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "delta",
+                    "read": "delta",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "QPointF",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "acceleration",
+                    "read": "acceleration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setAcceleration"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "horizontalVelocity",
+                    "privateClass": "QPanGesture::d_func()",
+                    "read": "horizontalVelocity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setHorizontalVelocity"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "verticalVelocity",
+                    "privateClass": "QPanGesture::d_func()",
+                    "read": "verticalVelocity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setVerticalVelocity"
+                }
+            ],
+            "qualifiedClassName": "QPanGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        },
+        {
+            "className": "QPinchGesture",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ChangeFlag",
+                    "values": [
+                        "ScaleFactorChanged",
+                        "RotationAngleChanged",
+                        "CenterPointChanged"
+                    ]
+                },
+                {
+                    "alias": "ChangeFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "ChangeFlags",
+                    "values": [
+                        "ScaleFactorChanged",
+                        "RotationAngleChanged",
+                        "CenterPointChanged"
+                    ]
+                }
+            ],
+            "lineNumber": 102,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "totalChangeFlags",
+                    "read": "totalChangeFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ChangeFlags",
+                    "user": false,
+                    "write": "setTotalChangeFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "changeFlags",
+                    "read": "changeFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ChangeFlags",
+                    "user": false,
+                    "write": "setChangeFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "totalScaleFactor",
+                    "read": "totalScaleFactor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setTotalScaleFactor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "lastScaleFactor",
+                    "read": "lastScaleFactor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setLastScaleFactor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "scaleFactor",
+                    "read": "scaleFactor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setScaleFactor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "totalRotationAngle",
+                    "read": "totalRotationAngle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setTotalRotationAngle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "lastRotationAngle",
+                    "read": "lastRotationAngle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setLastRotationAngle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "rotationAngle",
+                    "read": "rotationAngle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setRotationAngle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "startCenterPoint",
+                    "read": "startCenterPoint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setStartCenterPoint"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "lastCenterPoint",
+                    "read": "lastCenterPoint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setLastCenterPoint"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "centerPoint",
+                    "read": "centerPoint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setCenterPoint"
+                }
+            ],
+            "qualifiedClassName": "QPinchGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        },
+        {
+            "className": "QSwipeGesture",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SwipeDirection",
+                    "values": [
+                        "NoDirection",
+                        "Left",
+                        "Right",
+                        "Up",
+                        "Down"
+                    ]
+                }
+            ],
+            "lineNumber": 176,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "horizontalDirection",
+                    "read": "horizontalDirection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "SwipeDirection",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "verticalDirection",
+                    "read": "verticalDirection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": false,
+                    "type": "SwipeDirection",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "swipeAngle",
+                    "read": "swipeAngle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setSwipeAngle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "velocity",
+                    "privateClass": "QSwipeGesture::d_func()",
+                    "read": "velocity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setVelocity"
+                }
+            ],
+            "qualifiedClassName": "QSwipeGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        },
+        {
+            "className": "QTapGesture",
+            "lineNumber": 203,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "position",
+                    "read": "position",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setPosition"
+                }
+            ],
+            "qualifiedClassName": "QTapGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        },
+        {
+            "className": "QTapAndHoldGesture",
+            "lineNumber": 221,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "position",
+                    "read": "position",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setPosition"
+                }
+            ],
+            "qualifiedClassName": "QTapAndHoldGesture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGesture"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgesture.h",
+    "outputRevision": 69
+}

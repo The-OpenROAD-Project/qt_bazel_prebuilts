@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "QLineEditIconButton",
+            "lineNumber": 48,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "opacity",
+                    "read": "opacity",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setOpacity"
+                }
+            ],
+            "qualifiedClassName": "QLineEditIconButton",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "updateCursor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "onAnimationFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QToolButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlineedit_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTcpSocket",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "QTcpSocket",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSocket"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtcpsocket.h",
+    "outputRevision": 69
+}

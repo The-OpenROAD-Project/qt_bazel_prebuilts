@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "className": "QDial",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "wrapping",
+                    "read": "wrapping",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWrapping"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "notchSize",
+                    "read": "notchSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "notchTarget",
+                    "read": "notchTarget",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setNotchTarget"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "notchesVisible",
+                    "read": "notchesVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setNotchesVisible"
+                }
+            ],
+            "qualifiedClassName": "QDial",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "setNotchesVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "on",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setWrapping",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSlider"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdial.h",
+    "outputRevision": 69
+}

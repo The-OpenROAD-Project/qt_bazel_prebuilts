@@ -1,0 +1,1 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/gl_integrations/xcb_glx/QXcbGlxIntegrationPlugin_autogen/include/qxcbglxmain.moc.json

@@ -1,0 +1,6 @@
+rcc_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/rcc/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/rcc/main.cpp \
+	/tmp/qtbase-6.9.1/src/tools/rcc/rcc.cpp \
+	/tmp/qtbase-6.9.1/src/tools/rcc/rcc.h \
+	/usr/bin/cmake

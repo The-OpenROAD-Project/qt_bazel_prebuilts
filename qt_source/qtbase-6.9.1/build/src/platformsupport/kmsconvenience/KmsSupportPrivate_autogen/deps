@@ -1,0 +1,16 @@
+KmsSupportPrivate_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/cmake/3rdparty/kwin/FindLibdrm.cmake \
+	/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in \
+	/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in \
+	/tmp/qtbase-6.9.1/src/platformsupport/kmsconvenience/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/platformsupport/kmsconvenience/qkmsdevice.cpp \
+	/tmp/qtbase-6.9.1/src/platformsupport/kmsconvenience/qkmsdevice_p.h \
+	/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/usr/share/cmake-3.22/Modules/FeatureSummary.cmake \
+	/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake \
+	/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake \
+	/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake \
+	/usr/bin/cmake

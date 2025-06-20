@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/plugins/sqldrivers/sqlite/QSQLiteDriverPlugin_autogen/include/moc_qsql_sqlite_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/sqldrivers/sqlite/QSQLiteDriverPlugin_autogen/include/smain.moc.json

@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QSpiAccessibleBridge",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "QSpiAccessibleBridge",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "enabledChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QPlatformAccessibility"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qspiaccessiblebridge_p.h",
+    "outputRevision": 69
+}

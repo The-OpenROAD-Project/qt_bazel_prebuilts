@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QInotifyFileSystemWatcherEngine",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "QInotifyFileSystemWatcherEngine",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "readFromInotify",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileSystemWatcherEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher_inotify_p.h",
+    "outputRevision": 69
+}

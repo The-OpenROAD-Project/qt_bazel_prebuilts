@@ -1,0 +1,125 @@
+{
+    "classes": [
+        {
+            "className": "QPointerEvent",
+            "gadget": true,
+            "lineNumber": 72,
+            "qualifiedClassName": "QPointerEvent",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInputEvent"
+                }
+            ]
+        },
+        {
+            "className": "QSinglePointEvent",
+            "gadget": true,
+            "lineNumber": 108,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "exclusivePointGrabber",
+                    "read": "exclusivePointGrabber",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QObject*",
+                    "user": false,
+                    "write": "setExclusivePointGrabber"
+                }
+            ],
+            "qualifiedClassName": "QSinglePointEvent",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPointerEvent"
+                }
+            ]
+        },
+        {
+            "className": "QWheelEvent",
+            "gadget": true,
+            "lineNumber": 281,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "device",
+                    "read": "pointingDevice",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "const QPointingDevice*",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "pixelDelta",
+                    "read": "pixelDelta",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPoint",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "angleDelta",
+                    "read": "angleDelta",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPoint",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "phase",
+                    "read": "phase",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ScrollPhase",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "inverted",
+                    "read": "inverted",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QWheelEvent",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSinglePointEvent"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qevent.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,519 @@
+{
+    "classes": [
+        {
+            "className": "QPlainTextEdit",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "LineWrapMode",
+                    "values": [
+                        "NoWrap",
+                        "WidgetWidth"
+                    ]
+                }
+            ],
+            "lineNumber": 29,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "Qt::InputMethodQuery"
+                        },
+                        {
+                            "name": "argument",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 25,
+                    "isConst": true,
+                    "name": "inputMethodQuery",
+                    "returnType": "QVariant"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "tabChangesFocus",
+                    "read": "tabChangesFocus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setTabChangesFocus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "documentTitle",
+                    "read": "documentTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDocumentTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "undoRedoEnabled",
+                    "read": "isUndoRedoEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUndoRedoEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "lineWrapMode",
+                    "read": "lineWrapMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LineWrapMode",
+                    "user": false,
+                    "write": "setLineWrapMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "readOnly",
+                    "read": "isReadOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setReadOnly"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "plainText",
+                    "notify": "textChanged",
+                    "read": "toPlainText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": true,
+                    "write": "setPlainText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "overwriteMode",
+                    "read": "overwriteMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setOverwriteMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "tabStopDistance",
+                    "read": "tabStopDistance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setTabStopDistance"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "cursorWidth",
+                    "read": "cursorWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCursorWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "textInteractionFlags",
+                    "read": "textInteractionFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextInteractionFlags",
+                    "user": false,
+                    "write": "setTextInteractionFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "blockCount",
+                    "read": "blockCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "maximumBlockCount",
+                    "read": "maximumBlockCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumBlockCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "backgroundVisible",
+                    "read": "backgroundVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setBackgroundVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "centerOnScroll",
+                    "read": "centerOnScroll",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setCenterOnScroll"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "placeholderText",
+                    "read": "placeholderText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPlaceholderText"
+                }
+            ],
+            "qualifiedClassName": "QPlainTextEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "undoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "redoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "copyAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        },
+                        {
+                            "name": "dy",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "updateRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newBlockCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "blockCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "modificationChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "setPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "cut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "copy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "paste",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "selectAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "insertPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "appendPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "html",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "appendHtml",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 20,
+                    "name": "centerCursor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "range",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 21,
+                    "name": "zoomIn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 22,
+                    "isCloned": true,
+                    "name": "zoomIn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "range",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 23,
+                    "name": "zoomOut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 24,
+                    "isCloned": true,
+                    "name": "zoomOut",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractScrollArea"
+                }
+            ]
+        },
+        {
+            "className": "QPlainTextDocumentLayout",
+            "lineNumber": 249,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "cursorWidth",
+                    "read": "cursorWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCursorWidth"
+                }
+            ],
+            "qualifiedClassName": "QPlainTextDocumentLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTextDocumentLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplaintextedit.h",
+    "outputRevision": 69
+}

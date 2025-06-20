@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsSceneLinearIndex",
+            "lineNumber": 29,
+            "object": true,
+            "qualifiedClassName": "QGraphicsSceneLinearIndex",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsSceneIndex"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicsscenelinearindex_p.h",
+    "outputRevision": 69
+}

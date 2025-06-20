@@ -1,0 +1,22 @@
+{
+    "classes": [
+        {
+            "className": "QPMCache",
+            "lineNumber": 177,
+            "object": true,
+            "qualifiedClassName": "QPMCache",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QCache<QPixmapCache::Key,QPixmapCacheEntry>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpixmapcache.cpp",
+    "outputRevision": 69
+}

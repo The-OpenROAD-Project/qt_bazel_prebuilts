@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QDBusServer",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QDBusServer",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "connection",
+                            "type": "QDBusConnection"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newConnection",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusserver.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,6 @@
+RCC_OBJECTS = 
+QMAKE_PRL_TARGET = libQt6Core.so
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = /tmp/qtbase-6.9.1/build/lib/libQt6Core.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.9.1
+

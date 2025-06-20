@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "D-Bus Interface",
+                    "value": "org.a11y.atspi.DeviceEventController"
+                },
+                {
+                    "name": "D-Bus Introspection",
+                    "value": "  <interface name=\\\"org.a11y.atspi.DeviceEventController\\\">\\n    <method name=\\\"NotifyListenersSync\\\">\\n      <arg direction=\\\"in\\\" type=\\\"(uinnisb)\\\" name=\\\"event\\\"/>\\n      <arg direction=\\\"out\\\" type=\\\"b\\\"/>\\n      <annotation value=\\\"QSpiDeviceEvent\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n    </method>\\n    <method name=\\\"NotifyListenersAsync\\\">\\n      <arg direction=\\\"in\\\" type=\\\"(uinnisb)\\\" name=\\\"event\\\"/>\\n      <annotation value=\\\"QSpiDeviceEvent\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.In0\\\"/>\\n    </method>\\n  </interface>\\n"
+                }
+            ],
+            "className": "DeviceEventControllerAdaptor",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "DeviceEventControllerAdaptor",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "event",
+                            "type": "QSpiDeviceEvent"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "NotifyListenersAsync",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "event",
+                            "type": "QSpiDeviceEvent"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "NotifyListenersSync",
+                    "returnType": "bool"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractAdaptor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "deviceeventcontroller_adaptor.h",
+    "outputRevision": 69
+}

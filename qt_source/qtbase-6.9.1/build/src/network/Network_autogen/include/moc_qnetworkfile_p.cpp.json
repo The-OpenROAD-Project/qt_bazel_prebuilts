@@ -1,0 +1,77 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkFile",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QNetworkFile",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ok",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QHttpHeaders::WellKnownHeader"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "headerRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QNetworkReply::NetworkError"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "networkError",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "open",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "close",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFile"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkfile_p.h",
+    "outputRevision": 69
+}

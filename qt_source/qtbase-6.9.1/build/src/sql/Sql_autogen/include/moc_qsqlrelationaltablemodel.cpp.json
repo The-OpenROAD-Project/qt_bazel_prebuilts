@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QSqlRelationalTableModel",
+            "lineNumber": 47,
+            "object": true,
+            "qualifiedClassName": "QSqlRelationalTableModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "revertRow",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsqlrelationaltablemodel.h",
+    "outputRevision": 69
+}

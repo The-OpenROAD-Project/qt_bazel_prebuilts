@@ -1,0 +1,2 @@
+    *16QDeviceDiscovery*;                               # qdevicediscovery_p.h:33
+    *20QDeviceDiscoveryUDev*;                           # qdevicediscovery_udev_p.h:23

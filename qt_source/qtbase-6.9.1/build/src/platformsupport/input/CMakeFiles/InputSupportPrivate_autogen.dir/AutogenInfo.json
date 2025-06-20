@@ -1,0 +1,313 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/platformsupport/input",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/platformsupport/input/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/3rdparty/kwin/FindLibinput.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FeatureSummary.cmake",
+		"/tmp/qtbase-6.9.1/cmake/3rdparty/kwin/FindXKB.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FeatureSummary.cmake",
+		"/tmp/qtbase-6.9.1/cmake/FindTslib.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/tmp/qtbase-6.9.1/cmake/FindMtdev.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "InputSupportPrivate_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/src/platformsupport/input/CMakeFiles/InputSupportPrivate.dir/cmake_pch.hxx",
+			"Mu",
+			"X3MPBDR6VM/moc_cmake_pch.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevkeyboard/qevdevkeyboard_defaultmap_p.h",
+			"Mu",
+			"RVQ3G7H6QO/moc_qevdevkeyboard_defaultmap_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevkeyboard/qevdevkeyboardhandler_p.h",
+			"Mu",
+			"RVQ3G7H6QO/moc_qevdevkeyboardhandler_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevkeyboard/qevdevkeyboardmanager_p.h",
+			"Mu",
+			"RVQ3G7H6QO/moc_qevdevkeyboardmanager_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevmouse/qevdevmousehandler_p.h",
+			"Mu",
+			"5YAHFQL7IT/moc_qevdevmousehandler_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevmouse/qevdevmousemanager_p.h",
+			"Mu",
+			"5YAHFQL7IT/moc_qevdevmousemanager_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtablet/qevdevtablethandler_p.h",
+			"Mu",
+			"JGZCKIAIKW/moc_qevdevtablethandler_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtablet/qevdevtabletmanager_p.h",
+			"Mu",
+			"JGZCKIAIKW/moc_qevdevtabletmanager_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtouch/qevdevtouchhandler_p.h",
+			"Mu",
+			"S4NTVHB45A/moc_qevdevtouchhandler_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtouch/qevdevtouchmanager_p.h",
+			"Mu",
+			"S4NTVHB45A/moc_qevdevtouchmanager_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/devicehandlerlist_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_devicehandlerlist_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qevdevutil_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qevdevutil_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qfdcontainer_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qfdcontainer_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qkeyboardmap_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qkeyboardmap_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qkeycodeaction_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qkeycodeaction_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qoutputmapping_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qoutputmapping_p.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qtouchfilter_p.h",
+			"Mu",
+			"MTKJWXDCAS/moc_qtouchfilter_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_INPUT_SUPPORT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DEVICEDISCOVERY_SUPPORT_LIB",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_GUI_LIB",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport",
+		"/tmp/qtbase-6.9.1/src/platformsupport/input",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/input",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtInputSupport/6.9.1/QtInputSupport",
+		"/tmp/qtbase-6.9.1/src/platformsupport/input/shared",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/devicediscovery",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtDeviceDiscoverySupport/6.9.1/QtDeviceDiscoverySupport",
+		"/tmp/qtbase-6.9.1/build/src/gui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1/QtGui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/InputSupportPrivate_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/input/qtinput_support-config.h",
+		"/tmp/qtbase-6.9.1/build/src/platformsupport/input/qtinput_support-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/CMakeFiles/InputSupportPrivate_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/platformsupport/input/CMakeFiles/InputSupportPrivate_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/src/platformsupport/input/CMakeFiles/InputSupportPrivate.dir/cmake_pch.hxx.cxx",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevkeyboard/qevdevkeyboardhandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevkeyboard/qevdevkeyboardmanager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevmouse/qevdevmousehandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevmouse/qevdevmousemanager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtablet/qevdevtablethandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtablet/qevdevtabletmanager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtouch/qevdevtouchhandler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/evdevtouch/qevdevtouchmanager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qevdevutil.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qfdcontainer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/platformsupport/input/shared/qoutputmapping.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

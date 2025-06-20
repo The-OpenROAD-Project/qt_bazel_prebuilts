@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QDBusMenuConnection",
+            "lineNumber": 33,
+            "object": true,
+            "qualifiedClassName": "QDBusMenuConnection",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "trayIconRegistered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "dbusError",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusmenuconnection_p.h",
+    "outputRevision": 69
+}

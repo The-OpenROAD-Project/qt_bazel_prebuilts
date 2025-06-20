@@ -1,0 +1,14 @@
+cc_import(
+    name = "dbus_ifso",
+    interface_library = "libdbus-1.ifso",
+    system_provided = True,
+)
+
+cc_library(
+    name = "dbus",
+    hdrs = glob(["dbus/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//qt_source:__subpackages__"],
+    deps = [":dbus_ifso"],
+)

@@ -1,0 +1,76 @@
+{
+    "classes": [
+        {
+            "className": "QXcbNativeInterface",
+            "lineNumber": 21,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "connection",
+                            "type": "const QXcbConnection*"
+                        },
+                        {
+                            "name": "root",
+                            "type": "WId"
+                        }
+                    ],
+                    "index": 1,
+                    "isConst": true,
+                    "name": "dumpConnectionNativeWindows",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "root",
+                            "type": "WId"
+                        }
+                    ],
+                    "index": 2,
+                    "isConst": true,
+                    "name": "dumpNativeWindows",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "isCloned": true,
+                    "isConst": true,
+                    "name": "dumpNativeWindows",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QXcbNativeInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "systemTrayWindowChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformNativeInterface"
+                },
+                {
+                    "access": "public",
+                    "name": "QNativeInterface::QX11Application"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbnativeinterface.h",
+    "outputRevision": 69
+}

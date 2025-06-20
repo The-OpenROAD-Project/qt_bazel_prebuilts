@@ -1,0 +1,237 @@
+{
+    "classes": [
+        {
+            "className": "QMainWindow",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DockOption",
+                    "values": [
+                        "AnimatedDocks",
+                        "AllowNestedDocks",
+                        "AllowTabbedDocks",
+                        "ForceTabbedDocks",
+                        "VerticalTabs",
+                        "GroupedDragging"
+                    ]
+                },
+                {
+                    "alias": "DockOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "DockOptions",
+                    "values": [
+                        "AnimatedDocks",
+                        "AllowNestedDocks",
+                        "AllowTabbedDocks",
+                        "ForceTabbedDocks",
+                        "VerticalTabs",
+                        "GroupedDragging"
+                    ]
+                }
+            ],
+            "lineNumber": 24,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "iconSize",
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "toolButtonStyle",
+                    "read": "toolButtonStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::ToolButtonStyle",
+                    "user": false,
+                    "write": "setToolButtonStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "animated",
+                    "read": "isAnimated",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAnimated"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "documentMode",
+                    "read": "documentMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDocumentMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "tabShape",
+                    "read": "tabShape",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTabWidget::TabShape",
+                    "user": false,
+                    "write": "setTabShape"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "dockNestingEnabled",
+                    "read": "isDockNestingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDockNestingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "dockOptions",
+                    "read": "dockOptions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DockOptions",
+                    "user": false,
+                    "write": "setDockOptions"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "unifiedTitleAndToolBarOnMac",
+                    "read": "unifiedTitleAndToolBarOnMac",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setUnifiedTitleAndToolBarOnMac"
+                }
+            ],
+            "qualifiedClassName": "QMainWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconSize",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "iconSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "toolButtonStyle",
+                            "type": "Qt::ToolButtonStyle"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "toolButtonStyleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dockWidget",
+                            "type": "QDockWidget*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "tabifiedDockWidgetActivated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "setAnimated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setDockNestingEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "set",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setUnifiedTitleAndToolBarOnMac",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmainwindow.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,80 @@
+{
+    "classes": [
+        {
+            "className": "QDBusPlatformMenuItem",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "QDBusPlatformMenuItem",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenuItem"
+                }
+            ]
+        },
+        {
+            "className": "QDBusPlatformMenu",
+            "lineNumber": 95,
+            "object": true,
+            "qualifiedClassName": "QDBusPlatformMenu",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "revision",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "dbusId",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "updated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "updatedProps",
+                            "type": "QDBusMenuItemList"
+                        },
+                        {
+                            "name": "removedProps",
+                            "type": "QDBusMenuItemKeysList"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "propertiesUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "timestamp",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "popupRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformMenu"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusplatformmenu_p.h",
+    "outputRevision": 69
+}

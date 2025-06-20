@@ -1,0 +1,128 @@
+{
+    "classes": [
+        {
+            "className": "QDBusServiceWatcher",
+            "enums": [
+                {
+                    "alias": "WatchModeFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "WatchMode",
+                    "values": [
+                        "WatchForRegistration",
+                        "WatchForUnregistration",
+                        "WatchForOwnerChange"
+                    ]
+                }
+            ],
+            "lineNumber": 22,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableWatchedServices",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "watchedServices",
+                    "read": "watchedServices",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setWatchedServices"
+                },
+                {
+                    "bindable": "bindableWatchMode",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "watchMode",
+                    "read": "watchMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "WatchMode",
+                    "user": false,
+                    "write": "setWatchMode"
+                }
+            ],
+            "qualifiedClassName": "QDBusServiceWatcher",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "service",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "serviceRegistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "service",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "serviceUnregistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "service",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldOwner",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newOwner",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "serviceOwnerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "_q_serviceOwnerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusservicewatcher.h",
+    "outputRevision": 69
+}

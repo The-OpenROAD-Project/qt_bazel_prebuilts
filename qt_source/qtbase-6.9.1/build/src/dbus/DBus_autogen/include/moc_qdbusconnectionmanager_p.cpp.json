@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QDBusConnectionManager",
+            "lineNumber": 30,
+            "object": true,
+            "qualifiedClassName": "QDBusConnectionManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDaemonThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusconnectionmanager_p.h",
+    "outputRevision": 69
+}

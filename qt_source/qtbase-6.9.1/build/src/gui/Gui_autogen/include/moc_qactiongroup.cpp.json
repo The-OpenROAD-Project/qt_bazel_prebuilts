@@ -1,0 +1,175 @@
+{
+    "classes": [
+        {
+            "className": "QActionGroup",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "ExclusionPolicy",
+                    "values": [
+                        "None",
+                        "Exclusive",
+                        "ExclusiveOptional"
+                    ]
+                }
+            ],
+            "lineNumber": 16,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "exclusionPolicy",
+                    "read": "exclusionPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QActionGroup::ExclusionPolicy",
+                    "user": false,
+                    "write": "setExclusionPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "enabled",
+                    "read": "isEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "visible",
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setVisible"
+                }
+            ],
+            "qualifiedClassName": "QActionGroup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "triggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "hovered",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "setDisabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setExclusive",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "policy",
+                            "type": "ExclusionPolicy"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setExclusionPolicy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "name": "_q_actionTriggered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "_q_actionHovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 9,
+                    "name": "_q_actionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qactiongroup.h",
+    "outputRevision": 69
+}

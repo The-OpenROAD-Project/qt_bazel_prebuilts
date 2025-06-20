@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QGifPlugin",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "QGifPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QImageIOPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,95 @@
+{
+    "classes": [
+        {
+            "className": "QThread",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "QualityOfService",
+                    "values": [
+                        "Auto",
+                        "High",
+                        "Eco"
+                    ]
+                }
+            ],
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QThread",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "Priority"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "isCloned": true,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "terminate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "retcode",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "isCloned": true,
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "quit",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qthread.h",
+    "outputRevision": 69
+}

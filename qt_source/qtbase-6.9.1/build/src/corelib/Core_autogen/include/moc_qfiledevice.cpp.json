@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QFileDevice",
+            "lineNumber": 31,
+            "object": true,
+            "qualifiedClassName": "QFileDevice",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfiledevice.h",
+    "outputRevision": 69
+}

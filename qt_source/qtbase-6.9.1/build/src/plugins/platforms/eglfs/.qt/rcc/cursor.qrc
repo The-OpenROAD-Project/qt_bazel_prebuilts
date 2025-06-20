@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="cursor-atlas.png">/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/cursor-atlas.png</file>
+    <file alias="cursor.json">/tmp/qtbase-6.9.1/src/plugins/platforms/eglfs/cursor.json</file>
+  </qresource>
+</RCC>
+

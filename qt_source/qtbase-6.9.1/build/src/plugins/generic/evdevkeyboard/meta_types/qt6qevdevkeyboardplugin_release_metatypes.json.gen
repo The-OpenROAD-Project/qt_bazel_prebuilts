@@ -1,0 +1,20 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QEvdevKeyboardPlugin",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "QEvdevKeyboardPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QGenericPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    }
+]

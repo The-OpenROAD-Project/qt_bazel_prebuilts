@@ -1,0 +1,96 @@
+{
+    "classes": [
+        {
+            "className": "QDefaultAnimationDriver",
+            "lineNumber": 80,
+            "object": true,
+            "qualifiedClassName": "QDefaultAnimationDriver",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "startTimer",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "stopTimer",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAnimationDriver"
+                }
+            ]
+        },
+        {
+            "className": "QAbstractAnimationTimer",
+            "lineNumber": 109,
+            "object": true,
+            "qualifiedClassName": "QAbstractAnimationTimer",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QUnifiedTimer",
+            "lineNumber": 126,
+            "object": true,
+            "qualifiedClassName": "QUnifiedTimer",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "startTimers",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "stopTimer",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QAnimationTimer",
+            "lineNumber": 219,
+            "object": true,
+            "qualifiedClassName": "QAnimationTimer",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "startAnimations",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "stopTimer",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractAnimationTimer"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractanimation_p.h",
+    "outputRevision": 69
+}

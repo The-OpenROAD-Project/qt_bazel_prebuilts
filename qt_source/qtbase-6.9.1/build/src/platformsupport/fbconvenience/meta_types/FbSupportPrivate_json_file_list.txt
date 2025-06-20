@@ -1,0 +1,3 @@
+/tmp/qtbase-6.9.1/build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbcursor_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbscreen_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbvthandler_p.cpp.json

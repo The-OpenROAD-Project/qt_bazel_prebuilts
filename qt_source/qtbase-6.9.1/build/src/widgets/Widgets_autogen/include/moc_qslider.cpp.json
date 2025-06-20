@@ -1,0 +1,63 @@
+{
+    "classes": [
+        {
+            "className": "QSlider",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "TickPosition",
+                    "values": [
+                        "NoTicks",
+                        "TicksAbove",
+                        "TicksLeft",
+                        "TicksBelow",
+                        "TicksRight",
+                        "TicksBothSides"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "tickPosition",
+                    "read": "tickPosition",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TickPosition",
+                    "user": false,
+                    "write": "setTickPosition"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "tickInterval",
+                    "read": "tickInterval",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setTickInterval"
+                }
+            ],
+            "qualifiedClassName": "QSlider",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSlider"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qslider.h",
+    "outputRevision": 69
+}

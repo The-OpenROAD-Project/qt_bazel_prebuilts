@@ -1,0 +1,168 @@
+{
+    "classes": [
+        {
+            "className": "QRhiWidget",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Api",
+                    "values": [
+                        "Null",
+                        "OpenGL",
+                        "Metal",
+                        "Vulkan",
+                        "Direct3D11",
+                        "Direct3D12"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TextureFormat",
+                    "values": [
+                        "RGBA8",
+                        "RGBA16F",
+                        "RGBA32F",
+                        "RGB10A2"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "sampleCount",
+                    "notify": "sampleCountChanged",
+                    "read": "sampleCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSampleCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "colorBufferFormat",
+                    "notify": "colorBufferFormatChanged",
+                    "read": "colorBufferFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TextureFormat",
+                    "user": false,
+                    "write": "setColorBufferFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "fixedColorBufferSize",
+                    "notify": "fixedColorBufferSizeChanged",
+                    "read": "fixedColorBufferSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setFixedColorBufferSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "mirrorVertically",
+                    "notify": "mirrorVerticallyChanged",
+                    "read": "isMirrorVerticallyEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setMirrorVertically"
+                }
+            ],
+            "qualifiedClassName": "QRhiWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "frameSubmitted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "renderFailed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "samples",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "sampleCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "format",
+                            "type": "TextureFormat"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "colorBufferFormatChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pixelSize",
+                            "type": "QSize"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "fixedColorBufferSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "mirrorVerticallyChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qrhiwidget.h",
+    "outputRevision": 69
+}

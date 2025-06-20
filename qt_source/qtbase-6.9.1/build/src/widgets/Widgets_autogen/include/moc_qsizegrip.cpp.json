@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QSizeGrip",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QSizeGrip",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "_q_showIfNotHidden",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsizegrip.h",
+    "outputRevision": 69
+}

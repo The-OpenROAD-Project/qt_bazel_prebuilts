@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QStyleSheetStyle",
+            "lineNumber": 39,
+            "object": true,
+            "qualifiedClassName": "QStyleSheetStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindowsStyle"
+                }
+            ]
+        },
+        {
+            "className": "QStyleSheetStyleCaches",
+            "lineNumber": 146,
+            "object": true,
+            "qualifiedClassName": "QStyleSheetStyleCaches",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "styleDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstylesheetstyle_p.h",
+    "outputRevision": 69
+}

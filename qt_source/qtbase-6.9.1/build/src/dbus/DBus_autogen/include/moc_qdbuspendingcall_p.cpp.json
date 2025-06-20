@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QDBusPendingCallWatcherHelper",
+            "lineNumber": 76,
+            "object": true,
+            "qualifiedClassName": "QDBusPendingCallWatcherHelper",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "reply",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "error",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbuspendingcall_p.h",
+    "outputRevision": 69
+}

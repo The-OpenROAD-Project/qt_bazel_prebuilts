@@ -1,0 +1,4 @@
+    *16QKmsScreenConfig*;                               # qkmsdevice_p.h:69
+    *9QKmsPlane*;                                       # qkmsdevice_p.h:107
+    *10QKmsOutput*;                                     # qkmsdevice_p.h:153
+    *10QKmsDevice*;                                     # qkmsdevice_p.h:189

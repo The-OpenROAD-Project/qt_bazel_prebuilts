@@ -1,0 +1,231 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/assets/downloader",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/assets/downloader",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/assets/downloader/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "ExamplesAssetDownloaderPrivate_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate.dir/cmake_pch.hxx",
+			"Mu",
+			"OTGE5BRWTM/moc_cmake_pch.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/assetdownloader.h",
+			"Mu",
+			"EWIEGA46WW/moc_assetdownloader.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/barrier.h",
+			"Mu",
+			"3KCQ3B37I3/moc_barrier.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/concurrentcall.h",
+			"Mu",
+			"3KCQ3B37I3/moc_concurrentcall.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/conditional.h",
+			"Mu",
+			"3KCQ3B37I3/moc_conditional.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/networkquery.h",
+			"Mu",
+			"3KCQ3B37I3/moc_networkquery.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/qprocesstask.h",
+			"Mu",
+			"3KCQ3B37I3/moc_qprocesstask.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tasking_global.h",
+			"Mu",
+			"3KCQ3B37I3/moc_tasking_global.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tasktree.h",
+			"Mu",
+			"3KCQ3B37I3/moc_tasktree.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tasktreerunner.h",
+			"Mu",
+			"3KCQ3B37I3/moc_tasktreerunner.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tcpsocket.h",
+			"Mu",
+			"3KCQ3B37I3/moc_tcpsocket.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_EXAMPLES_ASSET_DOWNLOADER_LIB",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtExamplesAssetDownloader",
+		"/tmp/qtbase-6.9.1/src/assets/downloader",
+		"/tmp/qtbase-6.9.1/build/src/assets/downloader",
+		"/tmp/qtbase-6.9.1/build/include/QtConcurrent",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/tmp/qtbase-6.9.1/build/include/QtNetwork",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/ExamplesAssetDownloaderPrivate_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/tmp/qtbase-6.9.1/build/src/assets/downloader/qtexamples_asset_downloader-config.h",
+		"/tmp/qtbase-6.9.1/build/src/assets/downloader/qtexamples_asset_downloader-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/src/assets/downloader/CMakeFiles/ExamplesAssetDownloaderPrivate.dir/cmake_pch.hxx.cxx",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/assetdownloader.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/barrier.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/conditional.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/networkquery.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/qprocesstask.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tasktree.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tasktreerunner.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/assets/downloader/tasking/tcpsocket.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

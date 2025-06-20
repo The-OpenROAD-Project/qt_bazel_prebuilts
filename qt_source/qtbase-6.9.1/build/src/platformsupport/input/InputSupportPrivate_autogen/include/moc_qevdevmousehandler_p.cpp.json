@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "QEvdevMouseHandler",
+            "lineNumber": 34,
+            "object": true,
+            "qualifiedClassName": "QEvdevMouseHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        },
+                        {
+                            "name": "abs",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "buttons",
+                            "type": "Qt::MouseButtons"
+                        },
+                        {
+                            "name": "button",
+                            "type": "Qt::MouseButton"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QEvent::Type"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "handleMouseEvent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "delta",
+                            "type": "QPoint"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "handleWheelEvent",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qevdevmousehandler_p.h",
+    "outputRevision": 69
+}

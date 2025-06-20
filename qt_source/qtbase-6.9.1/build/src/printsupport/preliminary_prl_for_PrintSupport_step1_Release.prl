@@ -1,0 +1,7 @@
+RCC_OBJECTS = 
+QMAKE_PRL_TARGET = libQt6PrintSupport.so
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = /tmp/qtbase-6.9.1/build/lib/libQt6PrintSupport.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.9.1
+QMAKE_PRL_LIBS_FOR_CMAKE = /tmp/qtbase-6.9.1/build/lib/libQt6Widgets.so;/tmp/qtbase-6.9.1/build/lib/libQt6Gui.so;/tmp/qtbase-6.9.1/build/lib/libQt6Core.so;/usr/lib/x86_64-linux-gnu/libGLX.so;/usr/lib/x86_64-linux-gnu/libOpenGL.so
+

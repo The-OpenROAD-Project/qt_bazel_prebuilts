@@ -1,0 +1,63 @@
+{
+    "classes": [
+        {
+            "className": "QEventLoop",
+            "enums": [
+                {
+                    "alias": "ProcessEventsFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "ProcessEventsFlags",
+                    "values": [
+                        "AllEvents",
+                        "ExcludeUserInputEvents",
+                        "ExcludeSocketNotifiers",
+                        "WaitForMoreEvents",
+                        "X11ExcludeTimers",
+                        "EventLoopExec",
+                        "DialogExec",
+                        "ApplicationExec"
+                    ]
+                }
+            ],
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QEventLoop",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "returnCode",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "isCloned": true,
+                    "name": "exit",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "quit",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeventloop.h",
+    "outputRevision": 69
+}

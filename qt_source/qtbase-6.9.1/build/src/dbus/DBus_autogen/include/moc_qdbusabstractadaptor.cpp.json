@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QDBusAbstractAdaptor",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QDBusAbstractAdaptor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusabstractadaptor.h",
+    "outputRevision": 69
+}

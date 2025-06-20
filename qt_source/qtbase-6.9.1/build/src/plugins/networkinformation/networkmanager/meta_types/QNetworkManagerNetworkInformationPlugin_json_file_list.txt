@@ -1,0 +1,3 @@
+/tmp/qtbase-6.9.1/build/src/plugins/networkinformation/networkmanager/QNetworkManagerNetworkInformationPlugin_autogen/include/moc_qnetworkmanagernetworkinformationbackend.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/networkinformation/networkmanager/QNetworkManagerNetworkInformationPlugin_autogen/include/moc_qnetworkmanagerservice.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/networkinformation/networkmanager/QNetworkManagerNetworkInformationPlugin_autogen/include/qnetworkmanagernetworkinformationbackend.moc.json

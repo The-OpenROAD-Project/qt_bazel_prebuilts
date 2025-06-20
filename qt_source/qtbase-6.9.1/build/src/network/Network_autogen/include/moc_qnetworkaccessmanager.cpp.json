@@ -1,0 +1,139 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkAccessManager",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "QNetworkAccessManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "proxy",
+                            "type": "QNetworkProxy"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "proxyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QAuthenticator*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "authenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "encrypted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        },
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "protected",
+                    "index": 6,
+                    "isConst": true,
+                    "name": "supportedSchemesImplementation",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "_q_replySslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "_q_replyPreSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkaccessmanager.h",
+    "outputRevision": 69
+}

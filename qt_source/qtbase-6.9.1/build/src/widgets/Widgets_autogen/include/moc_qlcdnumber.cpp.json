@@ -1,0 +1,208 @@
+{
+    "classes": [
+        {
+            "className": "QLCDNumber",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Mode",
+                    "values": [
+                        "Hex",
+                        "Dec",
+                        "Oct",
+                        "Bin"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SegmentStyle",
+                    "values": [
+                        "Outline",
+                        "Filled",
+                        "Flat"
+                    ]
+                }
+            ],
+            "lineNumber": 15,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "smallDecimalPoint",
+                    "read": "smallDecimalPoint",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSmallDecimalPoint"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "digitCount",
+                    "read": "digitCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDigitCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "mode",
+                    "read": "mode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Mode",
+                    "user": false,
+                    "write": "setMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "segmentStyle",
+                    "read": "segmentStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SegmentStyle",
+                    "user": false,
+                    "write": "setSegmentStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "value",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "display"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "intValue",
+                    "read": "intValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "display"
+                }
+            ],
+            "qualifiedClassName": "QLCDNumber",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "overflow",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "str",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "display",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "num",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "display",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "num",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "display",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "setHexMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "setDecMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "setOctMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "setBinMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setSmallDecimalPoint",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlcdnumber.h",
+    "outputRevision": 69
+}

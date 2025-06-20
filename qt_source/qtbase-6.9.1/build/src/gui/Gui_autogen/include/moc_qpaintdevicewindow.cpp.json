@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QPaintDeviceWindow",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QPaintDeviceWindow",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "update",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindow"
+                },
+                {
+                    "access": "public",
+                    "name": "QPaintDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpaintdevicewindow.h",
+    "outputRevision": 69
+}

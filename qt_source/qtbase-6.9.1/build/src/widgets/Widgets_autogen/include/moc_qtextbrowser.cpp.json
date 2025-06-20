@@ -1,0 +1,207 @@
+{
+    "classes": [
+        {
+            "className": "QTextBrowser",
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "source",
+                    "read": "source",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QUrl",
+                    "user": false,
+                    "write": "setSource"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "sourceType",
+                    "read": "sourceType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTextDocument::ResourceType",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "searchPaths",
+                    "read": "searchPaths",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setSearchPaths"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "openExternalLinks",
+                    "read": "openExternalLinks",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setOpenExternalLinks"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "openLinks",
+                    "read": "openLinks",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setOpenLinks"
+                }
+            ],
+            "qualifiedClassName": "QTextBrowser",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "backwardAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "forwardAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "historyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "sourceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "highlighted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "anchorClicked",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QTextDocument::ResourceType"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setSource",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 7,
+                    "isCloned": true,
+                    "name": "setSource",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "backward",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "forward",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "home",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "reload",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextEdit"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextbrowser.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QListModel",
+            "lineNumber": 44,
+            "object": true,
+            "qualifiedClassName": "QListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlistwidget_p.h",
+    "outputRevision": 69
+}

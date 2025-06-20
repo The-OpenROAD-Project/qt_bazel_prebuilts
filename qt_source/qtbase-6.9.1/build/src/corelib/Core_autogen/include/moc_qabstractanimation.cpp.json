@@ -1,0 +1,265 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractAnimation",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Direction",
+                    "values": [
+                        "Forward",
+                        "Backward"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "State",
+                    "values": [
+                        "Stopped",
+                        "Paused",
+                        "Running"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "bindable": "bindableState",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "state",
+                    "notify": "stateChanged",
+                    "read": "state",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "State",
+                    "user": false
+                },
+                {
+                    "bindable": "bindableLoopCount",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "loopCount",
+                    "read": "loopCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setLoopCount"
+                },
+                {
+                    "bindable": "bindableCurrentTime",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentTime",
+                    "read": "currentTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentTime"
+                },
+                {
+                    "bindable": "bindableCurrentLoop",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "currentLoop",
+                    "notify": "currentLoopChanged",
+                    "read": "currentLoop",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "bindable": "bindableDirection",
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "direction",
+                    "notify": "directionChanged",
+                    "read": "direction",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Direction",
+                    "user": false,
+                    "write": "setDirection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "duration",
+                    "read": "duration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QAbstractAnimation",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newState",
+                            "type": "QAbstractAnimation::State"
+                        },
+                        {
+                            "name": "oldState",
+                            "type": "QAbstractAnimation::State"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "currentLoop",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "currentLoopChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QAbstractAnimation::Direction"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "directionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "policy",
+                            "type": "QAbstractAnimation::DeletionPolicy"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "isCloned": true,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "pause",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "resume",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setPaused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msecs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "setCurrentTime",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QAnimationDriver",
+            "lineNumber": 106,
+            "object": true,
+            "qualifiedClassName": "QAnimationDriver",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "stopped",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractanimation.h",
+    "outputRevision": 69
+}

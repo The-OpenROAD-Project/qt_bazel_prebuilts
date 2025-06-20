@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QUnixEventDispatcherQPA",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QUnixEventDispatcherQPA",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEventDispatcherUNIX"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qunixeventdispatcher_qpa_p.h",
+    "outputRevision": 69
+}

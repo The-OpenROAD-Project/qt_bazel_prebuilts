@@ -1,0 +1,10 @@
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qabstractprintdialog.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qpagesetupdialog.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qpagesetupdialog_unix_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qplatformprintplugin.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qprintdialog.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qprintpreviewdialog.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/moc_qprintpreviewwidget.cpp.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/qprintdialog_unix.moc.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/qprintpreviewdialog.moc.json
+/tmp/qtbase-6.9.1/build/src/printsupport/PrintSupport_autogen/include/qprintpreviewwidget.moc.json

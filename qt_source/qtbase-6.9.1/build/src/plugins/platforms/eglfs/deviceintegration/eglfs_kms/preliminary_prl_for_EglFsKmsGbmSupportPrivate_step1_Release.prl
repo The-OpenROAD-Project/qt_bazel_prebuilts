@@ -1,0 +1,7 @@
+RCC_OBJECTS = 
+QMAKE_PRL_TARGET = libQt6EglFsKmsGbmSupport.so
+QMAKE_PRL_TARGET_PATH_FOR_CMAKE = /tmp/qtbase-6.9.1/build/lib/libQt6EglFsKmsGbmSupport.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.9.1
+QMAKE_PRL_LIBS_FOR_CMAKE = /tmp/qtbase-6.9.1/build/lib/libQt6EglFsKmsSupport.so;/tmp/qtbase-6.9.1/build/lib/libQt6EglFSDeviceIntegration.so;/tmp/qtbase-6.9.1/build/lib/libQt6FbSupport.a;/usr/lib/x86_64-linux-gnu/libEGL.so;/tmp/qtbase-6.9.1/build/lib/libQt6InputSupport.a;/tmp/qtbase-6.9.1/build/lib/libQt6DeviceDiscoverySupport.a;/usr/lib/x86_64-linux-gnu/libudev.so;/tmp/qtbase-6.9.1/build/lib/libQt6OpenGL.so;/tmp/qtbase-6.9.1/build/lib/libQt6KmsSupport.a;/usr/lib/x86_64-linux-gnu/libdrm.so;/tmp/qtbase-6.9.1/build/lib/libQt6Gui.so;/tmp/qtbase-6.9.1/build/lib/libQt6Core.so;/usr/lib/x86_64-linux-gnu/libGLX.so;/usr/lib/x86_64-linux-gnu/libOpenGL.so;/usr/lib/x86_64-linux-gnu/libxkbcommon.so;/usr/lib/x86_64-linux-gnu/libgbm.so
+

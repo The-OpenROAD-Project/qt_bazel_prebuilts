@@ -1,0 +1,151 @@
+{
+    "classes": [
+        {
+            "className": "QPointingDeviceUniqueId",
+            "gadget": true,
+            "lineNumber": 20,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "numericId",
+                    "read": "numericId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qint64",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QPointingDeviceUniqueId"
+        },
+        {
+            "className": "QPointingDevice",
+            "enums": [
+                {
+                    "alias": "PointerType",
+                    "isClass": true,
+                    "isFlag": true,
+                    "name": "PointerTypes",
+                    "values": [
+                        "Unknown",
+                        "Generic",
+                        "Finger",
+                        "Pen",
+                        "Eraser",
+                        "Cursor",
+                        "AllPointerTypes"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "GrabTransition",
+                    "values": [
+                        "GrabPassive",
+                        "UngrabPassive",
+                        "CancelGrabPassive",
+                        "OverrideGrabPassive",
+                        "GrabExclusive",
+                        "UngrabExclusive",
+                        "CancelGrabExclusive"
+                    ]
+                }
+            ],
+            "lineNumber": 50,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "pointerType",
+                    "read": "pointerType",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PointerType",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "maximumPoints",
+                    "read": "maximumPoints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "buttonCount",
+                    "read": "buttonCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "uniqueId",
+                    "read": "uniqueId",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointingDeviceUniqueId",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QPointingDevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "grabber",
+                            "type": "QObject*"
+                        },
+                        {
+                            "name": "transition",
+                            "type": "GrabTransition"
+                        },
+                        {
+                            "name": "event",
+                            "type": "const QPointerEvent*"
+                        },
+                        {
+                            "name": "point",
+                            "type": "QEventPoint"
+                        }
+                    ],
+                    "index": 0,
+                    "isConst": true,
+                    "name": "grabChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInputDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpointingdevice.h",
+    "outputRevision": 69
+}

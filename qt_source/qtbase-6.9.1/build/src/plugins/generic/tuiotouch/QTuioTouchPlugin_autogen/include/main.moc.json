@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTuioTouchPlugin",
+            "lineNumber": 12,
+            "object": true,
+            "qualifiedClassName": "QTuioTouchPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGenericPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,90 @@
+{
+    "classes": [
+        {
+            "className": "OrgFreedesktopDBusPropertiesInterface",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "OrgFreedesktopDBusPropertiesInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "interface_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "changed_properties",
+                            "type": "QVariantMap"
+                        },
+                        {
+                            "name": "invalidated_properties",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "PropertiesChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "interface_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "property_name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "Get",
+                    "returnType": "QDBusPendingReply<QDBusVariant>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "interface_name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "GetAll",
+                    "returnType": "QDBusPendingReply<QVariantMap>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "interface_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "property_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "Set",
+                    "returnType": "QDBusPendingReply<>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "properties_interface.h",
+    "outputRevision": 69
+}

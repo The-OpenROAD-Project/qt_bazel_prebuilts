@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTableCornerButton",
+            "lineNumber": 553,
+            "object": true,
+            "qualifiedClassName": "QTableCornerButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtableview.cpp",
+    "outputRevision": 69
+}

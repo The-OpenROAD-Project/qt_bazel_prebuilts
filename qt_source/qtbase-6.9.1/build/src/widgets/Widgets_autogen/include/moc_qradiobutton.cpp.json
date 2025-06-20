@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QRadioButton",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QRadioButton",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qradiobutton.h",
+    "outputRevision": 69
+}

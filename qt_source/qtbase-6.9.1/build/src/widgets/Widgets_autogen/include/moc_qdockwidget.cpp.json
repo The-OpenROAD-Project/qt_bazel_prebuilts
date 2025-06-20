@@ -1,0 +1,173 @@
+{
+    "classes": [
+        {
+            "className": "QDockWidget",
+            "enums": [
+                {
+                    "alias": "DockWidgetFeature",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "DockWidgetFeatures",
+                    "values": [
+                        "DockWidgetClosable",
+                        "DockWidgetMovable",
+                        "DockWidgetFloatable",
+                        "DockWidgetVerticalTitleBar",
+                        "DockWidgetFeatureMask",
+                        "NoDockWidgetFeatures",
+                        "Reserved"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "floating",
+                    "notify": "topLevelChanged",
+                    "read": "isFloating",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setFloating"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "features",
+                    "notify": "featuresChanged",
+                    "read": "features",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DockWidgetFeatures",
+                    "user": false,
+                    "write": "setFeatures"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "allowedAreas",
+                    "notify": "allowedAreasChanged",
+                    "read": "allowedAreas",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::DockWidgetAreas",
+                    "user": false,
+                    "write": "setAllowedAreas"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "windowTitle",
+                    "read": "windowTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setWindowTitle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "dockLocation",
+                    "notify": "dockLocationChanged",
+                    "read": "dockLocation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::DockWidgetArea",
+                    "user": false,
+                    "write": "setDockLocation"
+                }
+            ],
+            "qualifiedClassName": "QDockWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "features",
+                            "type": "QDockWidget::DockWidgetFeatures"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "featuresChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "topLevel",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "topLevelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "allowedAreas",
+                            "type": "Qt::DockWidgetAreas"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "allowedAreasChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "visibilityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "area",
+                            "type": "Qt::DockWidgetArea"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "dockLocationChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdockwidget.h",
+    "outputRevision": 69
+}

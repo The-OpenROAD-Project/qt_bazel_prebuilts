@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "QSpiDBusCache",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QSpiDBusCache",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nodeAdded",
+                            "type": "QSpiAccessibleCacheItem"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "AddAccessible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nodeRemoved",
+                            "type": "QSpiObjectReference"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "RemoveAccessible",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "GetItems",
+                    "returnType": "QSpiAccessibleCacheArray"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qspidbuscache_p.h",
+    "outputRevision": 69
+}

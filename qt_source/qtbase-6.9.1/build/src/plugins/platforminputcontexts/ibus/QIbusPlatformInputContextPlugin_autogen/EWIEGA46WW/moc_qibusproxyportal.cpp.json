@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QIBusProxyPortal",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QIBusProxyPortal",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "CreateInputContext",
+                    "returnType": "QDBusPendingReply<QDBusObjectPath>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qibusproxyportal.h",
+    "outputRevision": 69
+}

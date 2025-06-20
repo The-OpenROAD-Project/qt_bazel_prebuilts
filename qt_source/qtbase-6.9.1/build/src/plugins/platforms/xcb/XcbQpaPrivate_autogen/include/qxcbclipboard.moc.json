@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbClipboardMime",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QXcbClipboardMime",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QXcbMime"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbclipboard.cpp",
+    "outputRevision": 69
+}

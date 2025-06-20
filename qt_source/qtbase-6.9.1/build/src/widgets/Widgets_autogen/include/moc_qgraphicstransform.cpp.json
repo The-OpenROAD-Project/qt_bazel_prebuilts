@@ -1,0 +1,211 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsTransform",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QGraphicsTransform",
+            "slots": [
+                {
+                    "access": "protected",
+                    "index": 0,
+                    "name": "update",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsScale",
+            "lineNumber": 43,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "origin",
+                    "notify": "originChanged",
+                    "read": "origin",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVector3D",
+                    "user": false,
+                    "write": "setOrigin"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "xScale",
+                    "notify": "xScaleChanged",
+                    "read": "xScale",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setXScale"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "yScale",
+                    "notify": "yScaleChanged",
+                    "read": "yScale",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setYScale"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "zScale",
+                    "notify": "zScaleChanged",
+                    "read": "zScale",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setZScale"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsScale",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "originChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "xScaleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "yScaleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "zScaleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "scaleChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsTransform"
+                }
+            ]
+        },
+        {
+            "className": "QGraphicsRotation",
+            "lineNumber": 82,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "origin",
+                    "notify": "originChanged",
+                    "read": "origin",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVector3D",
+                    "user": false,
+                    "write": "setOrigin"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "angle",
+                    "notify": "angleChanged",
+                    "read": "angle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false,
+                    "write": "setAngle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "axis",
+                    "notify": "axisChanged",
+                    "read": "axis",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVector3D",
+                    "user": false,
+                    "write": "setAxis"
+                }
+            ],
+            "qualifiedClassName": "QGraphicsRotation",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "originChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "angleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "axisChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsTransform"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicstransform.h",
+    "outputRevision": 69
+}

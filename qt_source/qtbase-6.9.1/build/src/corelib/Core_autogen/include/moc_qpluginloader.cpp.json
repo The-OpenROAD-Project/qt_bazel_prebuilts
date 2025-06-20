@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "QPluginLoader",
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "fileName",
+                    "read": "fileName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFileName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "loadHints",
+                    "read": "loadHints",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QLibrary::LoadHints",
+                    "user": false,
+                    "write": "setLoadHints"
+                }
+            ],
+            "qualifiedClassName": "QPluginLoader",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpluginloader.h",
+    "outputRevision": 69
+}

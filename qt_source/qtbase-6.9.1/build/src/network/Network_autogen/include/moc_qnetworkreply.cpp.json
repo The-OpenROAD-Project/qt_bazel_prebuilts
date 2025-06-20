@@ -1,0 +1,192 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkReply",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "NetworkError",
+                    "values": [
+                        "NoError",
+                        "ConnectionRefusedError",
+                        "RemoteHostClosedError",
+                        "HostNotFoundError",
+                        "TimeoutError",
+                        "OperationCanceledError",
+                        "SslHandshakeFailedError",
+                        "TemporaryNetworkFailureError",
+                        "NetworkSessionFailedError",
+                        "BackgroundRequestNotAllowedError",
+                        "TooManyRedirectsError",
+                        "InsecureRedirectError",
+                        "UnknownNetworkError",
+                        "ProxyConnectionRefusedError",
+                        "ProxyConnectionClosedError",
+                        "ProxyNotFoundError",
+                        "ProxyTimeoutError",
+                        "ProxyAuthenticationRequiredError",
+                        "UnknownProxyError",
+                        "ContentAccessDenied",
+                        "ContentOperationNotPermittedError",
+                        "ContentNotFoundError",
+                        "AuthenticationRequiredError",
+                        "ContentReSendError",
+                        "ContentConflictError",
+                        "ContentGoneError",
+                        "UnknownContentError",
+                        "ProtocolUnknownError",
+                        "ProtocolInvalidOperationError",
+                        "ProtocolFailure",
+                        "InternalServerError",
+                        "OperationNotImplementedError",
+                        "ServiceUnavailableError",
+                        "UnknownServerError"
+                    ]
+                }
+            ],
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "QNetworkReply",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "socketStartedConnecting",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "requestSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "metaDataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QNetworkReply::NetworkError"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "encrypted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errors",
+                            "type": "QList<QSslError>"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "sslErrors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "authenticator",
+                            "type": "QSslPreSharedKeyAuthenticator*"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "preSharedKeyAuthenticationRequired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "redirected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "redirectAllowed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytesSent",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "bytesTotal",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "uploadProgress",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytesReceived",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "bytesTotal",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "downloadProgress",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "abort",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "ignoreSslErrors",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QIODevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkreply.h",
+    "outputRevision": 69
+}

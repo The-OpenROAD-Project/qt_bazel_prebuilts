@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QDBusVirtualObject",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QDBusVirtualObject",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusvirtualobject.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QDnsLookupRunnable",
+            "lineNumber": 197,
+            "object": true,
+            "qualifiedClassName": "QDnsLookupRunnable",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QDnsLookupReply"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QRunnable"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdnslookup_p.h",
+    "outputRevision": 69
+}

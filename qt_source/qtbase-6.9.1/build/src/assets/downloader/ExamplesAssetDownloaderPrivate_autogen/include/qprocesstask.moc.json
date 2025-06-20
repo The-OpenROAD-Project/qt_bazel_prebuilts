@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "Reaper",
+            "lineNumber": 53,
+            "object": true,
+            "qualifiedClassName": "Tasking::Reaper",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "ProcessReaperPrivate",
+            "lineNumber": 120,
+            "object": true,
+            "qualifiedClassName": "Tasking::ProcessReaperPrivate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qprocesstask.cpp",
+    "outputRevision": 69
+}

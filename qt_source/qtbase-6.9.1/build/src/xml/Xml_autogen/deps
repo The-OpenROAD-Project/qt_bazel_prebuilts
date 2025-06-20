@@ -1,0 +1,23 @@
+Xml_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/build/include/QtXml/qtxmlexports.h \
+	/tmp/qtbase-6.9.1/build/src/xml/CMakeFiles/Xml.dir/cmake_pch.hxx \
+	/tmp/qtbase-6.9.1/build/src/xml/CMakeFiles/Xml.dir/cmake_pch.hxx.cxx \
+	/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in \
+	/tmp/qtbase-6.9.1/cmake/PkgConfigLibrary.pc.in \
+	/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtModuleConfigPrivate.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/modulecppexports.h.in \
+	/tmp/qtbase-6.9.1/src/xml/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/xml/compat/removed_api.cpp \
+	/tmp/qtbase-6.9.1/src/xml/configure.cmake \
+	/tmp/qtbase-6.9.1/src/xml/dom/qdom.cpp \
+	/tmp/qtbase-6.9.1/src/xml/dom/qdom.h \
+	/tmp/qtbase-6.9.1/src/xml/dom/qdom_p.h \
+	/tmp/qtbase-6.9.1/src/xml/dom/qdomhelpers.cpp \
+	/tmp/qtbase-6.9.1/src/xml/dom/qdomhelpers_p.h \
+	/tmp/qtbase-6.9.1/src/xml/qtxmlglobal.h \
+	/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/usr/bin/cmake

@@ -1,0 +1,430 @@
+{
+    "classes": [
+        {
+            "className": "QComboBox",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "InsertPolicy",
+                    "values": [
+                        "NoInsert",
+                        "InsertAtTop",
+                        "InsertAtCurrent",
+                        "InsertAtBottom",
+                        "InsertAfterCurrent",
+                        "InsertBeforeCurrent",
+                        "InsertAlphabetically"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SizeAdjustPolicy",
+                    "values": [
+                        "AdjustToContents",
+                        "AdjustToContentsOnFirstShow",
+                        "AdjustToMinimumContentsLengthWithIcon"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "LabelDrawingMode",
+                    "values": [
+                        "UseStyle",
+                        "UseDelegate"
+                    ]
+                }
+            ],
+            "lineNumber": 23,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "Qt::InputMethodQuery"
+                        },
+                        {
+                            "name": "argument",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 12,
+                    "isConst": true,
+                    "name": "inputMethodQuery",
+                    "returnType": "QVariant"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "editable",
+                    "read": "isEditable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setEditable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "count",
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentText",
+                    "notify": "currentTextChanged",
+                    "read": "currentText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": true,
+                    "write": "setCurrentText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "currentIndex",
+                    "notify": "currentIndexChanged",
+                    "read": "currentIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "currentData",
+                    "read": "currentData",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "maxVisibleItems",
+                    "read": "maxVisibleItems",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxVisibleItems"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "maxCount",
+                    "read": "maxCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "insertPolicy",
+                    "read": "insertPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "InsertPolicy",
+                    "user": false,
+                    "write": "setInsertPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "sizeAdjustPolicy",
+                    "read": "sizeAdjustPolicy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SizeAdjustPolicy",
+                    "user": false,
+                    "write": "setSizeAdjustPolicy"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "minimumContentsLength",
+                    "read": "minimumContentsLength",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumContentsLength"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "iconSize",
+                    "read": "iconSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QSize",
+                    "user": false,
+                    "write": "setIconSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "placeholderText",
+                    "read": "placeholderText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPlaceholderText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "duplicatesEnabled",
+                    "read": "duplicatesEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDuplicatesEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "frame",
+                    "read": "hasFrame",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setFrame"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "modelColumn",
+                    "read": "modelColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setModelColumn"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "labelDrawingMode",
+                    "read": "labelDrawingMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LabelDrawingMode",
+                    "user": false,
+                    "write": "setLabelDrawingMode"
+                }
+            ],
+            "qualifiedClassName": "QComboBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "editTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "textActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "highlighted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "textHighlighted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "currentIndexChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "currentTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "clearEditText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "setEditText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "setCurrentIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "setCurrentText",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcombobox.h",
+    "outputRevision": 69
+}

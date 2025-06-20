@@ -1,0 +1,138 @@
+{
+    "classes": [
+        {
+            "className": "QXdgNotificationInterface",
+            "lineNumber": 49,
+            "object": true,
+            "qualifiedClassName": "QXdgNotificationInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "action_key",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "ActionInvoked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "reason",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "NotificationClosed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "uint"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "closeNotification",
+                    "returnType": "QDBusPendingReply<>"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "getCapabilities",
+                    "returnType": "QDBusPendingReply<QStringList>"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "getServerInformation",
+                    "returnType": "QDBusPendingReply<QString,QString,QString,QString>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "vendor",
+                            "type": "QString&"
+                        },
+                        {
+                            "name": "version",
+                            "type": "QString&"
+                        },
+                        {
+                            "name": "specVersion",
+                            "type": "QString&"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "getServerInformation",
+                    "returnType": "QDBusReply<QString>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "appName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "replacesId",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "appIcon",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "summary",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "body",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "actions",
+                            "type": "QStringList"
+                        },
+                        {
+                            "name": "hints",
+                            "type": "QVariantMap"
+                        },
+                        {
+                            "name": "timeout",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "notify",
+                    "returnType": "QDBusPendingReply<uint>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxdgnotificationproxy_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QXdgDesktopPortalThemePlugin",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "QXdgDesktopPortalThemePlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformThemePlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QXdgDesktopPortalFileDialog",
+                "lineNumber": 13,
+                "object": true,
+                "qualifiedClassName": "QXdgDesktopPortalFileDialog",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "response",
+                                "type": "uint"
+                            },
+                            {
+                                "name": "results",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "gotResponse",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformFileDialogHelper"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qxdgdesktopportalfiledialog_p.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QXdgDesktopPortalThemePrivate",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "QXdgDesktopPortalThemePrivate",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "group",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "key",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "value",
+                                "type": "QDBusVariant"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "settingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qxdgdesktopportaltheme.cpp",
+        "outputRevision": 69
+    }
+]

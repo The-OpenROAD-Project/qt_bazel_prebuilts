@@ -1,0 +1,58 @@
+{
+    "classes": [
+        {
+            "className": "QPalette",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ColorGroup",
+                    "values": [
+                        "Active",
+                        "Disabled",
+                        "Inactive",
+                        "NColorGroups",
+                        "Current",
+                        "All",
+                        "Normal"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ColorRole",
+                    "values": [
+                        "WindowText",
+                        "Button",
+                        "Light",
+                        "Midlight",
+                        "Dark",
+                        "Mid",
+                        "Text",
+                        "BrightText",
+                        "ButtonText",
+                        "Base",
+                        "Window",
+                        "Shadow",
+                        "Highlight",
+                        "HighlightedText",
+                        "Link",
+                        "LinkVisited",
+                        "AlternateBase",
+                        "NoRole",
+                        "ToolTipBase",
+                        "ToolTipText",
+                        "PlaceholderText",
+                        "Accent",
+                        "NColorRoles"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 18,
+            "qualifiedClassName": "QPalette"
+        }
+    ],
+    "inputFile": "qpalette.h",
+    "outputRevision": 69
+}

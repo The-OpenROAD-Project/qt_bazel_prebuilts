@@ -1,0 +1,72 @@
+{
+    "classes": [
+        {
+            "className": "QInputDialogSpinBox",
+            "lineNumber": 66,
+            "object": true,
+            "qualifiedClassName": "QInputDialogSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "textChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "notifyTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSpinBox"
+                }
+            ]
+        },
+        {
+            "className": "QInputDialogDoubleSpinBox",
+            "lineNumber": 101,
+            "object": true,
+            "qualifiedClassName": "QInputDialogDoubleSpinBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "textChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "notifyTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDoubleSpinBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputdialog.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractNetworkCache",
+            "lineNumber": 79,
+            "object": true,
+            "qualifiedClassName": "QAbstractNetworkCache",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "clear",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractnetworkcache.h",
+    "outputRevision": 69
+}

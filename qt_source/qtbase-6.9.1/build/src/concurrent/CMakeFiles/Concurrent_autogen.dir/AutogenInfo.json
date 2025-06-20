@@ -1,0 +1,251 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/concurrent",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/concurrent",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/concurrent/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/modulecppexports.h.in",
+		"/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtModuleConfigPrivate.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in",
+		"/tmp/qtbase-6.9.1/cmake/PkgConfigLibrary.pc.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Concurrent_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/include/QtConcurrent/qtconcurrentexports.h",
+			"Mu",
+			"6MUDTMG2GQ/moc_qtconcurrentexports.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx",
+			"Mu",
+			"56HULWNMMA/moc_cmake_pch.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtaskbuilder.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtaskbuilder.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrent_global.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrent_global.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentcompilertest.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentcompilertest.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentfilter.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentfilter.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentfilterkernel.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentfilterkernel.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentfunctionwrappers.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentfunctionwrappers.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentiteratekernel.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentiteratekernel.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentmap.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentmap.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentmapkernel.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentmapkernel.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentmedian.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentmedian.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentreducekernel.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentreducekernel.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentrun.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentrun.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentrunbase.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentrunbase.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentstoredfunctioncall.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentstoredfunctioncall.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrenttask.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrenttask.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentthreadengine.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtconcurrentthreadengine.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"Concurrent_EXPORTS",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_CONTEXTLESS_CONNECT",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_NO_USING_NAMESPACE",
+		"QT_USE_NODISCARD_FILE_OPEN",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtConcurrent",
+		"/tmp/qtbase-6.9.1/src/concurrent",
+		"/tmp/qtbase-6.9.1/build/src/concurrent",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/concurrent/Concurrent_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/tmp/qtbase-6.9.1/build/src/concurrent/qtconcurrent-config.h",
+		"/tmp/qtbase-6.9.1/build/src/concurrent/qtconcurrent-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/concurrent/CMakeFiles/Concurrent_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/concurrent/CMakeFiles/Concurrent_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/build/src/concurrent/CMakeFiles/Concurrent.dir/cmake_pch.hxx.cxx",
+			"Mu",
+			null
+		],
+		[ "/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentfilter.cpp", "Mu", null ],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentiteratekernel.cpp",
+			"Mu",
+			null
+		],
+		[ "/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentmap.cpp", "Mu", null ],
+		[ "/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentrun.cpp", "Mu", null ],
+		[
+			"/tmp/qtbase-6.9.1/src/concurrent/qtconcurrentthreadengine.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

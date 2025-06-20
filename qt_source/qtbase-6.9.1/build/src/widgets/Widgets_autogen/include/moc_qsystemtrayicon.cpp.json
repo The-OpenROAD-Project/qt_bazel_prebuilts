@@ -1,0 +1,226 @@
+{
+    "classes": [
+        {
+            "className": "QSystemTrayIcon",
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "toolTip",
+                    "read": "toolTip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setToolTip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "icon",
+                    "read": "icon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QIcon",
+                    "user": false,
+                    "write": "setIcon"
+                },
+                {
+                    "constant": false,
+                    "designable": false,
+                    "final": false,
+                    "index": 2,
+                    "name": "visible",
+                    "read": "isVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setVisible"
+                }
+            ],
+            "qualifiedClassName": "QSystemTrayIcon",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "reason",
+                            "type": "QSystemTrayIcon::ActivationReason"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "messageClicked",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "show",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "hide",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QIcon"
+                        },
+                        {
+                            "name": "msecs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QIcon"
+                        }
+                    ],
+                    "index": 6,
+                    "isCloned": true,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QSystemTrayIcon::MessageIcon"
+                        },
+                        {
+                            "name": "msecs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QSystemTrayIcon::MessageIcon"
+                        }
+                    ],
+                    "index": 8,
+                    "isCloned": true,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "isCloned": true,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QPlatformSystemTrayIcon::ActivationReason"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "_q_emitActivated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsystemtrayicon.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,106 @@
+{
+    "classes": [
+        {
+            "className": "QFontComboBox",
+            "enums": [
+                {
+                    "alias": "FontFilter",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "FontFilters",
+                    "values": [
+                        "AllFonts",
+                        "ScalableFonts",
+                        "NonScalableFonts",
+                        "MonospacedFonts",
+                        "ProportionalFonts"
+                    ]
+                }
+            ],
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "writingSystem",
+                    "read": "writingSystem",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFontDatabase::WritingSystem",
+                    "user": false,
+                    "write": "setWritingSystem"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "fontFilters",
+                    "read": "fontFilters",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FontFilters",
+                    "user": false,
+                    "write": "setFontFilters"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentFont",
+                    "notify": "currentFontChanged",
+                    "read": "currentFont",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QFont",
+                    "user": false,
+                    "write": "setCurrentFont"
+                }
+            ],
+            "qualifiedClassName": "QFontComboBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "f",
+                            "type": "QFont"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "currentFontChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "f",
+                            "type": "QFont"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setCurrentFont",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QComboBox"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfontcombobox.h",
+    "outputRevision": 69
+}

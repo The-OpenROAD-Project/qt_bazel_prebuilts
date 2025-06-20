@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "className": "QTextDocumentLayout",
+            "lineNumber": 32,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "cursorWidth",
+                    "read": "cursorWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCursorWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "idealWidth",
+                    "read": "idealWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "contentHasAlignment",
+                    "read": "contentHasAlignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QTextDocumentLayout",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTextDocumentLayout"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextdocumentlayout_p.h",
+    "outputRevision": 69
+}

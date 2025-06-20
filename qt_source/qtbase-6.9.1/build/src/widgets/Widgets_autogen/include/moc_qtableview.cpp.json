@@ -1,0 +1,340 @@
+{
+    "classes": [
+        {
+            "className": "QTableView",
+            "lineNumber": 17,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "showGrid",
+                    "read": "showGrid",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setShowGrid"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "gridStyle",
+                    "read": "gridStyle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::PenStyle",
+                    "user": false,
+                    "write": "setGridStyle"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "sortingEnabled",
+                    "read": "isSortingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSortingEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "wordWrap",
+                    "read": "wordWrap",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWordWrap"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "cornerButtonEnabled",
+                    "read": "isCornerButtonEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setCornerButtonEnabled"
+                }
+            ],
+            "qualifiedClassName": "QTableView",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "selectRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "selectColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "hideRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "hideColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "showRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "showColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "resizeRowToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "resizeRowsToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "resizeColumnToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "resizeColumnsToContents",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "order",
+                            "type": "Qt::SortOrder"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "sortByColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "show",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "setShowGrid",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "rowMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "columnMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldHeight",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newHeight",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "rowResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "column",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldWidth",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newWidth",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "columnResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "rowCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "columnCountChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtableview.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,11 @@
+QT.core_private.VERSION = 6.9.1
+QT.core_private.name = QtCore
+QT.core_private.module =
+QT.core_private.libs = $$QT_MODULE_LIB_BASE
+QT.core_private.includes = $$QT_MODULE_INCLUDE_BASE/QtCore/6.9.1 $$QT_MODULE_INCLUDE_BASE/QtCore/6.9.1/QtCore
+QT.core_private.frameworks = 
+QT.core_private.depends = core
+QT.core_private.uses = 
+QT.core_private.module_config = v2 internal_module
+QT.core_private.enabled_features = clock-gettime doubleconversion dladdr futimens getauxval getentropy glib icu inotify linkat memmem memrchr mimetype-database system-pcre2 poll_ppoll posix_sem posix_shm pthread_condattr_setclock pthread_timedjoin renameat2 sysv_sem sysv_shm backtrace sha3-fast hijricalendar timezone_locale datetimeparser forkfd_pidfd pcre2 reduce_exports x86intrin sse2 sse3 ssse3 sse4_1 sse4_2 avx f16c avx2 avx512f avx512er avx512cd avx512pf avx512dq avx512bw avx512vl avx512ifma avx512vbmi avx512vbmi2 aesni vaes rdrnd rdseed shani localtime_r posix_fallocate system-zlib dbus dbus-linked gui network printsupport sql testlib widgets xml libudev openssl dlopen relocatable intelcet glibc_fortify_source stack_protector stack_clash_protection libstdcpp_assertions relro_now_linker largefile precompile_header enable_new_dtags sse2 sse3 ssse3 sse4_1 sse4_2 avx f16c avx2 avx512f avx512er avx512cd avx512pf avx512dq avx512bw avx512vl avx512ifma avx512vbmi avx512vbmi2 aesni vaes rdrnd rdseed shani
+QT.core_private.disabled_features = system-doubleconversion broken-threadlocal-dtors journald system-libb2 poll_pollts poll_poll poll_select pthread_clockjoin qqnx_pps slog2 syslog cxx20_format cxx23_stacktrace cpp-winrt lttng etw ctf poll-exit-on-error openssl-hash use_bfd_linker use_gold_linker use_lld_linker use_mold_linker android-style-assets gc_binaries developer-build private_tests doc_snippets debug elf_private_full_version no_direct_extern_access lsx lasx mips_dsp mips_dspr2 neon arm_crc32 arm_crypto arm_sve localtime_s force-system-libs force-bundled-libs stdlib-libcpp trivial_auto_var_init_pattern libcpp_hardening

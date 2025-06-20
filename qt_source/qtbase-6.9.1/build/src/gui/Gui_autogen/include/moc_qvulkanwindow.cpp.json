@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QVulkanWindow",
+            "lineNumber": 65,
+            "object": true,
+            "qualifiedClassName": "QVulkanWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "image",
+                            "type": "QImage"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "frameGrabbed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qvulkanwindow.h",
+    "outputRevision": 69
+}

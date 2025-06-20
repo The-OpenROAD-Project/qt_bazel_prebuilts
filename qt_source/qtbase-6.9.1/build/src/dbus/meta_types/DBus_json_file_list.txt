@@ -1,0 +1,13 @@
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusabstractadaptor.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusabstractadaptor_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusabstractinterface.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusconnection.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusconnection_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusconnectioninterface.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusconnectionmanager_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbuserror.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbuspendingcall.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbuspendingcall_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusserver.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusservicewatcher.cpp.json
+/tmp/qtbase-6.9.1/build/src/dbus/DBus_autogen/include/moc_qdbusvirtualobject.cpp.json

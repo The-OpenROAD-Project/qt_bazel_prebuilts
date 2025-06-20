@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QNativeSocketEngine",
+            "lineNumber": 101,
+            "object": true,
+            "qualifiedClassName": "QNativeSocketEngine",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "connectionNotification",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSocketEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnativesocketengine_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3PortalInterface",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "QGtk3PortalInterface",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "group",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "key",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "settingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgtk3portalinterface_p.h",
+    "outputRevision": 69
+}

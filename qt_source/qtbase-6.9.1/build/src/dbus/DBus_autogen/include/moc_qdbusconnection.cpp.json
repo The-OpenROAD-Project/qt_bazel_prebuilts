@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "QDBusConnection",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "BusType",
+                    "values": [
+                        "SessionBus",
+                        "SystemBus",
+                        "ActivationBus"
+                    ]
+                },
+                {
+                    "alias": "RegisterOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "RegisterOptions",
+                    "values": [
+                        "ExportAdaptors",
+                        "ExportScriptableSlots",
+                        "ExportScriptableSignals",
+                        "ExportScriptableProperties",
+                        "ExportScriptableInvokables",
+                        "ExportScriptableContents",
+                        "ExportNonScriptableSlots",
+                        "ExportNonScriptableSignals",
+                        "ExportNonScriptableProperties",
+                        "ExportNonScriptableInvokables",
+                        "ExportNonScriptableContents",
+                        "ExportAllSlots",
+                        "ExportAllSignals",
+                        "ExportAllProperties",
+                        "ExportAllInvokables",
+                        "ExportAllContents",
+                        "ExportAllSignal",
+                        "ExportChildObjects"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "UnregisterMode",
+                    "values": [
+                        "UnregisterNode",
+                        "UnregisterTree"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 41,
+            "qualifiedClassName": "QDBusConnection"
+        }
+    ],
+    "inputFile": "qdbusconnection.h",
+    "outputRevision": 69
+}

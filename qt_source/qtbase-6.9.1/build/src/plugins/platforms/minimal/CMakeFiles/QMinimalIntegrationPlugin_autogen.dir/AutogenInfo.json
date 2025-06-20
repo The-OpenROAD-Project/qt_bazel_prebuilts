@@ -1,0 +1,139 @@
+{
+	"BUILD_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "/tmp/qtbase-6.9.1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/tmp/qtbase-6.9.1/src/plugins/platforms/minimal",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/CMakeLists.txt",
+		"/tmp/qtbase-6.9.1/cmake/FindWrapFreetype.cmake",
+		"/tmp/qtbase-6.9.1/cmake/QtFindWrapHelper.cmake",
+		"/tmp/qtbase-6.9.1/cmake/QtPluginConfig.cmake.in",
+		"/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/tmp/qtbase-6.9.1",
+	"DEP_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QMinimalIntegrationPlugin_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/qminimalbackingstore.h",
+			"Mu",
+			"EWIEGA46WW/moc_qminimalbackingstore.cpp",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/qminimalintegration.h",
+			"Mu",
+			"EWIEGA46WW/moc_qminimalintegration.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QMinimalIntegrationPlugin_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_GUI_LIB",
+		"QT_LEAN_HEADERS=1",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QASCONST",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_QSNPRINTF",
+		"QT_NO_STD_FORMAT_SUPPORT",
+		"QT_PLUGIN",
+		"QT_USE_QSTRINGBUILDER",
+		"_GLIBCXX_ASSERTIONS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal",
+		"/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal",
+		"/tmp/qtbase-6.9.1/build/include",
+		"/tmp/qtbase-6.9.1/build/include/QtCore",
+		"/tmp/qtbase-6.9.1/mkspecs/linux-g++",
+		"/tmp/qtbase-6.9.1/build/src/corelib",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtCore/6.9.1/QtCore",
+		"/tmp/qtbase-6.9.1/build/include/QtGui",
+		"/tmp/qtbase-6.9.1/build/src/gui",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1",
+		"/tmp/qtbase-6.9.1/build/include/QtGui/6.9.1/QtGui",
+		"/usr/include/freetype2",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/QMinimalIntegrationPlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 64,
+	"PARSE_CACHE_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/tmp/qtbase-6.9.1/build/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/tmp/qtbase-6.9.1/build/src/plugins/platforms/minimal/CMakeFiles/QMinimalIntegrationPlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/qminimalbackingstore.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/tmp/qtbase-6.9.1/src/plugins/platforms/minimal/qminimalintegration.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

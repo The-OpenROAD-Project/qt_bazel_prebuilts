@@ -1,0 +1,123 @@
+{
+    "classes": [
+        {
+            "className": "QDialogButtonBox",
+            "enums": [
+                {
+                    "alias": "StandardButton",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "StandardButtons",
+                    "values": [
+                        "NoButton",
+                        "Ok",
+                        "Save",
+                        "SaveAll",
+                        "Open",
+                        "Yes",
+                        "YesToAll",
+                        "No",
+                        "NoToAll",
+                        "Abort",
+                        "Retry",
+                        "Ignore",
+                        "Close",
+                        "Cancel",
+                        "Discard",
+                        "Help",
+                        "Apply",
+                        "Reset",
+                        "RestoreDefaults"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "orientation",
+                    "read": "orientation",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Orientation",
+                    "user": false,
+                    "write": "setOrientation"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "standardButtons",
+                    "read": "standardButtons",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "StandardButtons",
+                    "user": false,
+                    "write": "setStandardButtons"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "centerButtons",
+                    "read": "centerButtons",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setCenterButtons"
+                }
+            ],
+            "qualifiedClassName": "QDialogButtonBox",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "button",
+                            "type": "QAbstractButton*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "accepted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "helpRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "rejected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdialogbuttonbox.h",
+    "outputRevision": 69
+}

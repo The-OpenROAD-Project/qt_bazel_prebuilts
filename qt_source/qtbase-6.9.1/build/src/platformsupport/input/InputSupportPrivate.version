@@ -1,0 +1,38 @@
+NonQt {
+local:
+    _ZT[VTIS]S*;_ZT[VTIS]NS*;
+    _ZT[VTIS]PS*;_ZT[VTIS]PNS*;
+    _ZT[VTIS]PKS*;_ZT[VTIS]PKNS*;
+    _ZS*; _ZNS*; _Z[RO]S*; _ZN[RO]S*;
+    _Z[VK]S*; _ZN[VK]S*; _Z[VK][RO]S*; _ZN[VK][RO]S*;
+    _ZVKS*; _ZNVKS*; _ZVK[RO]S*; _ZNVK[RO]S*;
+    _ZG[VR]S*; _ZG[VR]NS*; _ZG[VR][RO]S*; _ZG[VR]N[RO]S*;
+    _ZG[VR][VK]S*; _ZG[VR]N[VK]S*; _ZG[VR][VK][RO]S*; _ZG[VR]N[VK][RO]S*;
+    _ZG[VR]VKS*; _ZG[VR]NVKS*; _ZG[VR]VK[RO]S*; _ZG[VR]NVK[RO]S*;
+    _ZGTtS*; _ZGTtNS*; _ZGTt[RO]S*; _ZGTtN[RO]S*;
+    _ZGTt[VK]S*; _ZGTtN[VK]S*; _ZGTt[VK][RO]S*; _ZGTtN[VK][RO]S*;
+    _ZGTtVKS*; _ZGTtNVKS*; _ZGTtVK[RO]S*; _ZGTtNVK[RO]S*;
+};
+Qt_6_PRIVATE_API { qt_private_api_tag*;
+    *21QEvdevKeyboardHandler*;                          # evdevkeyboard/qevdevkeyboardhandler_p.h:34
+    *21QEvdevKeyboardManager*;                          # evdevkeyboard/qevdevkeyboardmanager_p.h:29
+    *18QEvdevMouseHandler*;                             # evdevmouse/qevdevmousehandler_p.h:34
+    *18QEvdevMouseManager*;                             # evdevmouse/qevdevmousemanager_p.h:31
+    *19QEvdevTabletHandler*;                            # evdevtablet/qevdevtablethandler_p.h:31
+    *25QEvdevTabletHandlerThread*;                      # evdevtablet/qevdevtablethandler_p.h:50
+    *19QEvdevTabletManager*;                            # evdevtablet/qevdevtabletmanager_p.h:29
+    *24QEvdevTouchScreenHandler*;                       # evdevtouch/qevdevtouchhandler_p.h:43
+    *30QEvdevTouchScreenHandlerThread*;                 # evdevtouch/qevdevtouchhandler_p.h:76
+    *18QEvdevTouchManager*;                             # evdevtouch/qevdevtouchmanager_p.h:29
+    *17DeviceHandlerList*;                              # shared/devicehandlerlist_p.h:27
+    *19ParsedSpecification*;                            # shared/qevdevutil_p.h:28
+    *12QFdContainer*;                                   # shared/qfdcontainer_p.h:24
+    *14QOutputMapping*;                                 # shared/qoutputmapping_p.h:26
+    *21QDefaultOutputMapping*;                          # shared/qoutputmapping_p.h:41
+    *12QTouchFilter*;                                   # shared/qtouchfilter_p.h:21
+};
+Qt_6 {
+    *;
+    _ZN*18QSharedDataPointerI*D?Ev;
+    _ZN*28QExplicitlySharedDataPointerI*D?Ev;
+};

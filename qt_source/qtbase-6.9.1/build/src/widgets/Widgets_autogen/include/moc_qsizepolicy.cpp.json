@@ -1,0 +1,51 @@
+{
+    "classes": [
+        {
+            "className": "QSizePolicy",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Policy",
+                    "values": [
+                        "Fixed",
+                        "Minimum",
+                        "Maximum",
+                        "Preferred",
+                        "MinimumExpanding",
+                        "Expanding",
+                        "Ignored"
+                    ]
+                },
+                {
+                    "alias": "ControlType",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "ControlTypes",
+                    "values": [
+                        "DefaultType",
+                        "ButtonBox",
+                        "CheckBox",
+                        "ComboBox",
+                        "Frame",
+                        "GroupBox",
+                        "Label",
+                        "Line",
+                        "LineEdit",
+                        "PushButton",
+                        "RadioButton",
+                        "Slider",
+                        "SpinBox",
+                        "TabWidget",
+                        "ToolButton"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 17,
+            "qualifiedClassName": "QSizePolicy"
+        }
+    ],
+    "inputFile": "qsizepolicy.h",
+    "outputRevision": 69
+}

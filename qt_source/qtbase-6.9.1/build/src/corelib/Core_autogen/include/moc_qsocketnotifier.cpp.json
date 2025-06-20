@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "QSocketNotifier",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "QSocketNotifier",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSocketDescriptor"
+                        },
+                        {
+                            "name": "activationEvent",
+                            "type": "QSocketNotifier::Type"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "QSocketDescriptor"
+                        }
+                    ],
+                    "index": 1,
+                    "isCloned": true,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "socket",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "activated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "setEnabled",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsocketnotifier.h",
+    "outputRevision": 69
+}

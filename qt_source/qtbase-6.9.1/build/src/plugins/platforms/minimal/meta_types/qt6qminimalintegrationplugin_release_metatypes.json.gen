@@ -1,0 +1,20 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QMinimalIntegrationPlugin",
+                "lineNumber": 12,
+                "object": true,
+                "qualifiedClassName": "QMinimalIntegrationPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformIntegrationPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    }
+]

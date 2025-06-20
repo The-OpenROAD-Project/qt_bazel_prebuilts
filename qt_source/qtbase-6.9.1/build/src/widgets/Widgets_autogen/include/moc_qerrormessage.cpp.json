@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "QErrorMessage",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "QErrorMessage",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "showMessage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qerrormessage.h",
+    "outputRevision": 69
+}

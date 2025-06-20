@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QStyledItemDelegate",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QStyledItemDelegate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemDelegate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstyleditemdelegate.h",
+    "outputRevision": 69
+}

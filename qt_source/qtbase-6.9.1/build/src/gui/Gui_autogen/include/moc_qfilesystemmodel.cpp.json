@@ -1,0 +1,134 @@
+{
+    "classes": [
+        {
+            "className": "QFileSystemModel",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Option",
+                    "values": [
+                        "DontWatchForChanges",
+                        "DontResolveSymlinks",
+                        "DontUseCustomDirectoryIcons"
+                    ]
+                }
+            ],
+            "lineNumber": 20,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "resolveSymlinks",
+                    "read": "resolveSymlinks",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setResolveSymlinks"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "readOnly",
+                    "read": "isReadOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setReadOnly"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "nameFilterDisables",
+                    "read": "nameFilterDisables",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setNameFilterDisables"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Options",
+                    "user": false,
+                    "write": "setOptions"
+                }
+            ],
+            "qualifiedClassName": "QFileSystemModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "rootPathChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "fileRenamed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "directoryLoaded",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemmodel.h",
+    "outputRevision": 69
+}

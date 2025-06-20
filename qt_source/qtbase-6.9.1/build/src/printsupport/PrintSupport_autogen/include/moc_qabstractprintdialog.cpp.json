@@ -1,0 +1,47 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractPrintDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "PrintDialogOption",
+                    "values": [
+                        "PrintToFile",
+                        "PrintSelection",
+                        "PrintPageRange",
+                        "PrintShowPageSize",
+                        "PrintCollateCopies",
+                        "PrintCurrentPage"
+                    ]
+                },
+                {
+                    "alias": "PrintDialogOption",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "PrintDialogOptions",
+                    "values": [
+                        "PrintToFile",
+                        "PrintSelection",
+                        "PrintPageRange",
+                        "PrintShowPageSize",
+                        "PrintCollateCopies",
+                        "PrintCurrentPage"
+                    ]
+                }
+            ],
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QAbstractPrintDialog",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractprintdialog.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,43 @@
+{
+    "classes": [
+        {
+            "className": "QDBusPendingCallWatcher",
+            "lineNumber": 60,
+            "object": true,
+            "qualifiedClassName": "QDBusPendingCallWatcher",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "self",
+                            "type": "QDBusPendingCallWatcher*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "isCloned": true,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QDBusPendingCall"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbuspendingcall.h",
+    "outputRevision": 69
+}

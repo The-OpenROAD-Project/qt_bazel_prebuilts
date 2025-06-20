@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QMainWindowTabBar",
+            "lineNumber": 1893,
+            "object": true,
+            "qualifiedClassName": "QMainWindowTabBar",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTabBar"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmainwindowlayout.cpp",
+    "outputRevision": 69
+}

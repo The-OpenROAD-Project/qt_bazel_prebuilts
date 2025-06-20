@@ -1,0 +1,62 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "D-Bus Interface",
+                    "value": "org.a11y.atspi.Cache"
+                },
+                {
+                    "name": "D-Bus Introspection",
+                    "value": "  <interface name=\\\"org.a11y.atspi.Cache\\\">\\n    <method name=\\\"GetItems\\\">\\n      <arg direction=\\\"out\\\" type=\\\"a((so)(so)a(so)assusau)\\\" name=\\\"nodes\\\"/>\\n      <annotation value=\\\"QSpiAccessibleCacheArray\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n    </method>\\n    <signal name=\\\"AddAccessible\\\">\\n      <arg type=\\\"((so)(so)a(so)assusau)\\\" name=\\\"nodeAdded\\\"/>\\n      <annotation value=\\\"QSpiAccessibleCacheItem\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n    </signal>\\n    <signal name=\\\"RemoveAccessible\\\">\\n      <arg type=\\\"(so)\\\" name=\\\"nodeRemoved\\\"/>\\n      <annotation value=\\\"QSpiObjectReference\\\" name=\\\"org.qtproject.QtDBus.QtTypeName.Out0\\\"/>\\n    </signal>\\n  </interface>\\n"
+                }
+            ],
+            "className": "CacheAdaptor",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "CacheAdaptor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nodeAdded",
+                            "type": "QSpiAccessibleCacheItem"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "AddAccessible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nodeRemoved",
+                            "type": "QSpiObjectReference"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "RemoveAccessible",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "GetItems",
+                    "returnType": "QSpiAccessibleCacheArray"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractAdaptor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cache_adaptor.h",
+    "outputRevision": 69
+}

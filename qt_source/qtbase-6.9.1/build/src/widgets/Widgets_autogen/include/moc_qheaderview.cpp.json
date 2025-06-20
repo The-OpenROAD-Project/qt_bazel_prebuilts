@@ -1,0 +1,466 @@
+{
+    "classes": [
+        {
+            "className": "QHeaderView",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ResizeMode",
+                    "values": [
+                        "Interactive",
+                        "Stretch",
+                        "Fixed",
+                        "ResizeToContents",
+                        "Custom"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "firstSectionMovable",
+                    "read": "isFirstSectionMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setFirstSectionMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "showSortIndicator",
+                    "read": "isSortIndicatorShown",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSortIndicatorShown"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "sectionsMovable",
+                    "read": "sectionsMovable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSectionsMovable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "sectionsClickable",
+                    "read": "sectionsClickable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSectionsClickable"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "highlightSections",
+                    "read": "highlightSections",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setHighlightSections"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "stretchLastSection",
+                    "read": "stretchLastSection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setStretchLastSection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "cascadingSectionResizes",
+                    "read": "cascadingSectionResizes",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setCascadingSectionResizes"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "defaultSectionSize",
+                    "read": "defaultSectionSize",
+                    "required": false,
+                    "reset": "resetDefaultSectionSize",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDefaultSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "minimumSectionSize",
+                    "read": "minimumSectionSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinimumSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "maximumSectionSize",
+                    "read": "maximumSectionSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaximumSectionSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "defaultAlignment",
+                    "read": "defaultAlignment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::Alignment",
+                    "user": false,
+                    "write": "setDefaultAlignment"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "sortIndicatorClearable",
+                    "notify": "sortIndicatorClearableChanged",
+                    "read": "isSortIndicatorClearable",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSortIndicatorClearable"
+                }
+            ],
+            "qualifiedClassName": "QHeaderView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldVisualIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newVisualIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "sectionMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "oldSize",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newSize",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "sectionResized",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "sectionPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "sectionClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "sectionEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "sectionDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "oldCount",
+                            "type": "int"
+                        },
+                        {
+                            "name": "newCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "sectionCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "sectionHandleDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "geometriesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "order",
+                            "type": "Qt::SortOrder"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "sortIndicatorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "clearable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "sortIndicatorClearableChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "offset",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "setOffset",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visualIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "setOffsetToSectionPosition",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "setOffsetToLastSection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "headerDataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "logicalIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "updateSection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "index": 16,
+                    "name": "resizeSections",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "sectionsInserted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "logicalFirst",
+                            "type": "int"
+                        },
+                        {
+                            "name": "logicalLast",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "sectionsAboutToBeRemoved",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qheaderview.h",
+    "outputRevision": 69
+}

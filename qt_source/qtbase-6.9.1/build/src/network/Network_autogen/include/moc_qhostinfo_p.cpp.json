@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "className": "QHostInfoResult",
+            "lineNumber": 42,
+            "object": true,
+            "qualifiedClassName": "QHostInfoResult",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "info",
+                            "type": "QHostInfo"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "resultsReady",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "info",
+                            "type": "QHostInfo"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "finalizePostResultsReady",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qhostinfo_p.h",
+    "outputRevision": 69
+}

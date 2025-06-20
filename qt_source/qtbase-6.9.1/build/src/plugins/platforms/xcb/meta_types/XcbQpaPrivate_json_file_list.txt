@@ -1,0 +1,13 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/../EWIEGA46WW/moc_qxcbwindow.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/../MVTLVZ3TR3/moc_qxcbglintegrationplugin.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbclipboard.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbconnection.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbconnection_basic.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbeventdispatcher.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbeventqueue.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbmime.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbnativeinterface.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbscrollingdevice_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/moc_qxcbsystemtraytracker.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/qxcbclipboard.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/xcb/XcbQpaPrivate_autogen/include/qxcbsessionmanager.moc.json

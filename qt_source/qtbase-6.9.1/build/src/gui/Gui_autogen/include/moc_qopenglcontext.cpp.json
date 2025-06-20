@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "QOpenGLContextGroup",
+            "lineNumber": 42,
+            "object": true,
+            "qualifiedClassName": "QOpenGLContextGroup",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QOpenGLContext",
+            "lineNumber": 66,
+            "object": true,
+            "qualifiedClassName": "QOpenGLContext",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "aboutToBeDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "object",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "_q_screenDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qopenglcontext.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,472 @@
+{
+    "classes": [
+        {
+            "className": "QDateTimeEdit",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Section",
+                    "values": [
+                        "NoSection",
+                        "AmPmSection",
+                        "MSecSection",
+                        "SecondSection",
+                        "MinuteSection",
+                        "HourSection",
+                        "DaySection",
+                        "MonthSection",
+                        "YearSection",
+                        "TimeSections_Mask",
+                        "DateSections_Mask"
+                    ]
+                },
+                {
+                    "alias": "Section",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "Sections",
+                    "values": [
+                        "NoSection",
+                        "AmPmSection",
+                        "MSecSection",
+                        "SecondSection",
+                        "MinuteSection",
+                        "HourSection",
+                        "DaySection",
+                        "MonthSection",
+                        "YearSection",
+                        "TimeSections_Mask",
+                        "DateSections_Mask"
+                    ]
+                }
+            ],
+            "lineNumber": 21,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "dateTime",
+                    "notify": "dateTimeChanged",
+                    "read": "dateTime",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDateTime",
+                    "user": true,
+                    "write": "setDateTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "date",
+                    "notify": "dateChanged",
+                    "read": "date",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "time",
+                    "notify": "timeChanged",
+                    "read": "time",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTime",
+                    "user": false,
+                    "write": "setTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "maximumDateTime",
+                    "read": "maximumDateTime",
+                    "required": false,
+                    "reset": "clearMaximumDateTime",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDateTime",
+                    "user": false,
+                    "write": "setMaximumDateTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "minimumDateTime",
+                    "read": "minimumDateTime",
+                    "required": false,
+                    "reset": "clearMinimumDateTime",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDateTime",
+                    "user": false,
+                    "write": "setMinimumDateTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "maximumDate",
+                    "read": "maximumDate",
+                    "required": false,
+                    "reset": "clearMaximumDate",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setMaximumDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "minimumDate",
+                    "read": "minimumDate",
+                    "required": false,
+                    "reset": "clearMinimumDate",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setMinimumDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "maximumTime",
+                    "read": "maximumTime",
+                    "required": false,
+                    "reset": "clearMaximumTime",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTime",
+                    "user": false,
+                    "write": "setMaximumTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "minimumTime",
+                    "read": "minimumTime",
+                    "required": false,
+                    "reset": "clearMinimumTime",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTime",
+                    "user": false,
+                    "write": "setMinimumTime"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "currentSection",
+                    "read": "currentSection",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Section",
+                    "user": false,
+                    "write": "setCurrentSection"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "displayedSections",
+                    "read": "displayedSections",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Sections",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "displayFormat",
+                    "read": "displayFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDisplayFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "calendarPopup",
+                    "read": "calendarPopup",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setCalendarPopup"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "currentSectionIndex",
+                    "read": "currentSectionIndex",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCurrentSectionIndex"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "sectionCount",
+                    "read": "sectionCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 15,
+                    "name": "timeSpec",
+                    "read": "timeSpec",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TimeSpec",
+                    "user": false,
+                    "write": "setTimeSpec"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 16,
+                    "name": "timeZone",
+                    "read": "timeZone",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTimeZone",
+                    "user": false,
+                    "write": "setTimeZone"
+                }
+            ],
+            "qualifiedClassName": "QDateTimeEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dateTime",
+                            "type": "QDateTime"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "dateTimeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "time",
+                            "type": "QTime"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "timeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "dateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dateTime",
+                            "type": "QDateTime"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "setDateTime",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "time",
+                            "type": "QTime"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setTime",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "_q_resetButton",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSpinBox"
+                }
+            ]
+        },
+        {
+            "className": "QTimeEdit",
+            "lineNumber": 181,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "time",
+                    "notify": "userTimeChanged",
+                    "read": "time",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QTime",
+                    "user": true,
+                    "write": "setTime"
+                }
+            ],
+            "qualifiedClassName": "QTimeEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "time",
+                            "type": "QTime"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "userTimeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDateTimeEdit"
+                }
+            ]
+        },
+        {
+            "className": "QDateEdit",
+            "lineNumber": 194,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "date",
+                    "notify": "userDateChanged",
+                    "read": "date",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": true,
+                    "write": "setDate"
+                }
+            ],
+            "qualifiedClassName": "QDateEdit",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "userDateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDateTimeEdit"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdatetimeedit.h",
+    "outputRevision": 69
+}

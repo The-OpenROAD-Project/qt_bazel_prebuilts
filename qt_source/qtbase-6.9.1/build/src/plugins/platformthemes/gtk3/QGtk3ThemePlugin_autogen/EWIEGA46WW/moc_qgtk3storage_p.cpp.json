@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3Storage",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "SourceType",
+                    "values": [
+                        "Gtk",
+                        "Fixed",
+                        "Modified",
+                        "Mixed",
+                        "Invalid"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 33,
+            "qualifiedClassName": "QGtk3Storage"
+        }
+    ],
+    "inputFile": "qgtk3storage_p.h",
+    "outputRevision": 69
+}

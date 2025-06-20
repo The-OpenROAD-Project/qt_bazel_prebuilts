@@ -1,0 +1,432 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qcalendarwidget.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qcalendarwidget.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QtPrivate::QCalendarTextNavigator::qt_create_metaobjectdata<qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QtPrivate::QCalendarTextNavigator",
+        "dateChanged",
+        "",
+        "date",
+        "editingFinished"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'dateChanged'
+        QtMocHelpers::SignalData<void(QDate)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QDate, 3 },
+        }}),
+        // Signal 'editingFinished'
+        QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QCalendarTextNavigator, qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QtPrivate::QCalendarTextNavigator::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>.metaTypes,
+    nullptr
+} };
+
+void QtPrivate::QCalendarTextNavigator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QCalendarTextNavigator *>(_o);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->dateChanged((*reinterpret_cast< std::add_pointer_t<QDate>>(_a[1]))); break;
+        case 1: _t->editingFinished(); break;
+        default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (QCalendarTextNavigator::*)(QDate )>(_a, &QCalendarTextNavigator::dateChanged, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (QCalendarTextNavigator::*)()>(_a, &QCalendarTextNavigator::editingFinished, 1))
+            return;
+    }
+}
+
+const QMetaObject *QtPrivate::QCalendarTextNavigator::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtPrivate::QCalendarTextNavigator::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate22QCalendarTextNavigatorE_t>.strings))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int QtPrivate::QCalendarTextNavigator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void QtPrivate::QCalendarTextNavigator::dateChanged(QDate _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
+}
+
+// SIGNAL 1
+void QtPrivate::QCalendarTextNavigator::editingFinished()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+namespace {
+struct qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QtPrivate::QCalendarModel::qt_create_metaobjectdata<qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QtPrivate::QCalendarModel"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QCalendarModel, qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QtPrivate::QCalendarModel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QAbstractTableModel::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>.metaTypes,
+    nullptr
+} };
+
+void QtPrivate::QCalendarModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QCalendarModel *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *QtPrivate::QCalendarModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtPrivate::QCalendarModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate14QCalendarModelE_t>.strings))
+        return static_cast<void*>(this);
+    return QAbstractTableModel::qt_metacast(_clname);
+}
+
+int QtPrivate::QCalendarModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractTableModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+struct qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QtPrivate::QCalendarView::qt_create_metaobjectdata<qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QtPrivate::QCalendarView",
+        "showDate",
+        "",
+        "date",
+        "changeDate",
+        "changeMonth",
+        "clicked",
+        "editingFinished"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'showDate'
+        QtMocHelpers::SignalData<void(QDate)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QDate, 3 },
+        }}),
+        // Signal 'changeDate'
+        QtMocHelpers::SignalData<void(QDate, bool)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QDate, 3 }, { QMetaType::Bool, 5 },
+        }}),
+        // Signal 'clicked'
+        QtMocHelpers::SignalData<void(QDate)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QDate, 3 },
+        }}),
+        // Signal 'editingFinished'
+        QtMocHelpers::SignalData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QCalendarView, qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QtPrivate::QCalendarView::staticMetaObject = { {
+    QMetaObject::SuperData::link<QTableView::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>.metaTypes,
+    nullptr
+} };
+
+void QtPrivate::QCalendarView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QCalendarView *>(_o);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->showDate((*reinterpret_cast< std::add_pointer_t<QDate>>(_a[1]))); break;
+        case 1: _t->changeDate((*reinterpret_cast< std::add_pointer_t<QDate>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[2]))); break;
+        case 2: _t->clicked((*reinterpret_cast< std::add_pointer_t<QDate>>(_a[1]))); break;
+        case 3: _t->editingFinished(); break;
+        default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (QCalendarView::*)(QDate )>(_a, &QCalendarView::showDate, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (QCalendarView::*)(QDate , bool )>(_a, &QCalendarView::changeDate, 1))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (QCalendarView::*)(QDate )>(_a, &QCalendarView::clicked, 2))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (QCalendarView::*)()>(_a, &QCalendarView::editingFinished, 3))
+            return;
+    }
+}
+
+const QMetaObject *QtPrivate::QCalendarView::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtPrivate::QCalendarView::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate13QCalendarViewE_t>.strings))
+        return static_cast<void*>(this);
+    return QTableView::qt_metacast(_clname);
+}
+
+int QtPrivate::QCalendarView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QTableView::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 4;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void QtPrivate::QCalendarView::showDate(QDate _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
+}
+
+// SIGNAL 1
+void QtPrivate::QCalendarView::changeDate(QDate _t1, bool _t2)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1, _t2);
+}
+
+// SIGNAL 2
+void QtPrivate::QCalendarView::clicked(QDate _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1);
+}
+
+// SIGNAL 3
+void QtPrivate::QCalendarView::editingFinished()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+namespace {
+struct qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QtPrivate::QCalendarDelegate::qt_create_metaobjectdata<qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QtPrivate::QCalendarDelegate"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QCalendarDelegate, qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QtPrivate::QCalendarDelegate::staticMetaObject = { {
+    QMetaObject::SuperData::link<QStyledItemDelegate::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>.metaTypes,
+    nullptr
+} };
+
+void QtPrivate::QCalendarDelegate::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QCalendarDelegate *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *QtPrivate::QCalendarDelegate::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtPrivate::QCalendarDelegate::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate17QCalendarDelegateE_t>.strings))
+        return static_cast<void*>(this);
+    return QStyledItemDelegate::qt_metacast(_clname);
+}
+
+int QtPrivate::QCalendarDelegate::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QStyledItemDelegate::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+struct qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QtPrivate::QPrevNextCalButton::qt_create_metaobjectdata<qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QtPrivate::QPrevNextCalButton"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QPrevNextCalButton, qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QtPrivate::QPrevNextCalButton::staticMetaObject = { {
+    QMetaObject::SuperData::link<QToolButton::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>.metaTypes,
+    nullptr
+} };
+
+void QtPrivate::QPrevNextCalButton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QPrevNextCalButton *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *QtPrivate::QPrevNextCalButton::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtPrivate::QPrevNextCalButton::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN9QtPrivate18QPrevNextCalButtonE_t>.strings))
+        return static_cast<void*>(this);
+    return QToolButton::qt_metacast(_clname);
+}
+
+int QtPrivate::QPrevNextCalButton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QToolButton::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP

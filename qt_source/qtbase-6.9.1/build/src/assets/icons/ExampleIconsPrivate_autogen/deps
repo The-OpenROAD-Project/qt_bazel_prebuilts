@@ -1,0 +1,11 @@
+ExampleIconsPrivate_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/cmake/ModuleDescription.json.in \
+	/tmp/qtbase-6.9.1/cmake/QtCMakePackageVersionFile.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtModuleConfig.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessAliasTargets.cmake.in \
+	/tmp/qtbase-6.9.1/cmake/QtVersionlessTargets.cmake.in \
+	/tmp/qtbase-6.9.1/src/assets/icons/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/corelib/Qt6CoreConfigureFileTemplate.in \
+	/tmp/qtbase-6.9.1/src/corelib/Qt6CoreResourceInit.in.cpp \
+	/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/usr/bin/cmake

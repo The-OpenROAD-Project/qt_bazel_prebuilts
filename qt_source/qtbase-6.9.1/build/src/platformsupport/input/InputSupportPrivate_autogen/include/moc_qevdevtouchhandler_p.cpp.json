@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "QEvdevTouchScreenHandler",
+            "lineNumber": 43,
+            "object": true,
+            "qualifiedClassName": "QEvdevTouchScreenHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "touchPointsUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QEvdevTouchScreenHandlerThread",
+            "lineNumber": 76,
+            "methods": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "notifyTouchDeviceRegistered",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QEvdevTouchScreenHandlerThread",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "touchDeviceRegistered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDaemonThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qevdevtouchhandler_p.h",
+    "outputRevision": 69
+}

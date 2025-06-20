@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QXdgDesktopPortalFileDialog",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "QXdgDesktopPortalFileDialog",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "response",
+                            "type": "uint"
+                        },
+                        {
+                            "name": "results",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "gotResponse",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformFileDialogHelper"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxdgdesktopportalfiledialog_p.h",
+    "outputRevision": 69
+}

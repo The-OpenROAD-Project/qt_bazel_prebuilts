@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QDeviceDiscoveryUDev",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QDeviceDiscoveryUDev",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "handleUDevNotification",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDeviceDiscovery"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdevicediscovery_udev_p.h",
+    "outputRevision": 69
+}

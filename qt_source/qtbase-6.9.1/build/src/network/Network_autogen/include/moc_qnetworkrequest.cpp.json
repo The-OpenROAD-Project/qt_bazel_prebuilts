@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkRequest",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "KnownHeaders",
+                    "values": [
+                        "ContentTypeHeader",
+                        "ContentLengthHeader",
+                        "LocationHeader",
+                        "LastModifiedHeader",
+                        "CookieHeader",
+                        "SetCookieHeader",
+                        "ContentDispositionHeader",
+                        "UserAgentHeader",
+                        "ServerHeader",
+                        "IfModifiedSinceHeader",
+                        "ETagHeader",
+                        "IfMatchHeader",
+                        "IfNoneMatchHeader",
+                        "NumKnownHeaders"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 25,
+            "qualifiedClassName": "QNetworkRequest"
+        }
+    ],
+    "inputFile": "qnetworkrequest.h",
+    "outputRevision": 69
+}

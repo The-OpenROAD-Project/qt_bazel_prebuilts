@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "className": "QGtk3Json",
+            "gadget": true,
+            "lineNumber": 37,
+            "qualifiedClassName": "QGtk3Json"
+        }
+    ],
+    "inputFile": "qgtk3json_p.h",
+    "outputRevision": 69
+}

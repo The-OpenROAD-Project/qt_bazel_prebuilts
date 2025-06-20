@@ -1,0 +1,82 @@
+{
+    "classes": [
+        {
+            "className": "QIODevice",
+            "lineNumber": 30,
+            "object": true,
+            "qualifiedClassName": "QIODevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "channel",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "channelReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "bytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "channel",
+                            "type": "int"
+                        },
+                        {
+                            "name": "bytes",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "channelBytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "aboutToClose",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "readChannelFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QIODeviceBase"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qiodevice.h",
+    "outputRevision": 69
+}

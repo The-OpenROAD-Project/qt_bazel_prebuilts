@@ -1,0 +1,320 @@
+{
+    "classes": [
+        {
+            "className": "QDBusConnectionInterface",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ServiceQueueOptions",
+                    "values": [
+                        "DontQueueService",
+                        "QueueService",
+                        "ReplaceExistingService"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ServiceReplacementOptions",
+                    "values": [
+                        "DontAllowReplacement",
+                        "AllowReplacement"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "RegisterServiceReply",
+                    "values": [
+                        "ServiceNotRegistered",
+                        "ServiceRegistered",
+                        "ServiceQueued"
+                    ]
+                }
+            ],
+            "lineNumber": 25,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "registeredServiceNames",
+                    "read": "registeredServiceNames",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDBusReply<QStringList>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "activatableServiceNames",
+                    "read": "activatableServiceNames",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDBusReply<QStringList>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QDBusConnectionInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "service",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "serviceRegistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "service",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "serviceUnregistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldOwner",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newOwner",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "serviceOwnerChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        },
+                        {
+                            "name": "call",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "callWithCallbackFailed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "NameAcquired",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "NameLost",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        },
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "NameOwnerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 7,
+                    "isConst": true,
+                    "name": "registeredServiceNames",
+                    "returnType": "QDBusReply<QStringList>"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "isConst": true,
+                    "name": "activatableServiceNames",
+                    "returnType": "QDBusReply<QStringList>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "isConst": true,
+                    "name": "isServiceRegistered",
+                    "returnType": "QDBusReply<bool>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "isConst": true,
+                    "name": "serviceOwner",
+                    "returnType": "QDBusReply<QString>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "unregisterService",
+                    "returnType": "QDBusReply<bool>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "qoption",
+                            "type": "ServiceQueueOptions"
+                        },
+                        {
+                            "name": "roption",
+                            "type": "ServiceReplacementOptions"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "registerService",
+                    "returnType": "QDBusReply<QDBusConnectionInterface::RegisterServiceReply>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "qoption",
+                            "type": "ServiceQueueOptions"
+                        }
+                    ],
+                    "index": 13,
+                    "isCloned": true,
+                    "name": "registerService",
+                    "returnType": "QDBusReply<QDBusConnectionInterface::RegisterServiceReply>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "isCloned": true,
+                    "name": "registerService",
+                    "returnType": "QDBusReply<QDBusConnectionInterface::RegisterServiceReply>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 15,
+                    "isConst": true,
+                    "name": "servicePid",
+                    "returnType": "QDBusReply<uint>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 16,
+                    "isConst": true,
+                    "name": "serviceUid",
+                    "returnType": "QDBusReply<uint>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "startService",
+                    "returnType": "QDBusReply<void>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusconnectioninterface.h",
+    "outputRevision": 69
+}

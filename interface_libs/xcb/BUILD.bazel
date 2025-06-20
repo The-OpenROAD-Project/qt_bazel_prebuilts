@@ -1,0 +1,101 @@
+
+cc_import(
+    name = "xcb_randr_ifso",
+    interface_library = "libxcb-randr.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_xfixes_ifso",
+    interface_library = "libxcb-xfixes.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_sync_ifso",
+    interface_library = "libxcb-sync.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_xkb_ifso",
+    interface_library = "libxcb-xkb.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_keysyms_ifso",
+    interface_library = "libxcb-keysyms.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_icccm_ifso",
+    interface_library = "libxcb-icccm.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_ifso",
+    interface_library = "libxcb.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_shape_ifso",
+    interface_library = "libxcb-shape.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_render_ifso",
+    interface_library = "libxcb-render.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_image_ifso",
+    interface_library = "libxcb-image.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_shm_ifso",
+    interface_library = "libxcb-shm.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_cursor_ifso",
+    interface_library = "libxcb-cursor.ifso",
+    system_provided = True,
+)
+
+cc_import(
+    name = "xcb_render_util_ifso",
+    interface_library = "libxcb-render-util.ifso",
+    system_provided = True,
+)
+
+cc_library(
+    name = "xcb",
+    hdrs = glob(["xcb/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//qt_source:__subpackages__"],
+    deps = [
+        ":xcb_randr_ifso",
+        ":xcb_xfixes_ifso",
+        ":xcb_sync_ifso",
+        ":xcb_xkb_ifso",
+        ":xcb_keysyms_ifso",
+        ":xcb_icccm_ifso",
+        ":xcb_ifso",
+        ":xcb_shape_ifso",
+        ":xcb_render_ifso",
+        ":xcb_image_ifso",
+        ":xcb_shm_ifso",
+        ":xcb_cursor_ifso",
+        ":xcb_render_util_ifso",
+    ],
+)

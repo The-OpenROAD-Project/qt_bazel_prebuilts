@@ -1,0 +1,20 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QEvdevMousePlugin",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "QEvdevMousePlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QGenericPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    }
+]

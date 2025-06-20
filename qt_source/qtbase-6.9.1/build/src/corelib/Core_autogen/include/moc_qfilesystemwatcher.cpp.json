@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "QFileSystemWatcher",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QFileSystemWatcher",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "fileChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "directoryChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher.h",
+    "outputRevision": 69
+}

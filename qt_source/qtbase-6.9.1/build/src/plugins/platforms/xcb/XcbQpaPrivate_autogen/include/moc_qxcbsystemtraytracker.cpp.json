@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QXcbSystemTrayTracker",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QXcbSystemTrayTracker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "screen",
+                            "type": "QScreen*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "systemTrayWindowChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QXcbWindowEventListener"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbsystemtraytracker.h",
+    "outputRevision": 69
+}

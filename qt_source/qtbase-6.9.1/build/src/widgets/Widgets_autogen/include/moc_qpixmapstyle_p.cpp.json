@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPixmapStyle",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "QPixmapStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QCommonStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpixmapstyle_p.h",
+    "outputRevision": 69
+}

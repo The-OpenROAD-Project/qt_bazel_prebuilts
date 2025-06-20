@@ -1,0 +1,238 @@
+{
+    "classes": [
+        {
+            "className": "QDBusConnectionPrivate",
+            "lineNumber": 74,
+            "object": true,
+            "qualifiedClassName": "QDBusConnectionPrivate",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "dispatchStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "spyHooksFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pcall",
+                            "type": "QDBusPendingCallPrivate*"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "void*"
+                        },
+                        {
+                            "name": "timeout",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "messageNeedsSending",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pcall",
+                            "type": "QDBusPendingCallPrivate*"
+                        },
+                        {
+                            "name": "msg",
+                            "type": "void*"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "name": "messageNeedsSending",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldOwner",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newOwner",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "serviceOwnerChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QDBusError"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QDBusMessage"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "callWithCallbackFailed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "enable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setDispatchEnabled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "doDispatch",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "qintptr"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "socketRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "qintptr"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "socketWrite",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "o",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "obj",
+                            "type": "QObject*"
+                        },
+                        {
+                            "type": "const QMetaObject*"
+                        },
+                        {
+                            "name": "signalId",
+                            "type": "int"
+                        },
+                        {
+                            "name": "args",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "relaySignal",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldOwner",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newOwner",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "serviceOwnerChangedNoLock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "registerServiceNoLock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "serviceName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "unregisterServiceNoLock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 15,
+                    "name": "handleDBusDisconnection",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusconnection_p.h",
+    "outputRevision": 69
+}

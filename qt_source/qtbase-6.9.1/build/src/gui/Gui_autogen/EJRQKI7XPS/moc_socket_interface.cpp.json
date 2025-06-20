@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "OrgA11yAtspiSocketInterface",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "OrgA11yAtspiSocketInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "Available",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "plug",
+                            "type": "QSpiObjectReference"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "Embed",
+                    "returnType": "QDBusPendingReply<QSpiObjectReference>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "plug",
+                            "type": "QSpiObjectReference"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "Unembed",
+                    "returnType": "QDBusPendingReply<>"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "socket_interface.h",
+    "outputRevision": 69
+}

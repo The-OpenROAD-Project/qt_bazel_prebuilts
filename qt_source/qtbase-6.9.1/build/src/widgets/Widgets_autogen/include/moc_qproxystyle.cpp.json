@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QProxyStyle",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "QProxyStyle",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QCommonStyle"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qproxystyle.h",
+    "outputRevision": 69
+}

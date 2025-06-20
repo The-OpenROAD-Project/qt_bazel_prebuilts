@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPAEventDispatcherGlib",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "QPAEventDispatcherGlib",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEventDispatcherGlib"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeventdispatcher_glib_p.h",
+    "outputRevision": 69
+}

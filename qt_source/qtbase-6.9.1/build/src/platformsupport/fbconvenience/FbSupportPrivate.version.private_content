@@ -1,0 +1,6 @@
+    *15QFbBackingStore*;                                # qfbbackingstore_p.h:28
+    *23QFbCursorDeviceListener*;                        # qfbcursor_p.h:26
+    *9QFbCursor*;                                       # qfbcursor_p.h:41
+    *9QFbScreen*;                                       # qfbscreen_p.h:29
+    *12QFbVtHandler*;                                   # qfbvthandler_p.h:25
+    *9QFbWindow*;                                       # qfbwindow_p.h:26

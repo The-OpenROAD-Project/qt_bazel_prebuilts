@@ -1,0 +1,100 @@
+{
+    "classes": [
+        {
+            "className": "QUrlModel",
+            "lineNumber": 39,
+            "object": true,
+            "qualifiedClassName": "QUrlModel",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "dataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "layoutChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStandardItemModel"
+                }
+            ]
+        },
+        {
+            "className": "QSidebar",
+            "lineNumber": 88,
+            "object": true,
+            "qualifiedClassName": "QSidebar",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "goToUrl",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "position",
+                            "type": "QPoint"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "showContextMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "removeEntry",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QListView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsidebar_p.h",
+    "outputRevision": 69
+}

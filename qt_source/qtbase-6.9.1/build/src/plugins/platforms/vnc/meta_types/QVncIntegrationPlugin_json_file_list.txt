@@ -1,0 +1,4 @@
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/vnc/QVncIntegrationPlugin_autogen/include/main.moc.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/vnc/QVncIntegrationPlugin_autogen/include/moc_qvnc_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/vnc/QVncIntegrationPlugin_autogen/include/moc_qvncclient.cpp.json
+/tmp/qtbase-6.9.1/build/src/plugins/platforms/vnc/QVncIntegrationPlugin_autogen/include/moc_qvncscreen.cpp.json

@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsSceneIndex",
+            "lineNumber": 38,
+            "object": true,
+            "qualifiedClassName": "QGraphicsSceneIndex",
+            "slots": [
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "updateSceneRect",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicssceneindex_p.h",
+    "outputRevision": 69
+}

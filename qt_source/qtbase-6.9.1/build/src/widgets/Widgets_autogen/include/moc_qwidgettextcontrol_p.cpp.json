@@ -1,0 +1,503 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetTextControl",
+            "lineNumber": 50,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 36,
+                    "name": "loadResource",
+                    "returnType": "QVariant"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "html",
+                    "notify": "textChanged",
+                    "read": "toHtml",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": true,
+                    "write": "setHtml"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "overwriteMode",
+                    "read": "overwriteMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setOverwriteMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "acceptRichText",
+                    "read": "acceptRichText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAcceptRichText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "cursorWidth",
+                    "read": "cursorWidth",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCursorWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "textInteractionFlags",
+                    "read": "textInteractionFlags",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::TextInteractionFlags",
+                    "user": false,
+                    "write": "setTextInteractionFlags"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "openExternalLinks",
+                    "read": "openExternalLinks",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setOpenExternalLinks"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "ignoreUnusedNavigationEvents",
+                    "read": "ignoreUnusedNavigationEvents",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIgnoreUnusedNavigationEvents"
+                }
+            ],
+            "qualifiedClassName": "QWidgetTextControl",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "undoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "redoAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "format",
+                            "type": "QTextCharFormat"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "currentCharFormatChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "b",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "copyAvailable",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "cursorPositionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "updateRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "isCloned": true,
+                    "name": "updateRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QSizeF"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "documentSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newBlockCount",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "blockCountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rect",
+                            "type": "QRectF"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "visibilityRequest",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "microFocusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "link",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "linkActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "linkHovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "block",
+                            "type": "QTextBlock"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "blockMarkerHovered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "m",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "modificationChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "setPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "setMarkdown",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "setHtml",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 20,
+                    "name": "cut",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 21,
+                    "name": "copy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "QClipboard::Mode"
+                        }
+                    ],
+                    "index": 22,
+                    "name": "paste",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 23,
+                    "isCloned": true,
+                    "name": "paste",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 24,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 25,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 26,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 27,
+                    "name": "selectAll",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 28,
+                    "name": "insertPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 29,
+                    "name": "insertHtml",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 30,
+                    "name": "append",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "html",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 31,
+                    "name": "appendHtml",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 32,
+                    "name": "appendPlainText",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 33,
+                    "name": "adjustSize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 34,
+                    "name": "_q_deleteSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 35,
+                    "name": "_q_copyLink",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInputControl"
+                }
+            ]
+        },
+        {
+            "className": "QUnicodeControlCharacterMenu",
+            "lineNumber": 249,
+            "object": true,
+            "qualifiedClassName": "QUnicodeControlCharacterMenu",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "menuActionTriggered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QMenu"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgettextcontrol_p.h",
+    "outputRevision": 69
+}

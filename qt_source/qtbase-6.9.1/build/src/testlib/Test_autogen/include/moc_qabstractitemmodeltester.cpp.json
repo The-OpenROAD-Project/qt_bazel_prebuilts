@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QAbstractItemModelTester",
+            "lineNumber": 33,
+            "object": true,
+            "qualifiedClassName": "QAbstractItemModelTester",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qabstractitemmodeltester.h",
+    "outputRevision": 69
+}

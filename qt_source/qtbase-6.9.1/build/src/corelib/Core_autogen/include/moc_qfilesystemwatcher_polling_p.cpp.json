@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QPollingFileSystemWatcherEngine",
+            "lineNumber": 31,
+            "object": true,
+            "qualifiedClassName": "QPollingFileSystemWatcherEngine",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileSystemWatcherEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher_polling_p.h",
+    "outputRevision": 69
+}

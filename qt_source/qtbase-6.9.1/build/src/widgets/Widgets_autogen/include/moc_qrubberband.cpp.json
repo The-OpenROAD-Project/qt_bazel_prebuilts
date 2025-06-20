@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QRubberBand",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "QRubberBand",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qrubberband.h",
+    "outputRevision": 69
+}

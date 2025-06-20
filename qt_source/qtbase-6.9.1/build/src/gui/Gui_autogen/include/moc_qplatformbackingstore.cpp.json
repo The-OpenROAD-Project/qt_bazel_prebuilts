@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformBackingStoreRhiConfig",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Api",
+                    "values": [
+                        "OpenGL",
+                        "Metal",
+                        "Vulkan",
+                        "D3D11",
+                        "D3D12",
+                        "Null"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 40,
+            "qualifiedClassName": "QPlatformBackingStoreRhiConfig"
+        },
+        {
+            "className": "QPlatformTextureList",
+            "lineNumber": 91,
+            "object": true,
+            "qualifiedClassName": "QPlatformTextureList",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "locked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformbackingstore.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "QGlibNetworkInformationBackend",
+            "lineNumber": 40,
+            "object": true,
+            "qualifiedClassName": "QGlibNetworkInformationBackend",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackend"
+                }
+            ]
+        },
+        {
+            "className": "QGlibNetworkInformationBackendFactory",
+            "interfaces": [
+                [
+                    {
+                        "className": "QNetworkInformationBackendFactory",
+                        "id": "\"org.qt-project.Qt.NetworkInformationBackendFactory\""
+                    }
+                ]
+            ],
+            "lineNumber": 75,
+            "object": true,
+            "qualifiedClassName": "QGlibNetworkInformationBackendFactory",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackendFactory"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qglibnetworkinformationbackend.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTranslator",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QTranslator",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtranslator.h",
+    "outputRevision": 69
+}

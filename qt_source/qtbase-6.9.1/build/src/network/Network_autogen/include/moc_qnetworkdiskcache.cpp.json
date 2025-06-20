@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkDiskCache",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QNetworkDiskCache",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "clear",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractNetworkCache"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkdiskcache.h",
+    "outputRevision": 69
+}

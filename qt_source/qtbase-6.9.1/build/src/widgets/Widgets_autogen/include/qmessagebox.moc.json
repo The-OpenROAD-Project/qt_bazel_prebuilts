@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "QMessageBoxDetailsText",
+            "lineNumber": 79,
+            "object": true,
+            "qualifiedClassName": "QMessageBoxDetailsText",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "available",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "textCopyAvailable",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmessagebox.cpp",
+    "outputRevision": 69
+}

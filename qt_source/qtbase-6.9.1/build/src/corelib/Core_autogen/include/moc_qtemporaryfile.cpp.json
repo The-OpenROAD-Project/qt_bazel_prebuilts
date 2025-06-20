@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QTemporaryFile",
+            "lineNumber": 22,
+            "object": true,
+            "qualifiedClassName": "QTemporaryFile",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFile"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtemporaryfile.h",
+    "outputRevision": 69
+}

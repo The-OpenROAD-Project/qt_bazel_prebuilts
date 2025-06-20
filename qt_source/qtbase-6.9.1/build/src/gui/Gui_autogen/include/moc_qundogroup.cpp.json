@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "className": "QUndoGroup",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QUndoGroup",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "activeStackChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "idx",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "indexChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "clean",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "cleanChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canUndo",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "canUndoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canRedo",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "canRedoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "undoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "undoTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "redoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "redoTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "stack",
+                            "type": "QUndoStack*"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "setActiveStack",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qundogroup.h",
+    "outputRevision": 69
+}

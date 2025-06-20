@@ -1,0 +1,56 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QLinuxFbIntegrationPlugin",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "QLinuxFbIntegrationPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformIntegrationPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QLinuxFbDrmScreen",
+                "lineNumber": 14,
+                "object": true,
+                "qualifiedClassName": "QLinuxFbDrmScreen",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QFbScreen"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qlinuxfbdrmscreen.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QLinuxFbScreen",
+                "lineNumber": 14,
+                "object": true,
+                "qualifiedClassName": "QLinuxFbScreen",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QFbScreen"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qlinuxfbscreen.h",
+        "outputRevision": 69
+    }
+]

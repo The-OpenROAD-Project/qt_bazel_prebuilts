@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "QConcatenateTablesProxyModel",
+            "lineNumber": 15,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sourceModel",
+                            "type": "QAbstractItemModel*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addSourceModel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sourceModel",
+                            "type": "QAbstractItemModel*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "removeSourceModel",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QConcatenateTablesProxyModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qconcatenatetablesproxymodel.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,149 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'main.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+#include <QtCore/qplugin.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'main.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto QXdgDesktopPortalThemePlugin::qt_create_metaobjectdata<qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "QXdgDesktopPortalThemePlugin"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<QXdgDesktopPortalThemePlugin, qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject QXdgDesktopPortalThemePlugin::staticMetaObject = { {
+    QMetaObject::SuperData::link<QPlatformThemePlugin::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>.metaTypes,
+    nullptr
+} };
+
+void QXdgDesktopPortalThemePlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<QXdgDesktopPortalThemePlugin *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *QXdgDesktopPortalThemePlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QXdgDesktopPortalThemePlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN28QXdgDesktopPortalThemePluginE_t>.strings))
+        return static_cast<void*>(this);
+    return QPlatformThemePlugin::qt_metacast(_clname);
+}
+
+int QXdgDesktopPortalThemePlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QPlatformThemePlugin::qt_metacall(_c, _id, _a);
+    return _id;
+}
+
+#ifdef QT_MOC_EXPORT_PLUGIN_V2
+static constexpr unsigned char qt_pluginMetaDataV2_QXdgDesktopPortalThemePlugin[] = {
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x38,  'o',  'r',  'g',  '.',  'q', 
+    't',  '-',  'p',  'r',  'o',  'j',  'e',  'c', 
+    't',  '.',  'Q',  't',  '.',  'Q',  'P',  'A', 
+    '.',  'Q',  'P',  'l',  'a',  't',  'f',  'o', 
+    'r',  'm',  'T',  'h',  'e',  'm',  'e',  'F', 
+    'a',  'c',  't',  'o',  'r',  'y',  'I',  'n', 
+    't',  'e',  'r',  'f',  'a',  'c',  'e',  '.', 
+    '5',  '.',  '1', 
+    // "className"
+    0x03,  0x78,  0x1c,  'Q',  'X',  'd',  'g',  'D', 
+    'e',  's',  'k',  't',  'o',  'p',  'P',  'o', 
+    'r',  't',  'a',  'l',  'T',  'h',  'e',  'm', 
+    'e',  'P',  'l',  'u',  'g',  'i',  'n', 
+    // "MetaData"
+    0x04,  0xa1,  0x64,  'K',  'e',  'y',  's',  0x83, 
+    0x70,  'x',  'd',  'g',  'd',  'e',  's',  'k', 
+    't',  'o',  'p',  'p',  'o',  'r',  't',  'a', 
+    'l',  0x67,  'f',  'l',  'a',  't',  'p',  'a', 
+    'k',  0x64,  's',  'n',  'a',  'p', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN_V2(QXdgDesktopPortalThemePlugin, QXdgDesktopPortalThemePlugin, qt_pluginMetaDataV2_QXdgDesktopPortalThemePlugin)
+#else
+QT_PLUGIN_METADATA_SECTION
+Q_CONSTINIT static constexpr unsigned char qt_pluginMetaData_QXdgDesktopPortalThemePlugin[] = {
+    'Q', 'T', 'M', 'E', 'T', 'A', 'D', 'A', 'T', 'A', ' ', '!',
+    // metadata version, Qt version, architectural requirements
+    0, QT_VERSION_MAJOR, QT_VERSION_MINOR, qPluginArchRequirements(),
+    0xbf, 
+    // "IID"
+    0x02,  0x78,  0x38,  'o',  'r',  'g',  '.',  'q', 
+    't',  '-',  'p',  'r',  'o',  'j',  'e',  'c', 
+    't',  '.',  'Q',  't',  '.',  'Q',  'P',  'A', 
+    '.',  'Q',  'P',  'l',  'a',  't',  'f',  'o', 
+    'r',  'm',  'T',  'h',  'e',  'm',  'e',  'F', 
+    'a',  'c',  't',  'o',  'r',  'y',  'I',  'n', 
+    't',  'e',  'r',  'f',  'a',  'c',  'e',  '.', 
+    '5',  '.',  '1', 
+    // "className"
+    0x03,  0x78,  0x1c,  'Q',  'X',  'd',  'g',  'D', 
+    'e',  's',  'k',  't',  'o',  'p',  'P',  'o', 
+    'r',  't',  'a',  'l',  'T',  'h',  'e',  'm', 
+    'e',  'P',  'l',  'u',  'g',  'i',  'n', 
+    // "MetaData"
+    0x04,  0xa1,  0x64,  'K',  'e',  'y',  's',  0x83, 
+    0x70,  'x',  'd',  'g',  'd',  'e',  's',  'k', 
+    't',  'o',  'p',  'p',  'o',  'r',  't',  'a', 
+    'l',  0x67,  'f',  'l',  'a',  't',  'p',  'a', 
+    'k',  0x64,  's',  'n',  'a',  'p', 
+    0xff, 
+};
+QT_MOC_EXPORT_PLUGIN(QXdgDesktopPortalThemePlugin, QXdgDesktopPortalThemePlugin)
+#endif  // QT_MOC_EXPORT_PLUGIN_V2
+
+QT_WARNING_POP

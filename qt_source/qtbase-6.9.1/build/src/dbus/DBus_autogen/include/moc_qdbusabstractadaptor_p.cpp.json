@@ -1,0 +1,58 @@
+{
+    "classes": [
+        {
+            "className": "QDBusAdaptorConnector",
+            "lineNumber": 56,
+            "object": true,
+            "qualifiedClassName": "QDBusAdaptorConnector",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "obj",
+                            "type": "QObject*"
+                        },
+                        {
+                            "name": "metaObject",
+                            "type": "const QMetaObject*"
+                        },
+                        {
+                            "name": "sid",
+                            "type": "int"
+                        },
+                        {
+                            "name": "args",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "relaySignal",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "relaySlot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "polish",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdbusabstractadaptor_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,219 @@
+{
+    "classes": [
+        {
+            "className": "QListWidget",
+            "lineNumber": 163,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "count",
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "currentRow",
+                    "notify": "currentRowChanged",
+                    "read": "currentRow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": true,
+                    "write": "setCurrentRow"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "sortingEnabled",
+                    "read": "isSortingEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setSortingEnabled"
+                }
+            ],
+            "qualifiedClassName": "QListWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "itemPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "itemClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "itemDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "itemActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "itemEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "itemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QListWidgetItem*"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QListWidgetItem*"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "currentItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "currentText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "currentTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "currentRow",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "currentRowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "itemSelectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QListWidgetItem*"
+                        },
+                        {
+                            "name": "hint",
+                            "type": "QAbstractItemView::ScrollHint"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QListWidgetItem*"
+                        }
+                    ],
+                    "index": 11,
+                    "isCloned": true,
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "clear",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QListView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qlistwidget.h",
+    "outputRevision": 69
+}

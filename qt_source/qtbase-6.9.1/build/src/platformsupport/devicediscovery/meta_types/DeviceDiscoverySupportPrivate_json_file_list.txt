@@ -1,0 +1,2 @@
+/tmp/qtbase-6.9.1/build/src/platformsupport/devicediscovery/DeviceDiscoverySupportPrivate_autogen/include/../EWIEGA46WW/moc_qdevicediscovery_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/platformsupport/devicediscovery/DeviceDiscoverySupportPrivate_autogen/include/moc_qdevicediscovery_udev_p.cpp.json

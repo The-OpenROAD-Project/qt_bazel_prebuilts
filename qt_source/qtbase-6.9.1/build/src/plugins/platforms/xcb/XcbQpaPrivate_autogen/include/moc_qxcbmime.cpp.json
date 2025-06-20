@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbMime",
+            "lineNumber": 15,
+            "object": true,
+            "qualifiedClassName": "QXcbMime",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QInternalMimeData"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbmime.h",
+    "outputRevision": 69
+}

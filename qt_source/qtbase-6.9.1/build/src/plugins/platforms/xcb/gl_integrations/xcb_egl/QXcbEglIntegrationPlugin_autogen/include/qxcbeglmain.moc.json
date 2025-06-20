@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QXcbEglIntegrationPlugin",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "QXcbEglIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QXcbGlIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbeglmain.cpp",
+    "outputRevision": 69
+}

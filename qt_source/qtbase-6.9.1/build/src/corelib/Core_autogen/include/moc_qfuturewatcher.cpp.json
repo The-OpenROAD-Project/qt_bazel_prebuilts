@@ -1,0 +1,192 @@
+{
+    "classes": [
+        {
+            "className": "QFutureWatcherBase",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "QFutureWatcherBase",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "finished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "canceled",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "paused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "suspending",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "suspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "resumed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "resultIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "resultReadyAt",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "beginIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "endIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "resultsReadyAt",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "minimum",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maximum",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "progressRangeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "progressValue",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "progressValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "progressText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "progressTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "cancel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "suspend",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "setSuspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "suspend",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "name": "resume",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "toggleSuspended",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "paused",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "setPaused",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "name": "pause",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 19,
+                    "name": "togglePaused",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfuturewatcher.h",
+    "outputRevision": 69
+}

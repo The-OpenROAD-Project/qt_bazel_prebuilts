@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "QTextObject",
+            "lineNumber": 24,
+            "object": true,
+            "qualifiedClassName": "QTextObject",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QTextBlockGroup",
+            "lineNumber": 52,
+            "object": true,
+            "qualifiedClassName": "QTextBlockGroup",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextObject"
+                }
+            ]
+        },
+        {
+            "className": "QTextFrame",
+            "lineNumber": 80,
+            "object": true,
+            "qualifiedClassName": "QTextFrame",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTextObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtextobject.h",
+    "outputRevision": 69
+}

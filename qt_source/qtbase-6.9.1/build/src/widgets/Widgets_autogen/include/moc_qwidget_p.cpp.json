@@ -1,0 +1,58 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetPrivate",
+            "enums": [
+                {
+                    "alias": "DrawWidgetFlag",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "DrawWidgetFlags",
+                    "values": [
+                        "DrawAsRoot",
+                        "DrawPaintOnScreen",
+                        "DrawRecursive",
+                        "DrawInvisible",
+                        "DontSubtractOpaqueChildren",
+                        "DontDrawOpaqueChildren",
+                        "DontDrawNativeChildren",
+                        "DontSetCompositionMode",
+                        "UseEffectRegionBounds"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Direction",
+                    "values": [
+                        "DirectionNorth",
+                        "DirectionEast",
+                        "DirectionSouth",
+                        "DirectionWest"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "CloseMode",
+                    "values": [
+                        "CloseNoEvent",
+                        "CloseWithEvent",
+                        "CloseWithSpontaneousEvent"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "lineNumber": 180,
+            "qualifiedClassName": "QWidgetPrivate",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObjectPrivate"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidget_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "QPageSetupWidget",
+            "lineNumber": 35,
+            "object": true,
+            "qualifiedClassName": "QPageSetupWidget",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "pageSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "pageOrientationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "pagesPerSheetChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "unitChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "newValue",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "topMarginChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "newValue",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "bottomMarginChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "newValue",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "leftMarginChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "newValue",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "rightMarginChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpagesetupdialog_unix_p.h",
+    "outputRevision": 69
+}

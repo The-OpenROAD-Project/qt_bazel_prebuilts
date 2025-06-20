@@ -1,0 +1,8 @@
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopenglcompositor_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopengldebug.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopenglengineshadermanager_p.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopenglshaderprogram.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopengltexture.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopengltimerquery.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopenglvertexarrayobject.cpp.json
+/tmp/qtbase-6.9.1/build/src/opengl/OpenGL_autogen/include/moc_qopenglwindow.cpp.json

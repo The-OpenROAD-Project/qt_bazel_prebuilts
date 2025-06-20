@@ -1,0 +1,90 @@
+{
+    "classes": [
+        {
+            "className": "QSocks5SocketEngine",
+            "lineNumber": 30,
+            "object": true,
+            "qualifiedClassName": "QSocks5SocketEngine",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "_q_controlSocketConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "_q_controlSocketReadNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "_q_controlSocketErrorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "_q_udpSocketReadNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "name": "_q_controlSocketBytesWritten",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "_q_emitPendingReadNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "_q_emitPendingWriteNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "name": "_q_emitPendingConnectionNotification",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "_q_controlSocketDisconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QAbstractSocket::SocketState"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "_q_controlSocketStateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSocketEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsocks5socketengine_p.h",
+    "outputRevision": 69
+}

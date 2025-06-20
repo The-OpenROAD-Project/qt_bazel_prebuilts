@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformScreen",
+            "gadget": true,
+            "lineNumber": 43,
+            "qualifiedClassName": "QPlatformScreen"
+        }
+    ],
+    "inputFile": "qplatformscreen.h",
+    "outputRevision": 69
+}

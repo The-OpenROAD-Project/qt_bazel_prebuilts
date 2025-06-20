@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "QSQLiteDriver",
+            "lineNumber": 33,
+            "object": true,
+            "qualifiedClassName": "QSQLiteDriver",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "tableName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "rowid",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "handleNotification",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlDriver"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qsql_sqlite_p.h",
+    "outputRevision": 69
+}

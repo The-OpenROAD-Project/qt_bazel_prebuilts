@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QTipLabel",
+            "lineNumber": 93,
+            "object": true,
+            "qualifiedClassName": "QTipLabel",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "styleSheetParentDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QLabel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtooltip.cpp",
+    "outputRevision": 69
+}

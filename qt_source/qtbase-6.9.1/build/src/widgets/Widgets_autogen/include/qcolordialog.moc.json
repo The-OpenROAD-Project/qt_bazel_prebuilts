@@ -1,0 +1,311 @@
+{
+    "classes": [
+        {
+            "className": "QWellArray",
+            "lineNumber": 166,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "selectedColumn",
+                    "read": "selectedColumn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "selectedRow",
+                    "read": "selectedRow",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QtPrivate::QWellArray",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "col",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "selected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        },
+                        {
+                            "name": "col",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "color",
+                            "type": "QRgb"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "colorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QColorPicker",
+            "lineNumber": 683,
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QColorPicker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newCol",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setCol",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        },
+        {
+            "className": "QColorLuminancePicker",
+            "lineNumber": 724,
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QColorLuminancePicker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newHsv",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "setCol",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setCol",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QColorShower",
+            "lineNumber": 990,
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QColorShower",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rgb",
+                            "type": "QRgb"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newCol",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "currentColorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rgb",
+                            "type": "QRgb"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setRgb",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "rgbEd",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "name": "hsvEd",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "htmlEd",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        },
+        {
+            "className": "QColorShowLabel",
+            "lineNumber": 1052,
+            "object": true,
+            "qualifiedClassName": "QtPrivate::QColorShowLabel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QRgb"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "colorDropped",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFrame"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolordialog.cpp",
+    "outputRevision": 69
+}

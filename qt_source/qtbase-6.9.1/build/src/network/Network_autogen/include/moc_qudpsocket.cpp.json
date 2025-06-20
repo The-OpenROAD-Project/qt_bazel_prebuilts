@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QUdpSocket",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "QUdpSocket",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractSocket"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qudpsocket.h",
+    "outputRevision": 69
+}

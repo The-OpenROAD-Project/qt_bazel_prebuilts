@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "QPixmapFilter",
+            "lineNumber": 32,
+            "object": true,
+            "qualifiedClassName": "QPixmapFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QPixmapConvolutionFilter",
+            "lineNumber": 61,
+            "object": true,
+            "qualifiedClassName": "QPixmapConvolutionFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPixmapFilter"
+                }
+            ]
+        },
+        {
+            "className": "QPixmapBlurFilter",
+            "lineNumber": 84,
+            "object": true,
+            "qualifiedClassName": "QPixmapBlurFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPixmapFilter"
+                }
+            ]
+        },
+        {
+            "className": "QPixmapColorizeFilter",
+            "lineNumber": 105,
+            "object": true,
+            "qualifiedClassName": "QPixmapColorizeFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPixmapFilter"
+                }
+            ]
+        },
+        {
+            "className": "QPixmapDropShadowFilter",
+            "lineNumber": 125,
+            "object": true,
+            "qualifiedClassName": "QPixmapDropShadowFilter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPixmapFilter"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpixmapfilter_p.h",
+    "outputRevision": 69
+}

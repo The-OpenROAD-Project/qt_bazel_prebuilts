@@ -1,0 +1,443 @@
+{
+    "classes": [
+        {
+            "className": "QCalendarWidget",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "HorizontalHeaderFormat",
+                    "values": [
+                        "NoHorizontalHeader",
+                        "SingleLetterDayNames",
+                        "ShortDayNames",
+                        "LongDayNames"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "VerticalHeaderFormat",
+                    "values": [
+                        "NoVerticalHeader",
+                        "ISOWeekNumbers"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "SelectionMode",
+                    "values": [
+                        "NoSelection",
+                        "SingleSelection"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "selectedDate",
+                    "read": "selectedDate",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setSelectedDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "minimumDate",
+                    "read": "minimumDate",
+                    "required": false,
+                    "reset": "clearMinimumDate",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setMinimumDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "maximumDate",
+                    "read": "maximumDate",
+                    "required": false,
+                    "reset": "clearMaximumDate",
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDate",
+                    "user": false,
+                    "write": "setMaximumDate"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "firstDayOfWeek",
+                    "read": "firstDayOfWeek",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Qt::DayOfWeek",
+                    "user": false,
+                    "write": "setFirstDayOfWeek"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "gridVisible",
+                    "read": "isGridVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setGridVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "selectionMode",
+                    "read": "selectionMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "SelectionMode",
+                    "user": false,
+                    "write": "setSelectionMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "horizontalHeaderFormat",
+                    "read": "horizontalHeaderFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "HorizontalHeaderFormat",
+                    "user": false,
+                    "write": "setHorizontalHeaderFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "verticalHeaderFormat",
+                    "read": "verticalHeaderFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "VerticalHeaderFormat",
+                    "user": false,
+                    "write": "setVerticalHeaderFormat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "navigationBarVisible",
+                    "read": "isNavigationBarVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setNavigationBarVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "name": "dateEditEnabled",
+                    "read": "isDateEditEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDateEditEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "dateEditAcceptDelay",
+                    "read": "dateEditAcceptDelay",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDateEditAcceptDelay"
+                }
+            ],
+            "qualifiedClassName": "QCalendarWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "clicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "activated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "year",
+                            "type": "int"
+                        },
+                        {
+                            "name": "month",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "currentPageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "setSelectedDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "min",
+                            "type": "QDate"
+                        },
+                        {
+                            "name": "max",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "setDateRange",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "year",
+                            "type": "int"
+                        },
+                        {
+                            "name": "month",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "setCurrentPage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "show",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "setGridVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "visible",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setNavigationBarVisible",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "showNextMonth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "showPreviousMonth",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "name": "showNextYear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "name": "showPreviousYear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "name": "showSelectedDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "showToday",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "_q_slotShowDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        }
+                    ],
+                    "index": 16,
+                    "name": "_q_slotChangeDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QDate"
+                        },
+                        {
+                            "name": "changeMonth",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "_q_slotChangeDate",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 18,
+                    "name": "_q_editingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 19,
+                    "name": "_q_prevMonthClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 20,
+                    "name": "_q_nextMonthClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 21,
+                    "name": "_q_yearEditingFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 22,
+                    "name": "_q_yearClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "act",
+                            "type": "QAction*"
+                        }
+                    ],
+                    "index": 23,
+                    "name": "_q_monthChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcalendarwidget.h",
+    "outputRevision": 69
+}

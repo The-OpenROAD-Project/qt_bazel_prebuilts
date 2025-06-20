@@ -1,0 +1,1 @@
+/tmp/qtbase-6.9.1/build/src/plugins/networkinformation/glib/QGlibNetworkInformationPlugin_autogen/include/qglibnetworkinformationbackend.moc.json

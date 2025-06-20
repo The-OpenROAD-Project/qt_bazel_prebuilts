@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QEglFSIntegrationPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "QEglFSIntegrationPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformIntegrationPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeglfsmain.cpp",
+    "outputRevision": 69
+}

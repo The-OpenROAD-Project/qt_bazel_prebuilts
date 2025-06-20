@@ -1,0 +1,4 @@
+qtpaths_autogen/timestamp: \
+	/tmp/qtbase-6.9.1/src/tools/qtpaths/CMakeLists.txt \
+	/tmp/qtbase-6.9.1/src/tools/qtpaths/qtpaths.cpp \
+	/usr/bin/cmake

@@ -1,0 +1,249 @@
+{
+    "classes": [
+        {
+            "className": "QUndoStack",
+            "lineNumber": 51,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "active",
+                    "read": "isActive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setActive"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "undoLimit",
+                    "read": "undoLimit",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setUndoLimit"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "canUndo",
+                    "notify": "canUndoChanged",
+                    "read": "canUndo",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "canRedo",
+                    "notify": "canRedoChanged",
+                    "read": "canRedo",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "undoText",
+                    "notify": "undoTextChanged",
+                    "read": "undoText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "redoText",
+                    "notify": "redoTextChanged",
+                    "read": "redoText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "clean",
+                    "notify": "cleanChanged",
+                    "read": "isClean",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QUndoStack",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "idx",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "indexChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "clean",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "cleanChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canUndo",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "canUndoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canRedo",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "canRedoChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "undoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "undoTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "redoText",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "redoTextChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "setClean",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "resetClean",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "idx",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "setIndex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "active",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "setActive",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "isCloned": true,
+                    "name": "setActive",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qundostack.h",
+    "outputRevision": 69
+}

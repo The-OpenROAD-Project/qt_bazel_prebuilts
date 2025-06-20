@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "QXcbUnixEventDispatcher",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "QXcbUnixEventDispatcher",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEventDispatcherUNIX"
+                }
+            ]
+        },
+        {
+            "className": "QXcbGlibEventDispatcher",
+            "lineNumber": 36,
+            "object": true,
+            "qualifiedClassName": "QXcbGlibEventDispatcher",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QEventDispatcherGlib"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxcbeventdispatcher.h",
+    "outputRevision": 69
+}

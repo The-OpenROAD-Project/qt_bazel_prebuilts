@@ -1,0 +1,203 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QGtk3Interface",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "QGtkWidget",
+                        "values": [
+                            "gtk_menu_bar",
+                            "gtk_menu",
+                            "gtk_button",
+                            "gtk_button_box",
+                            "gtk_check_button",
+                            "gtk_radio_button",
+                            "gtk_frame",
+                            "gtk_statusbar",
+                            "gtk_entry",
+                            "gtk_popup",
+                            "gtk_notebook",
+                            "gtk_toolbar",
+                            "gtk_tree_view",
+                            "gtk_combo_box",
+                            "gtk_combo_box_text",
+                            "gtk_progress_bar",
+                            "gtk_fixed",
+                            "gtk_separator_menu_item",
+                            "gtk_Default",
+                            "gtk_offscreen_window"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "QGtkColorSource",
+                        "values": [
+                            "Foreground",
+                            "Background",
+                            "Text",
+                            "Base",
+                            "Border"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "QGtkColorDefault",
+                        "values": [
+                            "Foreground",
+                            "Background",
+                            "Border"
+                        ]
+                    }
+                ],
+                "gadget": true,
+                "lineNumber": 53,
+                "qualifiedClassName": "QGtk3Interface"
+            }
+        ],
+        "inputFile": "qgtk3interface_p.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QGtk3Json",
+                "gadget": true,
+                "lineNumber": 37,
+                "qualifiedClassName": "QGtk3Json"
+            }
+        ],
+        "inputFile": "qgtk3json_p.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QGtk3Storage",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "SourceType",
+                        "values": [
+                            "Gtk",
+                            "Fixed",
+                            "Modified",
+                            "Mixed",
+                            "Invalid"
+                        ]
+                    }
+                ],
+                "gadget": true,
+                "lineNumber": 33,
+                "qualifiedClassName": "QGtk3Storage"
+            }
+        ],
+        "inputFile": "qgtk3storage_p.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QGtk3ThemePlugin",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "QGtk3ThemePlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformThemePlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "main.cpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QGtk3ColorDialogHelper",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "QGtk3ColorDialogHelper",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformColorDialogHelper"
+                    }
+                ]
+            },
+            {
+                "className": "QGtk3FileDialogHelper",
+                "lineNumber": 45,
+                "object": true,
+                "qualifiedClassName": "QGtk3FileDialogHelper",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformFileDialogHelper"
+                    }
+                ]
+            },
+            {
+                "className": "QGtk3FontDialogHelper",
+                "lineNumber": 84,
+                "object": true,
+                "qualifiedClassName": "QGtk3FontDialogHelper",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformFontDialogHelper"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qgtk3dialoghelpers.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QGtk3PortalInterface",
+                "lineNumber": 28,
+                "object": true,
+                "qualifiedClassName": "QGtk3PortalInterface",
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "group",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "key",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "value",
+                                "type": "QDBusVariant"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "settingChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qgtk3portalinterface_p.h",
+        "outputRevision": 69
+    }
+]

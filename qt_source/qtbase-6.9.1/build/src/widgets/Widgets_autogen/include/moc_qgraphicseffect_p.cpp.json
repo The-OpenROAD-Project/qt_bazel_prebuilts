@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QGraphicsEffectSource",
+            "lineNumber": 31,
+            "object": true,
+            "qualifiedClassName": "QGraphicsEffectSource",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qgraphicseffect_p.h",
+    "outputRevision": 69
+}

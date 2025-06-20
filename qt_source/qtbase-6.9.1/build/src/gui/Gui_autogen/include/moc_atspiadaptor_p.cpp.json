@@ -1,0 +1,68 @@
+{
+    "classes": [
+        {
+            "className": "AtSpiAdaptor",
+            "lineNumber": 36,
+            "object": true,
+            "qualifiedClassName": "AtSpiAdaptor",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bus",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "eventListenerRegistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bus",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "eventListenerDeregistered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QObject*"
+                        },
+                        {
+                            "name": "active",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "windowActivated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusVirtualObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "atspiadaptor_p.h",
+    "outputRevision": 69
+}

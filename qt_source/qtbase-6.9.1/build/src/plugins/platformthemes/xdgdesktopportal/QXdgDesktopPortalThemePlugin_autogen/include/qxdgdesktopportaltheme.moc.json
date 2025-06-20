@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "QXdgDesktopPortalThemePrivate",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QXdgDesktopPortalThemePrivate",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "group",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "key",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "value",
+                            "type": "QDBusVariant"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "settingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qxdgdesktopportaltheme.cpp",
+    "outputRevision": 69
+}

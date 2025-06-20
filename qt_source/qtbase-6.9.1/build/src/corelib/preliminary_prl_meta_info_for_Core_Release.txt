@@ -1,0 +1,1 @@
+FINAL_PRL_FILE_PATH = /tmp/qtbase-6.9.1/build/lib/libQt6Core.prl

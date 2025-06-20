@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "className": "QStyleAnimation",
+            "lineNumber": 27,
+            "object": true,
+            "qualifiedClassName": "QStyleAnimation",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "start",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QProgressStyleAnimation",
+            "lineNumber": 74,
+            "object": true,
+            "qualifiedClassName": "QProgressStyleAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyleAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QNumberStyleAnimation",
+            "lineNumber": 95,
+            "object": true,
+            "qualifiedClassName": "QNumberStyleAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyleAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QBlendStyleAnimation",
+            "lineNumber": 119,
+            "object": true,
+            "qualifiedClassName": "QBlendStyleAnimation",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QStyleAnimation"
+                }
+            ]
+        },
+        {
+            "className": "QScrollbarStyleAnimation",
+            "lineNumber": 146,
+            "object": true,
+            "qualifiedClassName": "QScrollbarStyleAnimation",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "time",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "updateCurrentTime",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNumberStyleAnimation"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qstyleanimation_p.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "QNetworkManagerNetworkInformationBackend",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QNetworkManagerNetworkInformationBackend",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNetworkInformationBackend"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnetworkmanagernetworkinformationbackend.h",
+    "outputRevision": 69
+}

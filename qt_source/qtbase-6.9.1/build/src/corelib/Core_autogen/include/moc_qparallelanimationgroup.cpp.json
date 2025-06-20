@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "QParallelAnimationGroup",
+            "lineNumber": 14,
+            "object": true,
+            "qualifiedClassName": "QParallelAnimationGroup",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "_q_uncontrolledAnimationFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAnimationGroup"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qparallelanimationgroup.h",
+    "outputRevision": 69
+}
