@@ -67,10 +67,24 @@ cc_import(
     system_provided = True,
 )
 
-cc_import(
-    name = "xcb_cursor_ifso",
-    interface_library = "libxcb-cursor.ifso",
-    system_provided = True,
+# Headers-only target consumed by @xcb_util_cursor//:cursor (declared in
+# this module's MODULE.bazel) so xcb-util-cursor 0.1.5 source files can
+# find xcb_renderutil.h, xcb_image.h, render.h etc. without pulling in
+# the full :xcb target (which would create a circular dependency).
+cc_library(
+    name = "xcb_hdrs",
+    hdrs = glob(["xcb/*.h"]),
+    includes = ["."],
+    strip_include_prefix = ".",
+    visibility = ["//visibility:public"],
+)
+
+# xcb-util-cursor 0.1.5 built from source via @xcb_util_cursor (declared
+# in this module's MODULE.bazel). Replaces the system-provided
+# libxcb-cursor.so.0 cc_import that used to live here.
+alias(
+    name = "xcb_cursor",
+    actual = "@xcb_util_cursor//:cursor",
 )
 
 cc_import(
@@ -94,7 +108,7 @@ cc_library(
     deps = select({
         "@platforms//cpu:aarch64": [],
         "//conditions:default": [
-            ":xcb_cursor_ifso",
+            ":xcb_cursor",
             ":xcb_icccm_ifso",
             ":xcb_ifso",
             ":xcb_image_ifso",
