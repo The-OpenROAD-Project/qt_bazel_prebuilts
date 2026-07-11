@@ -25,6 +25,11 @@ def _moc_impl(ctx):
                 target[CcInfo].compilation_context.includes,
                 target[CcInfo].compilation_context.quote_includes,
                 target[CcInfo].compilation_context.system_includes,
+                # external_includes holds directories into external repos when
+                # the external_include_paths toolchain feature is enabled; those
+                # dirs are moved out of includes/quote_includes, so moc must
+                # collect them too or it loses Qt's own header search paths.
+                target[CcInfo].compilation_context.external_includes,
             ]
             defines.append(target[CcInfo].compilation_context.defines)
 
