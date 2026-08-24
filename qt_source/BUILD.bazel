@@ -8,6 +8,8 @@ QT_BASE = "qtbase-{}".format(QT_VERSION)
 
 QT_CHARTS = "qtcharts-{}".format(QT_VERSION)
 
+QT_IMAGEFORMATS = "qtimageformats-{}".format(QT_VERSION)
+
 REPO_ROOT = package_relative_label(":BUILD.bazel").workspace_root
 
 INCLUDE_PREFIX = REPO_ROOT + "/" if REPO_ROOT else ""
@@ -3203,6 +3205,33 @@ qt_static_plugin(
     deps = [
         ":core",
         ":gui",
+    ],
+)
+
+# QtGui only has the built-in image handlers (png/bmp/ppm/xbm/xpm) compiled in;
+# webp lives in the separate qtimageformats module as a plugin. Since Qt is
+# linked statically here there is no runtime plugin search, so the plugin has to
+# be built and Q_IMPORT_PLUGIN'd like the QPA plugins above.
+qt_static_plugin(
+    name = "webp_imageformat_plugin",
+    srcs = [
+        QT_IMAGEFORMATS + "/src/plugins/imageformats/webp/main.cpp",
+        QT_IMAGEFORMATS + "/src/plugins/imageformats/webp/qwebphandler.cpp",
+    ],
+    hdrs = [
+        QT_IMAGEFORMATS + "/src/plugins/imageformats/webp/qwebphandler_p.h",
+    ],
+    moc_hdrs = [
+        QT_IMAGEFORMATS + "/src/plugins/imageformats/webp/main.cpp",
+    ],
+    plugin_class_name = "QWebpPlugin",
+    resource_srcs = [
+        QT_IMAGEFORMATS + "/src/plugins/imageformats/webp/webp.json",
+    ],
+    deps = [
+        ":core",
+        ":gui",
+        "@libwebp",
     ],
 )
 

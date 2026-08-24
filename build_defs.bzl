@@ -248,6 +248,7 @@ def qt6_library(
     deps.append("@qt-bazel//qt_source:widgets")
     deps.append("@qt-bazel//qt_source:charts")
     deps.append("@qt-bazel//qt_source:gui")
+    deps.append("@qt-bazel//qt_source:webp_imageformat_plugin")
     deps += select({
         "@platforms//os:linux": [
             "@qt-bazel//qt_source:xcb_integration_plugin",
