@@ -4,6 +4,7 @@
 
 #include <QtCore/qglobal.h>
 
+#include <stdlib.h>
 #include <string.h>
 
 #include <algorithm>
